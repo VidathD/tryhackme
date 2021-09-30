@@ -1,2 +1,3 @@
-# tryhackme
- Notes and writeups of tryhackme rooms.
+# TryHackMe
+
+Notes and writeups of tryhackme rooms.
