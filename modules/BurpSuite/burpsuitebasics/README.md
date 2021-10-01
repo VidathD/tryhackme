@@ -321,4 +321,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-2. 
+2. Fortunately for us, client-side filters are absurdly easy to bypass. There are a variety of ways we could disable the script or just prevent it from loading in the first place.
+
+    Let's focus on simply bypassing the filter for now.
+
+    First, make sure that your Burp Proxy is active    and that the intercept is on.
