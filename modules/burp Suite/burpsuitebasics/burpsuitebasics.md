@@ -14,7 +14,7 @@ This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). He
 > Just start the machine and access it through the given link.
     
     ```
-    No answer needed.
+    No answer needed
     ```
 
 ---
@@ -54,4 +54,36 @@ Mobile
 ## Task 3 [Getting Started] Features of Burp Community
 
 **Gives an introduction to modules in Burp and extensions.**
+
+1.   
+Which Burp Suite feature allows us to intercept requests between ourselves and the target?
+
+> Read the description.
+
+```
+Proxy
+```
+
+2. Which Burp tool would we use if we wanted to bruteforce a login form?
+
+> Read the description.
+
+```
+Intruder
+```
+
+---
+
+## Task 4 [Getting Started] Installation
+
+**Gives installation instructions for Community Edition.**
+
+1.   
+If you have chosen not to use the AttackBox, make sure that you have a copy of Burp Suite installed before proceeding.
+
+```
+No answer needed
+```
+
+---
 

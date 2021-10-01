@@ -28,7 +28,8 @@
     "ARPNET",
     "ARPNET",
     "Defence",
-    "AttackBox"
+    "AttackBox",
+    "bruteforce"
   ],
   "useTab": false,
   "newFileLocation": "current",
