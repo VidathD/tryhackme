@@ -267,5 +267,10 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
     What is the flag you receive?
     
-    > With intercept off in Proxy (but with the browser configured to send all traffic through the proxy), browse through the whole web site. (Click every link you find! I usually prefer to <kbd>Ctrl</kbd> + click all links to open in new tabs and close them each after reading through with Ctrl + W). Then check the site map.
+    > With intercept off in Proxy (but with the browser configured to send all traffic through the proxy), browse through the whole web site. (Click every link you find! I usually prefer to <kbd>Ctrl</kbd> + click all links to open in new tabs and close them each after reading through with <kbd>Ctrl</kbd> +<kbd>W</kbd>). Then check the site map. You will see a weird seemingly random file. Clicking on it reveals that it was referred by *http:/MACHINE_IP.p.thmlabs.com/ticket/* and a *GET* request was made to it. The response reveals the flag.
 
+    ```
+    THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
+    ```
+
+2. 
