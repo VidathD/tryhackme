@@ -149,7 +149,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Hotkeys
     ```
 
-![](t7q4.png)
+![t7q4](t7q4.png)
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
@@ -183,7 +183,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Forward
     ```
 
-![](t8q1.png)
+![t8q1](t8q1.png)
 
 2. **[Research]** What is the default keybind for this?
 
@@ -195,7 +195,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Ctrl+F
     ```
 
-
+![t8q2](t8q2.pg)
 
 ---
 
@@ -216,6 +216,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     Response to this request
     ```
+
+![t9q1](t9q1.png)
 
 2. **[Bonus Question -- Optional]** Try installing FoxyProxy standard and have a look at the pattern matching features.
 
@@ -252,6 +254,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     No answer needed
     ```
+
+![t11q1](t11q1.png)
 
 ---
 
