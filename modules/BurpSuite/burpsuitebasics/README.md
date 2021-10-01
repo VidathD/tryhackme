@@ -5,7 +5,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 1 [Introduction] Outline
 
-**Gives instructions to start and access the box, as well as a room overview.**
+**Instructions to start and access the box, as well as a room overview.**
 
 1. Deploy the machine attached to the task by pressing the green "Start Machine" button, as well as the AttackBox (using the "Start AttackBox" button at the top of the page) if you are not using your own machine.  
 
@@ -21,7 +21,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 2 [Getting Started] What is Burp Suite?
 
-**Gives a basic intro to Burp and it's editions.**
+**A basic intro to Burp and it's editions.**
 
 1. Which edition of Burp Suite will we be using in this module?
 
@@ -51,7 +51,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 3 [Getting Started] Features of Burp Community
 
-**Gives an intro to modules in Burp and extensions.**
+**Intro to modules in Burp and extensions.**
 
 1. Which Burp Suite feature allows us to intercept requests between ourselves and the target?
 
@@ -73,7 +73,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 4 [Getting Started] Installation
 
-**Gives installation instructions for Community Edition.**
+**Installation instructions for Community Edition.**
 
 1. If you have chosen not to use the AttackBox, make sure that you have a copy of Burp Suite installed before proceeding.
 
@@ -85,7 +85,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 5 [Getting Started] The Dashboard
 
-**Gives an intro to the Dashboard interface**
+**Intro to the Dashboard interface**
 
 1. Open Burp Suite and have a look around the dashboard. Make sure that you are comfortable with it before moving on.
 
@@ -97,7 +97,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 6 [Getting Started] Navigation
 
-**Gives instructions on how to navigate the GUI and common keyboard shortcuts for navigation.**
+**Instructions on how to navigate the GUI and common keyboard shortcuts for navigation.**
 
 1. Get comfortable navigating around the top menu bars.
 
@@ -109,7 +109,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 7 [Getting Started] Options
 
-**Gives instructions about managing User and Project Options.**
+**Instructions about managing User and Project Options.**
 
 1. Change the Burp Suite theme to dark mode
 
@@ -163,7 +163,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 8 [Proxy] Introduction to the Burp Proxy
 
-**Give an intro to Proxy module, its sub-tabs and basic config.**
+**Intro to Proxy module, its sub-tabs and basic config.**
 
 1. Which button would we choose to send an intercepted request to the target in Burp Proxy?
 
@@ -187,7 +187,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ## Task 9 [Proxy] Connecting through the Proxy (FoxyProxy)
 
-**Gives instructions to install and configure FoxyProxy**
+**Instructions to install and configure FoxyProxy**
 
 1. Read through the options in the right-click menu.
 
@@ -228,4 +228,34 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 ---
 
 ## Task 11 [Proxy] The Burp Suite Browser
+
+**Intro to using and troubleshooting inbuilt browser.**
+
+1. Using the in-built browser, make a request to `http://MACHINE_IP/` and capture it in the proxy.
+
+    > Pretty self explanatory. Open the inbuilt browser with intercept on in Proxy and browse to `http://MACHINE_IP/`.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 12 [Proxy] Scoping and Targeting
+
+**Instruction to configure scope in Target tab.**
+
+1. Add `http://MACHINE_IP/` to your scope and change the Proxy settings to only intercept traffic to in-scope targets.
+
+    See the difference between the amount of traffic getting caught by the proxy before and after limiting the scope.
+    
+    > Follow the instructions in the room to do this. You will notice that you are capturing much less traffic.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 13 [Proxy] Site Map and Issue Definitions
 
