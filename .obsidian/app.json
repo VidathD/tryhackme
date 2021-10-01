@@ -33,11 +33,15 @@
     "eybindings?",
     "config",
     "Ctrl",
-    "Cmd"
+    "Cmd",
+    "dropdown",
+    "Proxying",
+    "ckBox, co"
   ],
   "useTab": false,
   "newFileLocation": "current",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true
 }

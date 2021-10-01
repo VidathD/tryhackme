@@ -1,6 +1,6 @@
 # Burp Suite: The Basics
 
-This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). Here we get an introduction to [Burp Suite](Burp%20Suite.md) and Burp Proxy.
+This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) and Burp Proxy.
 
 
 ## Task 1 [Introduction] Outline
@@ -11,7 +11,7 @@ This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). He
 
     _**Note:** If you are not using the AttackBox and want to connect to this machine without the VPN, you can do so using this link once the machine has fully loaded and an IP address is displayed:*[https://LAB_WEB_URL.p.thmlabs.com](https://lab_web_url.p.thmlabs.com/)
     
-> Just start the machine and access it through the given link.
+    > Just start the machine and access it through the given link.
     
     ```
     No answer needed
@@ -25,27 +25,27 @@ This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). He
 
 1. Which edition of Burp Suite will we be using in this module?
 
-> Read the description.
+    > Read the description.
 
-```
-Burp Suite Community
-```
+    ```
+    Burp Suite Community
+    ```
 
 2. Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
 
-> Read the description.
+    > Read the description.
 
-```
-Burp Suite Enterprise
-```
+    ```
+    Burp Suite Enterprise
+    ```
 
 3. Burp Suite is frequently used when attacking web applications and ______ applications.
 
-> Read the description and fill in the blank.
+    > Read the description and fill in the blank.
 
-```
-Mobile
-```
+    ```
+    Mobile
+    ```
 
 ---
 
@@ -55,19 +55,19 @@ Mobile
 
 1. Which Burp Suite feature allows us to intercept requests between ourselves and the target?
 
-> Read the description.
+    > Read the description.
 
-```
-Proxy
-```
+    ```
+    Proxy
+    ```
 
 2. Which Burp tool would we use if we wanted to bruteforce a login form?
 
-> Read the description.
+    > Read the description.
 
-```
-Intruder
-```
+    ```
+    Intruder
+    ```
 
 ---
 
@@ -77,9 +77,9 @@ Intruder
 
 1. If you have chosen not to use the AttackBox, make sure that you have a copy of Burp Suite installed before proceeding.
 
-```
-No answer needed
-```
+    ```
+    No answer needed
+    ```
 
 ---
 
@@ -89,9 +89,9 @@ No answer needed
 
 1. Open Burp Suite and have a look around the dashboard. Make sure that you are comfortable with it before moving on.
 
-```
-No answer needed
-```
+    ```
+    No answer needed
+    ```
 
 ---
 
@@ -101,9 +101,9 @@ No answer needed
 
 1. Get comfortable navigating around the top menu bars.
 
-```
-No answer needed
-```
+    ```
+    No answer needed
+    ```
 
 ---
 
@@ -113,51 +113,51 @@ No answer needed
 
 1. Change the Burp Suite theme to dark mode
 
-> This option can be found in User Options > Display > User Interface > Theme: Dark
+    > This option can be found in User Options > Display > User Interface > Theme: Dark
 
-```
-No answer needed
-```
+    ```
+    No answer needed
+    ```
 
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
-> Go through the Project Options. You will find "Cookie jar" pretty easily.
+    > Go through the Project Options. You will find "Cookie jar" pretty easily.
 
-```
-Sessions
-```
+    ```
+    Sessions
+    ```
 
 3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
 
-> Again, browse through User Options.
+    > Again, browse through User Options.
 
-```
-Misc
-```
+    ```
+    Misc
+    ```
 
 4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
 
-> Should be pretty obvious once you visit User Options > Misc.
+    > Should be pretty obvious once you visit User Options > Misc.
 
-```
-Hotkeys
-```
+    ```
+    Hotkeys
+    ```
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
-> Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > Override user options.
+    > Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > Override user options.
 
-```
-Aye
-```
+    ```
+    Aye
+    ```
 
 6. There are many more configuration options available. Take the time to read through them.
 
     In the next section, we will cover the Burp Proxy -- a much more hands-on aspect of the room.
 
-```
-No answer needed
-```
+    ```
+    No answer needed
+    ```
 
 ---
 
@@ -167,21 +167,21 @@ No answer needed
 
 1. Which button would we choose to send an intercepted request to the target in Burp Proxy?
 
-> We "forward" the request.
+    > We "forward" the request.
 
-```
-Forward
-```
+    ```
+    Forward
+    ```
 
 2. **[Research]** What is the default keybind for this?
 
     _**Note:** Assume you are using Windows or Linux (i.e. swap Cmd for Ctrl)._
 
-> You can find the keybinding by doing a simple google search or by looking at User Options > Misc > Hotkeys
+    > You can find the keybinding by doing a simple google search or by looking at User Options > Misc > Hotkeys
 
-```
-Ctrl+F
-```
+    ```
+    Ctrl+F
+    ```
 
 ---
 
@@ -197,4 +197,35 @@ Ctrl+F
 
     _**Note:** The option is in a dropdown sub-menu._
 
-> Go through the sub menu and 
+    > Go through the right-click menu and see what fits the description. It's Do intercept > Response to this request.
+
+    ```
+    Response to this request
+    ```
+
+2. **[Bonus Question -- Optional]** Try installing FoxyProxy standard and have a look at the pattern matching features.
+
+    > Have a go at this if you feel like it!
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 10 [Proxy] Proxying HTTPS
+
+**Instructions to set up HTTPS support for Burp Proxy**
+
+1. If you are not using the AttackBox, configure Firefox (or your browser of choice) to accept the Portswigger CA certificate for TLS communication through the Burp Proxy.
+
+    > Follow the given instructions and do this if needed.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 11 [Proxy] The Burp Suite Browser
+
