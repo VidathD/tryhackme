@@ -29,7 +29,8 @@
     "ARPNET",
     "Defence",
     "AttackBox",
-    "bruteforce"
+    "bruteforce",
+    "eybindings?"
   ],
   "useTab": false,
   "newFileLocation": "current",

@@ -113,3 +113,36 @@ No answer needed
 
 1. Change the Burp Suite theme to dark mode
 
+> This option can be found in User Options > Display > User Interface > Theme: Dark
+
+```
+No answer needed
+```
+
+2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
+
+> Go through the Project Options. You will find "Cookie jar" pretty easily.
+
+```
+Sessions
+```
+
+3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
+
+> Again, browse through User Options.
+
+```
+Misc
+```
+
+4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
+
+> Should be pretty obvious once you visit User Options > Misc.
+
+```
+Hotkeys
+```
+
+5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
+
+> Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > 
