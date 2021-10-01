@@ -119,7 +119,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-!![](Pasted%20image%2020211001122854.png)
+![t7q1](t7q1.png)
 
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
@@ -129,6 +129,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Sessions
     ```
 
+![t7q2](t7q2.png)
+
 3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
 
     > Again, browse through User Options.
@@ -136,6 +138,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     Misc
     ```
+
+![t7q3](t7q3.png)
 
 4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
 
@@ -145,6 +149,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Hotkeys
     ```
 
+![](t7q4.png)
+
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
     > Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > Override user options.
@@ -152,6 +158,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     Aye
     ```
+
+![t7q5](t7q5.png)
 
 6. There are many more configuration options available. Take the time to read through them.
 
@@ -175,6 +183,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Forward
     ```
 
+![](t8q1.png)
+
 2. **[Research]** What is the default keybind for this?
 
     _**Note:** Assume you are using Windows or Linux (i.e. swap Cmd for Ctrl)._
@@ -184,6 +194,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     Ctrl+F
     ```
+
+
 
 ---
 

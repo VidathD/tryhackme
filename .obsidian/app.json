@@ -44,5 +44,6 @@
   "newLinkFormat": "shortest",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./attachments"
 }
