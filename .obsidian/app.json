@@ -41,7 +41,7 @@
   ],
   "useTab": false,
   "newFileLocation": "current",
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
   "alwaysUpdateLinks": true,

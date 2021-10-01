@@ -17,6 +17,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
+***Note: I will be using this method to access the website.***
+
 ---
 
 ## Task 2 [Getting Started] What is Burp Suite?
@@ -119,7 +121,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-![t7q1](t7q1.png)
+![t7q1](assets/t7q1.png)
 
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
@@ -129,7 +131,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Sessions
     ```
 
-![t7q2](t7q2.png)
+![t7q2](assets/t7q2.png)
 
 3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
 
@@ -139,7 +141,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Misc
     ```
 
-![t7q3](t7q3.png)
+![t7q3](assets/t7q3.png)
 
 4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
 
@@ -149,7 +151,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Hotkeys
     ```
 
-![t7q4](t7q4.png)
+![t7q4](assets/t7q4.png)
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
@@ -159,7 +161,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Aye
     ```
 
-![t7q5](t7q5.png)
+![t7q5](assets/t7q5.png)
 
 6. There are many more configuration options available. Take the time to read through them.
 
@@ -183,7 +185,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Forward
     ```
 
-![t8q1](t8q1.png)
+![t8q1](assets/t8q1.png)
 
 2. **[Research]** What is the default keybind for this?
 
@@ -195,7 +197,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Ctrl+F
     ```
 
-![t8q2](t8q2.pg)
+![t8q2](assets/t8q2.pg)
 
 ---
 
@@ -217,7 +219,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Response to this request
     ```
 
-![t9q1](t9q1.png)
+![t9q1](assets/t9q1.png)
 
 2. **[Bonus Question -- Optional]** Try installing FoxyProxy standard and have a look at the pattern matching features.
 
@@ -255,7 +257,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-![t11q1](t11q1.png)
+![t11q1](assets/t11q1.png)
 
 ---
 
@@ -272,6 +274,10 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     No answer needed
     ```
+
+!
+
+![t12q1](assets/t12q1.png)
 
 ---
 
@@ -291,7 +297,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
     ```
 
-    ![t13q1](t13q1.png)
+    ![t13q1](assets/t13q1.png)
 
 2. Look through the Issue Definitions list.
 
@@ -303,7 +309,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Low
     ```
     
-    ![t13q2](t13q2.png)
+    ![t13q2](assets/t13q2.png)
 
 ---
 
