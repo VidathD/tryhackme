@@ -21,7 +21,7 @@ This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). He
 
 ## Task 2 [Getting Started] What is Burp Suite?
 
-**Gives a basic introduction to Burp and it's editions.**
+**Gives a basic intro to Burp and it's editions.**
 
 1. Which edition of Burp Suite will we be using in this module?
 
@@ -31,8 +31,7 @@ This is the first room of [Burp Suite](Burp%20Suite.md) [module](modules.md). He
 Burp Suite Community
 ```
 
-2.   
-Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
+2. Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
 
 > Read the description.
 
@@ -40,8 +39,7 @@ Which edition of Burp Suite runs on a server and provides constant scanning for 
 Burp Suite Enterprise
 ```
 
-3.   
-Burp Suite is frequently used when attacking web applications and ______ applications.
+3. Burp Suite is frequently used when attacking web applications and ______ applications.
 
 > Read the description and fill in the blank.
 
@@ -53,10 +51,9 @@ Mobile
 
 ## Task 3 [Getting Started] Features of Burp Community
 
-**Gives an introduction to modules in Burp and extensions.**
+**Gives an intro to modules in Burp and extensions.**
 
-1.   
-Which Burp Suite feature allows us to intercept requests between ourselves and the target?
+1. Which Burp Suite feature allows us to intercept requests between ourselves and the target?
 
 > Read the description.
 
@@ -78,12 +75,41 @@ Intruder
 
 **Gives installation instructions for Community Edition.**
 
-1.   
-If you have chosen not to use the AttackBox, make sure that you have a copy of Burp Suite installed before proceeding.
+1. If you have chosen not to use the AttackBox, make sure that you have a copy of Burp Suite installed before proceeding.
 
 ```
 No answer needed
 ```
 
 ---
+
+## Task 5 [Getting Started] The Dashboard
+
+**Gives an intro to the Dashboard interface**
+
+1. Open Burp Suite and have a look around the dashboard. Make sure that you are comfortable with it before moving on.
+
+```
+No answer needed
+```
+
+---
+
+## Task 6 [Getting Started] Navigation
+
+**Gives instructions on how to navigate the GUI and common keyboard shortcuts for navigation.**
+
+1. Get comfortable navigating around the top menu bars.
+
+```
+No answer needed
+```
+
+---
+
+## Task 7 [Getting Started] Options
+
+**Gives instructions about managing User and Project Options.**
+
+1. Change the Burp Suite theme to dark mode
 
