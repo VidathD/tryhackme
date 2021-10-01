@@ -145,4 +145,56 @@ Hotkeys
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
-> Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > 
+> Yes. Most User Options can be overridden in Project Options. You can find this specific option in Project Options > TLS > Client TLS Certificates > Override user options.
+
+```
+Aye
+```
+
+6. There are many more configuration options available. Take the time to read through them.
+
+    In the next section, we will cover the Burp Proxy -- a much more hands-on aspect of the room.
+
+```
+No answer needed
+```
+
+---
+
+## Task 8 [Proxy] Introduction to the Burp Proxy
+
+**Give an intro to Proxy module, its sub-tabs and basic config.**
+
+1. Which button would we choose to send an intercepted request to the target in Burp Proxy?
+
+> We "forward" the request.
+
+```
+Forward
+```
+
+2. **[Research]** What is the default keybind for this?
+
+    _**Note:** Assume you are using Windows or Linux (i.e. swap Cmd for Ctrl)._
+
+> You can find the keybinding by doing a simple google search or by looking at User Options > Misc > Hotkeys
+
+```
+Ctrl+F
+```
+
+---
+
+## Task 9 [Proxy] Connecting through the Proxy (FoxyProxy)
+
+**Gives instructions to install and configure FoxyProxy**
+
+1. Read through the options in the right-click menu.
+
+    There is one particularly useful option that allows you to intercept and modify the *response* to your request.
+
+    What is this option?
+
+    _**Note:** The option is in a dropdown sub-menu._
+
+> Go through the sub menu and 

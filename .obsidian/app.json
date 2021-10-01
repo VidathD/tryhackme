@@ -30,7 +30,10 @@
     "Defence",
     "AttackBox",
     "bruteforce",
-    "eybindings?"
+    "eybindings?",
+    "config",
+    "Ctrl",
+    "Cmd"
   ],
   "useTab": false,
   "newFileLocation": "current",
