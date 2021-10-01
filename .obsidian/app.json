@@ -36,7 +36,8 @@
     "Cmd",
     "dropdown",
     "Proxying",
-    "ckBox, co"
+    "ckBox, co",
+    "AttackBox"
   ],
   "useTab": false,
   "newFileLocation": "current",

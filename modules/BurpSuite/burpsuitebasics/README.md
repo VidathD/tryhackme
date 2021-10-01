@@ -119,6 +119,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
+!![](Pasted%20image%2020211001122854.png)
+
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
     > Go through the Project Options. You will find "Cookie jar" pretty easily.
@@ -273,4 +275,20 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
     ```
 
-2. 
+    ![t13q1](t13q1.png)
+
+2. Look through the Issue Definitions list.
+
+    What is the typical severity of a Vulnerable JavaScript dependency?
+    
+    > Scroll down the Issue Definition list and find "Vulnerable Javascript Dependency".
+
+    ```
+    Low
+    ```
+    
+    ![t13q2](t13q2.png)
+
+---
+
+##
