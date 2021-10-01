@@ -1,6 +1,6 @@
 # Burp Suite: The Basics
 
-This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) and Burp Proxy.
+This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well as Proxy and Target modules.
 
 
 ## Task 1 [Introduction] Outline
@@ -258,4 +258,14 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 ---
 
 ## Task 13 [Proxy] Site Map and Issue Definitions
+
+**Intro to Target module and its sub-tabs.**
+
+1. Take a look around the site on `http://MACHINE_IP/` -- we will be using this a lot throughout the module. Visit every page linked to from the homepage, then check your sitemap -- one endpoint should stand out as being very unusual!
+
+    Visit this in your browser (or use the "Response" section of the site map entry for that endpoint)
+
+    What is the flag you receive?
+    
+    > With intercept off in Proxy (but with the browser configured to send all traffic through the proxy), browse through the whole web site. (Click every link you find! I usually prefer to <kbd>Ctrl</kbd> + click all links to open in new tabs and close them each after reading through with Ctrl + W). Then check the site map.
 
