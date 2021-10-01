@@ -269,15 +269,11 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
     See the difference between the amount of traffic getting caught by the proxy before and after limiting the scope.
     
-    > Follow the instructions in the room to do this. You will notice that you are capturing much less traffic.
+    > Follow the instructions in the room to do this. You will notice that much less traffic is being captured specially if you have other tabs open.
 
     ```
     No answer needed
     ```
-
-!
-
-![t12q1](assets/t12q1.png)
 
 ---
 
@@ -313,4 +309,16 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 ---
 
-##
+## Task 14 [Practical] Example Attack
+
+**Finally! A practical after all that theory!**
+
+1. Try typing: `<script>alert("Succ3ssful XSS")</script>`, into the "Contact Email" field. You should find that there is a client-side filter in place which prevents you from adding any special characters that aren't allowed in email addresses:
+
+    ![GIF demonstrating the client side filter](assets/t14q1.gif)
+    
+    ```
+    No answer needed
+    ```
+
+2. 
