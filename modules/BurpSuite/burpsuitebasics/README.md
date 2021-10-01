@@ -326,3 +326,4 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Let's focus on simply bypassing the filter for now.
 
     First, make sure that your Burp Proxy is active    and that the intercept is on.
+    
