@@ -121,7 +121,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-![t7q1](assets/t7q1.png)
+![Screenshot of option to turn on dark mode](assets/t7q1.png)
 
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
@@ -131,7 +131,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Sessions
     ```
 
-![t7q2](assets/t7q2.png)
+![Screenshot of Cookie jar in Sessions sub-tab](assets/t7q2.png)
 
 3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
 
@@ -141,7 +141,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Misc
     ```
 
-![t7q3](assets/t7q3.png)
+![Screenshot of Misc sub-tab](assets/t7q3.png)
 
 4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
 
@@ -151,7 +151,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Hotkeys
     ```
 
-![t7q4](assets/t7q4.png)
+![Screenshot of Hotkeys](assets/t7q4.png)
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
@@ -161,7 +161,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Aye
     ```
 
-![Screenshot of ov](assets/t7q5.png)
+![Screenshot of overriding uploaded Client-Side TLS certificates in User options via Project options](assets/t7q5.png)
 
 6. There are many more configuration options available. Take the time to read through them.
 
@@ -356,6 +356,14 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     
 5. Finally, press the "Forward" button to send the request.
 
-You should find that you get an alert box from the site indicating a successful XSS attack!
+    You should find that you get an alert box from the site indicating a successful XSS attack!
 
-![Screenshot showing the successful XSS attack](assets/t14q5.png)
+    ![Screenshot showing the successful XSS attack](assets/t14q5.png)
+
+    > Press "Forward" button and check the browser.
+
+    ```
+    No answer needed
+    ```
+
+6. 
