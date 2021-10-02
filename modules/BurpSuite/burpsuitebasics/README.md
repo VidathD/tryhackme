@@ -301,6 +301,8 @@ Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well
     THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
     ```
 
+[//]: ()
+
     ![Screenshot with flag from interesting endpoint](assets/t13q1.png)
 
 2. Look through the Issue Definitions list.
