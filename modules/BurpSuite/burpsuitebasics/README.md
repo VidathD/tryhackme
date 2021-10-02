@@ -360,10 +360,24 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
     ![Screenshot showing the successful XSS attack](assets/t14q5.png)
 
-    > Press "Forward" button and check the browser.
+    > Press "Forward" button and check the browser. You should see a popup like shown above.
 
     ```
     No answer needed
     ```
 
-6. 
+6. Congratulations, you bypassed the filter!
+
+    Don't expect it to be quite so easy in real life, but this should hopefully give you an idea of the kind of situation in which Burp Proxy can be useful.
+    
+    > Most websites have some form of XSS protection. So, it won't be this easy in real life.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+# Task 15 [Conclusion] Room Conclusion
+
+**Room conclusion and link to (../burpsuiterepeater**
