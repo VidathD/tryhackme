@@ -1,6 +1,8 @@
 # Burp Suite: The Basics
 
-This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well as Proxy and Target modules.
+This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). 
+
+Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well as Proxy and Target modules.
 
 
 ## Task 1 [Introduction] Outline
@@ -380,4 +382,12 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 # Task 15 [Conclusion] Room Conclusion
 
-**Room conclusion and link to (../burpsuiterepeater**
+**Room conclusion and link to the sequel to this room, [Burp Suite: Repeater](../burpsuiterepeater/README.md).**
+  
+1. I understand the fundamentals of using Burp Suite!
+
+    > I sure hope you do, after such an informative room.
+
+    ```
+    No answer needed
+    ```
