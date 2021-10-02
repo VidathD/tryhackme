@@ -298,10 +298,10 @@ Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well
     > With intercept off in Proxy (but with the browser configured to send all traffic through the proxy), browse through the whole web site. (Click every link you find! I usually prefer to <kbd>Ctrl</kbd> + click all links to open in new tabs and close them each after reading through with <kbd>Ctrl</kbd> +<kbd>W</kbd>). Then check the site map. You will see a weird seemingly random file. Clicking on it reveals that it was referred by *http:/MACHINE_IP.p.thmlabs.com/ticket/* and a *GET* request was made to it. The response reveals the flag.
 
     ```
-    THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
+    THM{flag_redacted}
     ```
-
-[//]: ()
+    
+    [//]: # (THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk})
 
     ![Screenshot with flag from interesting endpoint](assets/t13q1.png)
 
