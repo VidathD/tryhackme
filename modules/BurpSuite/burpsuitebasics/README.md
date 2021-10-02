@@ -197,7 +197,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Ctrl+F
     ```
 
-![t8q2](assets/t8q2.pg)
+![t8q2](assets/t8q2.png)
 
 ---
 
@@ -342,4 +342,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     No answer needed
     ```
-4. 
+4. With the request captured in the proxy, we can now change the email field to be our very simple payload from above:  
+    `<script>alert("Succ3ssful XSS")</script>`. After pasting in the payload, we need to select it, then URL encode it with the `Ctrl + U` shortcut to make it safe to send. This process is shown in the GIF below:
+
+![GIF demonstrating the explained process of intercepting and URL encoding the pasted payload](assets/t14q4.gif)
+
