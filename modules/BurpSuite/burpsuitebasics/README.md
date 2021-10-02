@@ -4,6 +4,8 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
 Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well as Proxy and Target modules.
 
+---
+---
 
 ## Task 1 [Introduction] Outline
 
@@ -11,7 +13,7 @@ Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well
 
 1. Deploy the machine attached to the task by pressing the green "Start Machine" button, as well as the AttackBox (using the "Start AttackBox" button at the top of the page) if you are not using your own machine.  
 
-    _**Note:** If you are not using the AttackBox and want to connect to this machine without the VPN, you can do so using this link once the machine has fully loaded and an IP address is displayed:*[https://LAB_WEB_URL.p.thmlabs.com](https://lab_web_url.p.thmlabs.com/)
+    _**Note:** If you are not using the AttackBox and want to connect to this machine without the VPN, you can do so using this link once the machine has fully loaded and an IP address is displayed:_ [https://LAB_WEB_URL.p.thmlabs.com](https://lab_web_url.p.thmlabs.com/)
     
     > Just start the machine and access it through the given link.
     
