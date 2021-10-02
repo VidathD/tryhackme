@@ -327,3 +327,19 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
 
     First, make sure that your Burp Proxy is active    and that the intercept is on.
     
+    > You know how to do this.
+    
+    ```
+    No answer needed
+    ```
+    
+3. Now, enter some legitimate data into the support form. For example: "pentester@example.thm" as an email address, and "Test Attack" as a query.
+
+    Submit the form -- the request should be intercepted by the proxy.
+    
+    > Self explanatory.
+
+    ```
+    No answer needed
+    ```
+4. 
