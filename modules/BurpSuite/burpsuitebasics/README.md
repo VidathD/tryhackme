@@ -161,7 +161,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Aye
     ```
 
-![t7q5](assets/t7q5.png)
+![Screenshot of ov](assets/t7q5.png)
 
 6. There are many more configuration options available. Take the time to read through them.
 
@@ -185,7 +185,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Forward
     ```
 
-![t8q1](assets/t8q1.png)
+![Screenshot of forward button for captured request](assets/t8q1.png)
 
 2. **[Research]** What is the default keybind for this?
 
@@ -197,7 +197,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Ctrl+F
     ```
 
-![t8q2](assets/t8q2.png)
+![Screenshot of the keybinding in Hotkeys](assets/t8q2.png)
 
 ---
 
@@ -219,7 +219,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Response to this request
     ```
 
-![t9q1](assets/t9q1.png)
+![Screenshot showing position of answer in right click menu](assets/t9q1.png)
 
 2. **[Bonus Question -- Optional]** Try installing FoxyProxy standard and have a look at the pattern matching features.
 
@@ -257,7 +257,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     No answer needed
     ```
 
-![t11q1](assets/t11q1.png)
+![Screenshot of captured request from inbuilt browser](assets/t11q1.png)
 
 ---
 
@@ -293,7 +293,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
     ```
 
-    ![t13q1](assets/t13q1.png)
+    ![Screenshot with flag from interesting endpoint](assets/t13q1.png)
 
 2. Look through the Issue Definitions list.
 
@@ -305,7 +305,7 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     Low
     ```
     
-    ![t13q2](assets/t13q2.png)
+    ![Screenshot showing Vulnerable Javascript Dependency](assets/t13q2.png)
 
 ---
 
@@ -342,9 +342,20 @@ This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](mod
     ```
     No answer needed
     ```
+    
 4. With the request captured in the proxy, we can now change the email field to be our very simple payload from above:  
     `<script>alert("Succ3ssful XSS")</script>`. After pasting in the payload, we need to select it, then URL encode it with the `Ctrl + U` shortcut to make it safe to send. This process is shown in the GIF below:
 
-![GIF demonstrating the explained process of intercepting and URL encoding the pasted payload](assets/t14q4.gif)
+    ![GIF demonstrating the explained process of intercepting and URL encoding the pasted payload](assets/t14q4.gif)
 
-> 
+    > See the GIF. Replace the email with the payload and URL encode it by selecting it and pressing <kbd>Ctrl</kbd> + <kbd>U</kbd>
+
+    ```
+    No answer needed
+    ```
+    
+5. Finally, press the "Forward" button to send the request.
+
+You should find that you get an alert box from the site indicating a successful XSS attack!
+
+![Screenshot showing the successful XSS attack](assets/t14q5.png)
