@@ -1,8 +1,8 @@
   # Burp Suite: Repeater
   
-  > Vidath Dissanayake | 2021/10/02 | Sri Lanka
-  > [Room link](https://tryhackme.com/room/burpsuitebasics)
-  > [TryHackMe](https://tryhackme.com)
+> Vidath Dissanayake | 2021/10/02 | Sri Lanka
+> [Room link](https://tryhackme.com/room/burpsuiterepeater)
+> [TryHackMe](https://tryhackme.com)
   
   This room is the sequel to [Burp Suite: Basics](../burpsuitebasics/README.md) and is the second room in [Burp Suite](../README.md) [module](../../README.md).
   
