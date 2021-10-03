@@ -4,9 +4,9 @@
 > [Room link](https://tryhackme.com/room/burpsuitebasics)  
 > [TryHackMe](https://tryhackme.com)
 
-This is the first room of [Burp Suite](modules/BurpSuite/README.md) [module](modules/README.md). 
+This is the first room of [Burp Suite](../Burp%20Suite.md) [module](../../modules.md). 
 
-Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well as Proxy and Target modules.
+Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy and Target modules.
 
 ---
 ---
@@ -390,7 +390,7 @@ Here we get an introduction to [Burp Suite](modules/BurpSuite/README.md) as well
 
 # Task 15 [Conclusion] Room Conclusion
 
-**Room conclusion and link to the sequel to this room, [Burp Suite: Repeater](../burpsuiterepeater/README.md).**
+**Room conclusion and link to the sequel to this room, [Burp Suite: Repeater](../burpsuiterepeater/burpsuiterepeater.md).**
   
 1. I understand the fundamentals of using Burp Suite!
 
