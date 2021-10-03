@@ -31,3 +31,15 @@ Here we get an introduction to the Repeater module.
 
 ## Task 2 [Repeater] What is Repeater?
 
+**Introduction to repeater and it's interface.**
+
+1. Familiarise yourself with the Repeater interface.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 3 [Repeater] Basic Usage
+
