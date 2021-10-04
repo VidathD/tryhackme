@@ -45,4 +45,16 @@ Here we get an introduction to the Repeater module.
 
 **A basic use case of Repeater.**
 
-1. 
+1. Capture a request to `http://MACHINE_IP` in the Proxy and send it to Repeater.
+
+    Practice modifying and re-sending the request numerous times.
+    
+    > Should be easy. An instance of how it should look like is shown in the first screenshot in this task.
+
+    ```
+    No answer needed
+    ```
+
+---
+
+## Task 4 [Repeater] Views
