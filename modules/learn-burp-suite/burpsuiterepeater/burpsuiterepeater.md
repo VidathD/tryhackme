@@ -58,3 +58,26 @@ Here we get an introduction to the Repeater module.
 ---
 
 ## Task 4 [Repeater] Views
+
+**Response and request views.**
+
+1. Experiment with the available view options.
+
+    > Try out different views. They all serve a purpose.
+
+    ```
+    No answer needed
+    ```
+    
+2. Which view option displays the response in the same format as your browser would?
+
+    > This is said in the room, and you should have figured out during experimenting.
+
+    ```
+    Render
+    ```
+
+---
+
+## Task 5 [Repeater] Inspector
+
