@@ -43,3 +43,6 @@ Here we get an introduction to the Repeater module.
 
 ## Task 3 [Repeater] Basic Usage
 
+**A basic use case of Repeater.**
+
+1. 
