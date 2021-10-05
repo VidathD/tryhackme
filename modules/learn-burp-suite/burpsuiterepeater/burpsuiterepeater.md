@@ -93,4 +93,4 @@ Here we get an introduction to the Repeater module.
 
 ## Task 6 [Practical] Example
 
-![](assets/Pasted%20image%2020211005132915.png)
+![Modified request and response with flag](assets/t6q3.png)
