@@ -81,3 +81,15 @@ Here we get an introduction to the Repeater module.
 
 ## Task 5 [Repeater] Inspector
 
+**Intro to Inspector.**
+
+1. Get comfortable with Inspector and practice adding/removing items from the various request sections.
+
+    > Try experimenting.
+
+    ```
+    No answer needed
+    ```
+
+## Task 6 [Practical] Example
+
