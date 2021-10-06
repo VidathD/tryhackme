@@ -139,4 +139,27 @@ Here we get an introduction to the Repeater module.
 
 1. Capture a request to one of the numeric products endpoints in the Proxy, then forward it to Repeater.
 
-    > Capture a request to http
+    > Capture a request to `http://MACHINE_IP/products/1` or any other numeric endpoint and send it to repeater.
+
+    ```
+    No answer needed
+    ```
+
+2. See if you can get the server to error out with a "500 Internal Server Error" code by changing the number at the end of the request to extreme inputs.
+
+    What is the flag you receive when you cause a 500 error in the endpoint?
+    
+    > Change the numeric value to a negative and forward the request.
+
+    ```
+    THM{flag_redacted}
+    ```
+    
+    [//]: # (THM{N2MzMzFhMTA1MmZiYjA2YWQ4M2ZmMzhl})
+
+    ![Successful 500 status code](assets/t7q2.png)
+
+---
+
+## Task 8 [Extra Mile] SQLi with Repeater
+

@@ -43,7 +43,8 @@
     "Vidath",
     "TryHackMe",
     "Sri",
-    "Comparer"
+    "Comparer",
+    "SQLi"
   ],
   "useTab": false,
   "newFileLocation": "current",
