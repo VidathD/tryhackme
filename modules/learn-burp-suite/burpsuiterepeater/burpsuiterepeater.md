@@ -91,6 +91,52 @@ Here we get an introduction to the Repeater module.
     No answer needed
     ```
 
+---
+
 ## Task 6 [Practical] Example
 
-![Modified request and response with flag](assets/t6q3.png)
+**Altering a header with Repeater**
+
+1. Capture a request to `http://MACHINE_IP/` in the Proxy and send it to Repeater.
+
+    ```
+    No answer needed
+    ```
+
+2. Send the request once from Repeater -- you should see the HTML source code for the page you requested in the response tab.
+
+    Try viewing this in one of the other view options (e.g. Rendered).
+
+    ```
+    No answer needed
+    ```
+
+3. Using Inspector (or manually, if you prefer), add a header called `FlagAuthorised` and set it to have a value of `True`. e.g.:
+
+    ```
+    Headers with FlagAuthorised Added
+
+    GET / HTTP/1.1
+    Host: 10.10.185.0
+    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Connection: close
+    Upgrade-Insecure-Requests: 1
+    FlagAuthorised: True
+    ```
+
+    Send the request. What is the flag you receive?
+
+    ![Modified request and response with flag](assets/t6q3.png)
+
+---
+
+## Task 7 [Practical] Challenge
+
+**Causing a server error by sending unexpected data.**
+
+1. Capture a request to one of the numeric products endpoints in the Proxy, then forward it to Repeater.
+
+    > Capture a request to http
