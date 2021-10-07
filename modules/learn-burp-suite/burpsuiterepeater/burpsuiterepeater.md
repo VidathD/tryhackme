@@ -172,3 +172,23 @@ Here we get an introduction to the Repeater module.
     What is the flag?
     
     > Follow the instructions closely and you will get it. 
+
+    ```
+    THM{flag_redacted}
+    ```
+    
+    [//]: # (THM{ZGE3OTUyZGMyMzkwNjJmZjg3Mzk1NjJh})
+    
+---
+
+## Task 9 [Conclusion] Room Conclusion
+
+**Room conclusion and link to the sequel to this room, [Burp Suite: Intruder](../burpsuiteintruder/burpsuiteintruder.md).**
+
+1. I can use Burp Suite Repeater!
+
+    > You probably can now!
+
+    ```
+    No answer needed
+    ```
