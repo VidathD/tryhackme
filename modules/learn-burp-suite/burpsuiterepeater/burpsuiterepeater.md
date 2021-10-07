@@ -163,3 +163,12 @@ Here we get an introduction to the Repeater module.
 
 ## Task 8 [Extra Mile] SQLi with Repeater
 
+**SQLi with repeater.**
+
+***Note: There are a lot of long descriptions, and they detail very well what you have to do. So I won't put the descriptions here as it will be very long!***
+
+1. Exploit the union SQL injection vulnerability in the site.
+
+    What is the flag?
+    
+    > Follow the instructions closely and you will get it. 
