@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Fri Oct 29 11:01:56 2021 as: nmap -sCV -T4 -vvv -p- -oA full_scan_smb 10.10.242.111 -->
+<nmaprun scanner="nmap" args="nmap -sCV -T4 -vvv -p- -oA full_scan_smb 10.10.242.111" start="1635501716" startstr="Fri Oct 29 11:01:56 2021" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1635501716"/>
+<taskend task="NSE" time="1635501716"/>
+<taskbegin task="NSE" time="1635501716"/>
+<taskend task="NSE" time="1635501716"/>
+<taskbegin task="ARP Ping Scan" time="1635501716"/>
+<taskend task="ARP Ping Scan" time="1635501717" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1635501717"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1635501717"/>
+<taskbegin task="SYN Stealth Scan" time="1635501717"/>
+<taskprogress task="SYN Stealth Scan" time="1635501748" percent="21.59" remaining="113" etc="1635501861"/>
+<taskprogress task="SYN Stealth Scan" time="1635501778" percent="26.35" remaining="171" etc="1635501949"/>
+<taskprogress task="SYN Stealth Scan" time="1635501808" percent="28.46" remaining="229" etc="1635502037"/>
+<taskprogress task="SYN Stealth Scan" time="1635501838" percent="30.56" remaining="275" etc="1635502113"/>
+<taskprogress task="SYN Stealth Scan" time="1635501868" percent="32.67" remaining="312" etc="1635502179"/>
+<taskprogress task="SYN Stealth Scan" time="1635501898" percent="34.78" remaining="340" etc="1635502237"/>
+<taskprogress task="SYN Stealth Scan" time="1635501937" percent="37.53" remaining="367" etc="1635502303"/>
+<taskprogress task="SYN Stealth Scan" time="1635502018" percent="43.21" remaining="396" etc="1635502414"/>
+<taskprogress task="SYN Stealth Scan" time="1635502255" percent="59.85" remaining="361" etc="1635502616"/>
+<taskprogress task="SYN Stealth Scan" time="1635502357" percent="67.01" remaining="316" etc="1635502672"/>
+<taskprogress task="SYN Stealth Scan" time="1635502447" percent="73.32" remaining="266" etc="1635502713"/>
+<taskprogress task="SYN Stealth Scan" time="1635502528" percent="79.01" remaining="216" etc="1635502743"/>
+<taskprogress task="SYN Stealth Scan" time="1635502606" percent="84.49" remaining="164" etc="1635502769"/>
+<taskprogress task="SYN Stealth Scan" time="1635502681" percent="89.75" remaining="111" etc="1635502791"/>
+<taskprogress task="SYN Stealth Scan" time="1635502756" percent="95.01" remaining="55" etc="1635502811"/>
+<taskprogress task="SYN Stealth Scan" time="1635502819" percent="99.44" remaining="7" etc="1635502825"/>
+<taskend task="SYN Stealth Scan" time="1635503058" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635503058"/>
+<taskend task="Service scan" time="1635503069" extrainfo="3 services on 1 host"/>
+<taskbegin task="NSE" time="1635503069"/>
+<taskend task="NSE" time="1635503070"/>
+<taskbegin task="NSE" time="1635503070"/>
+<taskend task="NSE" time="1635503070"/>
+<host starttime="1635501716" endtime="1635503070"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.242.111" addrtype="ipv4"/>
+<address addr="02:7D:1C:39:8D:5D" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-242-111.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="resets" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 91:df:5c:7c:26:22:6e:90:23:a7:7d:fa:5c:e1:c2:52 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsQBsFkx22xGvnoVM2jdoshYhErSrOah7KuFFxx17bNXpP0ngmmi8eg8cF15/W09dFRZkHpolm+hwczAJg8YtCikckf57z6tuMZIJG97TEFjtevvyw2hB7YjUJXCsQOkGKUkHs8q1QqiTX0jFaM/LQdZm+77MxuaU8XXbcghfHISAyh2++AwD6LIIJvVKk/1vjMHO6GtgoyvVmlVrITZv+5naaAUgfyqoKJr2mfsJDl8MpalE4Fb9aXP2LopBgQ5YetpjFI4kyvxlaZZ86nrvvCc5FZWXM5ezfJT1R8fIaM8+3rY/6ktlVzQ/C3fNqJaT9YolYOYcQuHZ1mJ7rrE0P&#xa;  256 86:57:f5:2a:f7:86:9c:cf:02:c1:ac:bc:34:90:6b:01 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCdRH8y2bhSww6mxtO3NwyfVfbhPCFZ8RxKhZrmc4LoqyRvJhmISqcY/e9JmkvjeqFx+QLGsadZo3ap9QyVuDAE=&#xa;  256 81:e3:cc:e7:c9:3c:75:d7:fb:e0:86:a0:01:41:77:81 (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBOdFR83uui/AaLq3bUcJ0REIIL0laVVmSMvkeVpGWd1"><table>
+<elem key="bits">2048.0</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">91df5c7c26226e9023a77dfa5ce1c252</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCsQBsFkx22xGvnoVM2jdoshYhErSrOah7KuFFxx17bNXpP0ngmmi8eg8cF15/W09dFRZkHpolm+hwczAJg8YtCikckf57z6tuMZIJG97TEFjtevvyw2hB7YjUJXCsQOkGKUkHs8q1QqiTX0jFaM/LQdZm+77MxuaU8XXbcghfHISAyh2++AwD6LIIJvVKk/1vjMHO6GtgoyvVmlVrITZv+5naaAUgfyqoKJr2mfsJDl8MpalE4Fb9aXP2LopBgQ5YetpjFI4kyvxlaZZ86nrvvCc5FZWXM5ezfJT1R8fIaM8+3rY/6ktlVzQ/C3fNqJaT9YolYOYcQuHZ1mJ7rrE0P</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">8657f52af7869ccf02c1acbc34906b01</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCdRH8y2bhSww6mxtO3NwyfVfbhPCFZ8RxKhZrmc4LoqyRvJhmISqcY/e9JmkvjeqFx+QLGsadZo3ap9QyVuDAE=</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">81e3cce7c93c75d7fbe086a001417781</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIBOdFR83uui/AaLq3bUcJ0REIIL0laVVmSMvkeVpGWd1</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" hostname="POLOSMB" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="4.7.6-Ubuntu" extrainfo="workgroup: WORKGROUP" hostname="POLOSMB" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+</ports>
+<hostscript><script id="clock-skew" output="mean: 0s, deviation: 0s, median: 0s"><elem key="mean">0</elem>
+<elem key="stddev">0</elem>
+<elem key="median">0</elem>
+</script><script id="nbstat" output="NetBIOS name: POLOSMB, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)&#xa;Names:&#xa;  POLOSMB&lt;00&gt;          Flags: &lt;unique&gt;&lt;active&gt;&#xa;  POLOSMB&lt;03&gt;          Flags: &lt;unique&gt;&lt;active&gt;&#xa;  POLOSMB&lt;20&gt;          Flags: &lt;unique&gt;&lt;active&gt;&#xa;  \x01\x02__MSBROWSE__\x02&lt;01&gt;  Flags: &lt;group&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;1d&gt;        Flags: &lt;unique&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;1e&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;Statistics:&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00"><elem key="server_name">POLOSMB</elem>
+<table key="names">
+<table>
+<elem key="flags">1024</elem>
+<elem key="suffix">0</elem>
+<elem key="name">POLOSMB</elem>
+</table>
+<table>
+<elem key="flags">1024</elem>
+<elem key="suffix">3</elem>
+<elem key="name">POLOSMB</elem>
+</table>
+<table>
+<elem key="flags">1024</elem>
+<elem key="suffix">32</elem>
+<elem key="name">POLOSMB</elem>
+</table>
+<table>
+<elem key="flags">33792</elem>
+<elem key="suffix">1</elem>
+<elem key="name">\x01\x02__MSBROWSE__\x02</elem>
+</table>
+<table>
+<elem key="flags">33792</elem>
+<elem key="suffix">0</elem>
+<elem key="name">WORKGROUP</elem>
+</table>
+<table>
+<elem key="flags">1024</elem>
+<elem key="suffix">29</elem>
+<elem key="name">WORKGROUP</elem>
+</table>
+<table>
+<elem key="flags">33792</elem>
+<elem key="suffix">30</elem>
+<elem key="name">WORKGROUP</elem>
+</table>
+</table>
+<table key="mac">
+<elem key="address">&lt;unknown&gt;</elem>
+<elem key="manuf">unknown</elem>
+</table>
+<elem key="user">&lt;unknown&gt;</elem>
+<table key="statistics">
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+</table>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 15216/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 53525/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 3 (port 54426/udp): CLEAN (Failed to receive data)&#xa;  Check 4 (port 52154/udp): CLEAN (Failed to receive data)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 6.1 (Samba 4.7.6-Ubuntu)&#xa;  Computer name: polosmb&#xa;  NetBIOS computer name: POLOSMB\x00&#xa;  Domain name: \x00&#xa;  FQDN: polosmb&#xa;  System time: 2021-10-29T10:24:30+00:00&#xa;"><elem key="os">Windows 6.1</elem>
+<elem key="lanmanager">Samba 4.7.6-Ubuntu</elem>
+<elem key="server">POLOSMB\x00</elem>
+<elem key="date">2021-10-29T10:24:30+00:00</elem>
+<elem key="fqdn">polosmb</elem>
+<elem key="domain_dns">\x00</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2021-10-29 11:24:30&#xa;  start_date: 1600-12-31 23:58:45"><elem key="date">2021-10-29 11:24:30</elem>
+<elem key="start_date">1600-12-31 23:58:45</elem>
+</script></hostscript><times srtt="368" rttvar="55" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1635503070"/>
+<taskend task="NSE" time="1635503070"/>
+<taskbegin task="NSE" time="1635503070"/>
+<taskend task="NSE" time="1635503070"/>
+<runstats><finished time="1635503070" timestr="Fri Oct 29 11:24:30 2021" elapsed="1353.67" summary="Nmap done at Fri Oct 29 11:24:30 2021; 1 IP address (1 host up) scanned in 1353.67 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

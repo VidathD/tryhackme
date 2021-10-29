@@ -15,3 +15,109 @@
 <taskbegin task="Parallel DNS resolution of 1 host." time="1635501634"/>
 <taskend task="Parallel DNS resolution of 1 host." time="1635501634"/>
 <taskbegin task="SYN Stealth Scan" time="1635501634"/>
+<taskprogress task="SYN Stealth Scan" time="1635501665" percent="7.88" remaining="363" etc="1635502028"/>
+<taskprogress task="SYN Stealth Scan" time="1635501695" percent="10.25" remaining="535" etc="1635502229"/>
+<taskprogress task="SYN Stealth Scan" time="1635501725" percent="15.48" remaining="497" etc="1635502222"/>
+<taskprogress task="SYN Stealth Scan" time="1635501755" percent="17.77" remaining="560" etc="1635502315"/>
+<taskprogress task="SYN Stealth Scan" time="1635501785" percent="20.08" remaining="602" etc="1635502386"/>
+<taskprogress task="SYN Stealth Scan" time="1635501821" percent="22.59" remaining="641" etc="1635502462"/>
+<taskprogress task="SYN Stealth Scan" time="1635501893" percent="27.50" remaining="683" etc="1635502576"/>
+<taskprogress task="SYN Stealth Scan" time="1635502145" percent="44.60" remaining="635" etc="1635502780"/>
+<taskprogress task="SYN Stealth Scan" time="1635502247" percent="51.51" remaining="577" etc="1635502824"/>
+<taskprogress task="SYN Stealth Scan" time="1635502337" percent="57.62" remaining="518" etc="1635502854"/>
+<taskprogress task="SYN Stealth Scan" time="1635502421" percent="63.32" remaining="456" etc="1635502877"/>
+<taskprogress task="SYN Stealth Scan" time="1635502502" percent="68.82" remaining="394" etc="1635502895"/>
+<taskprogress task="SYN Stealth Scan" time="1635502583" percent="74.29" remaining="329" etc="1635502911"/>
+<taskprogress task="SYN Stealth Scan" time="1635502661" percent="79.59" remaining="264" etc="1635502924"/>
+<taskprogress task="SYN Stealth Scan" time="1635502739" percent="84.89" remaining="197" etc="1635502936"/>
+<taskprogress task="SYN Stealth Scan" time="1635502814" percent="89.98" remaining="132" etc="1635502945"/>
+<taskprogress task="SYN Stealth Scan" time="1635502889" percent="95.10" remaining="65" etc="1635502954"/>
+<taskend task="SYN Stealth Scan" time="1635503176" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635503176"/>
+<taskend task="Service scan" time="1635503197" extrainfo="3 services on 1 host"/>
+<taskbegin task="Traceroute" time="1635503211"/>
+<taskend task="Traceroute" time="1635503211"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1635503211"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1635503211"/>
+<taskbegin task="NSE" time="1635503211"/>
+<taskend task="NSE" time="1635503212"/>
+<taskbegin task="NSE" time="1635503212"/>
+<taskend task="NSE" time="1635503212"/>
+<host starttime="1635501633" endtime="1635503212"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.200.108.33" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ip-10-200-108-33.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="resets" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.2" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" product="Apache httpd" version="2.4.29" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service><script id="http-generator" output="WordPress 5.5.3"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-robots.txt" output="21 disallowed entries &#xa;/var/www/wordpress/index.php &#xa;/var/www/wordpress/readme.html /var/www/wordpress/wp-activate.php &#xa;/var/www/wordpress/wp-blog-header.php /var/www/wordpress/wp-config.php &#xa;/var/www/wordpress/wp-content /var/www/wordpress/wp-includes &#xa;/var/www/wordpress/wp-load.php /var/www/wordpress/wp-mail.php &#xa;/var/www/wordpress/wp-signup.php /var/www/wordpress/xmlrpc.php &#xa;/var/www/wordpress/license.txt /var/www/wordpress/upgrade &#xa;/var/www/wordpress/wp-admin /var/www/wordpress/wp-comments-post.php &#xa;/var/www/wordpress/wp-config-sample.php /var/www/wordpress/wp-cron.php &#xa;/var/www/wordpress/wp-links-opml.php /var/www/wordpress/wp-login.php &#xa;/var/www/wordpress/wp-settings.php /var/www/wordpress/wp-trackback.php"/><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-title" output="holo.live"><elem key="title">holo.live</elem>
+</script></port>
+<port protocol="tcp" portid="33060"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="mysqlx" servicefp="SF-Port33060-TCP:V=7.60%I=7%D=10/29%Time=617BCC4E%P=x86_64-pc-linux-gnu%r(NULL,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(GenericLines,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(GetRequest,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(HTTPOptions,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(RTSPRequest,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(RPCCheck,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(DNSVersionBindReq,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(DNSStatusRequest,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(Help,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(SSLSessionReq,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(TLSSessionReq,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(Kerberos,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(SMBProgNeg,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(X11Probe,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(FourOhFourRequest,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(LPDString,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(LDAPSearchReq,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(LDAPBindReq,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(SIPOptions,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(LANDesk-RC,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(TerminalServer,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(NCP,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(NotesRPC,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(JavaRMI,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(WMSRequest,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(oracle-tns,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;)%r(afp,2B,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0\x1e\0\0\0\x01\x08\x01\x10\x88&apos;\x1a\x0fInvalid\x20message\&quot;\x05HY000&quot;)%r(giop,9,&quot;\x05\0\0\0\x0b\x08\x05\x1a\0&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  DNSStatusRequest, LDAPSearchReq, NotesRPC, SSLSessionReq, TLSSessionReq, X11Probe, afp: &#xa;    Invalid message&quot;&#xa;    HY000"><elem key="DNSStatusRequest, LDAPSearchReq, NotesRPC, SSLSessionReq, TLSSessionReq, X11Probe, afp">&#xa;    Invalid message&quot;&#xa;    HY000</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="38269"/>
+<osmatch name="Linux 3.1" accuracy="95" line="60007">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="61524">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="58944">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="7916">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="61176">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="52612">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="55438">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1 - 3.2" accuracy="92" line="60027">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.8" accuracy="92" line="62168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.7 - 3.10" accuracy="92" line="62781">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=10/29%OT=22%CT=1%CU=38269%PV=Y%DS=2%DC=T%G=Y%TM=617BCC&#xa;OS:6C%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10E%TI=Z%CI=Z%TS=A)SEQ(SP=&#xa;OS:107%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M509ST11NW7%O2=M509ST11NW7%&#xa;OS:O3=M509NNT11NW7%O4=M509ST11NW7%O5=M509ST11NW7%O6=M509ST11)WIN(W1=F4B3%W2&#xa;OS:=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M509NNS&#xa;OS:NW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%&#xa;OS:DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%&#xa;OS:O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%&#xa;OS:W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%&#xa;OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="2778639" lastboot="Mon Sep 27 07:36:13 2021"/>
+<distance value="2"/>
+<tcpsequence index="263" difficulty="Good luck!" values="CBE40BE,AD97C990,49B73DB6,CBB018D7,C4D739F5,3E45C4D8"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="A59E9F3B,A59E9F9C,A59EA000,A59EA064,A59EA0C9,A59EA12D"/>
+<trace port="199" proto="tcp">
+<hop ttl="1" ipaddr="10.50.104.1" rtt="1.58" host="ip-10-50-104-1.eu-west-1.compute.internal"/>
+<hop ttl="2" ipaddr="10.200.108.33" rtt="1.66" host="ip-10-200-108-33.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="1611" rttvar="485" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1635503212"/>
+<taskend task="NSE" time="1635503212"/>
+<taskbegin task="NSE" time="1635503212"/>
+<taskend task="NSE" time="1635503212"/>
+<runstats><finished time="1635503212" timestr="Fri Oct 29 11:26:52 2021" elapsed="1579.05" summary="Nmap done at Fri Oct 29 11:26:52 2021; 1 IP address (1 host up) scanned in 1579.05 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
