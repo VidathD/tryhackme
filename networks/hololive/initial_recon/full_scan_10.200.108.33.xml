@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Fri Oct 29 11:00:33 2021 as: nmap -vvv -T4 -p- -A -oA full_scan_10.200.108.33 10.200.108.33 -->
+<nmaprun scanner="nmap" args="nmap -vvv -T4 -p- -A -oA full_scan_10.200.108.33 10.200.108.33" start="1635501633" startstr="Fri Oct 29 11:00:33 2021" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1635501633"/>
+<taskend task="NSE" time="1635501633"/>
+<taskbegin task="NSE" time="1635501633"/>
+<taskend task="NSE" time="1635501633"/>
+<taskbegin task="Ping Scan" time="1635501633"/>
+<taskend task="Ping Scan" time="1635501634" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1635501634"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1635501634"/>
+<taskbegin task="SYN Stealth Scan" time="1635501634"/>
