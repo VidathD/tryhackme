@@ -8,8 +8,8 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 [+] User Agent:   gobuster/3.0.1
 [+] Timeout:      10s
 ===============================================================
-2021/10/29 16:30:45 Starting gobuster
+2021/10/29 16:37:45 Starting gobuster
 ===============================================================
-Found: admin.holo.live (Status: 200) [Size: 1845]
 Found: dev.holo.live (Status: 200) [Size: 7515]
+Found: admin.holo.live (Status: 200) [Size: 1845]
 Found: www.holo.live (Status: 200) [Size: 21405]
