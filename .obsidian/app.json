@@ -44,7 +44,9 @@
     "TryHackMe",
     "Sri",
     "Comparer",
-    "SQLi"
+    "SQLi",
+    "Webserver",
+    "vhosts"
   ],
   "useTab": false,
   "newFileLocation": "current",
