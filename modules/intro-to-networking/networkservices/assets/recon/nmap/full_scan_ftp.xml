@@ -29,3 +29,86 @@
 <taskprogress task="SYN Stealth Scan" time="1635595421" percent="84.06" remaining="147" etc="1635595567"/>
 <taskprogress task="SYN Stealth Scan" time="1635595499" percent="89.56" remaining="100" etc="1635595598"/>
 <taskprogress task="SYN Stealth Scan" time="1635595574" percent="94.84" remaining="51" etc="1635595624"/>
+<taskend task="SYN Stealth Scan" time="1635595862" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635595863"/>
+<taskend task="Service scan" time="1635595874" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1635595887"/>
+<taskend task="NSE" time="1635595887"/>
+<taskbegin task="NSE" time="1635595887"/>
+<taskend task="NSE" time="1635595887"/>
+<host starttime="1635594648" endtime="1635595887"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.97.0" addrtype="ipv4"/>
+<address addr="02:26:FF:21:14:E7" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-97-0.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" product="vsftpd" version="2.0.8 or later" hostname="Welcome" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd</cpe></service><script id="ftp-anon" output="Anonymous FTP login allowed (FTP code 230)&#xa;-rw-r-&#45;r-&#45;    1 0        0             353 Apr 24  2020 PUBLIC_NOTICE.txt"/><script id="ftp-syst" output="&#xa;  STAT: &#xa;FTP server status:&#xa;     Connected to ::ffff:10.10.77.157&#xa;     Logged in as ftp&#xa;     TYPE: ASCII&#xa;     No session bandwidth limit&#xa;     Session timeout in seconds is 300&#xa;     Control connection is plain text&#xa;     Data connections will be plain text&#xa;     At session startup, client count was 3&#xa;     vsFTPd 3.0.3 - secure, fast, stable&#xa;End of status"><elem key="STAT">&#xa;FTP server status:&#xa;     Connected to ::ffff:10.10.77.157&#xa;     Logged in as ftp&#xa;     TYPE: ASCII&#xa;     No session bandwidth limit&#xa;     Session timeout in seconds is 300&#xa;     Control connection is plain text&#xa;     Data connections will be plain text&#xa;     At session startup, client count was 3&#xa;     vsFTPd 3.0.3 - secure, fast, stable&#xa;End of status</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.29" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET POST OPTIONS HEAD"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="41262"/>
+<osmatch name="Linux 3.13" accuracy="96" line="60865">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="96" line="63105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="94" line="7916">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="94"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="94" line="61176">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="93" line="60007">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="93" line="61524">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="60228">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.8" accuracy="92" line="62168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.4 - 3.10" accuracy="92" line="62411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8 - 4.9" accuracy="92" line="63233">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=10/30%OT=21%CT=1%CU=41262%PV=Y%DS=1%DC=D%G=Y%M=0226FF%&#xa;OS:TM=617D366F%P=x86_64-pc-linux-gnu)SEQ(SP=FC%GCD=1%ISR=10D%TI=Z%CI=I%TS=A&#xa;OS:)SEQ(SP=FC%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M2301ST11NW7%O2=M23&#xa;OS:01ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11)&#xa;OS:WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN(R=Y%DF=Y%T=40%W=&#xa;OS:6903%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N&#xa;OS:)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0&#xa;OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7&#xa;OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=&#xa;OS:0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="700032" lastboot="Fri Oct 22 10:44:15 2021"/>
+<distance value="1"/>
+<tcpsequence index="252" difficulty="Good luck!" values="82A2A1DB,E920B533,3FD4F050,E7F237F7,AF6D1356,F509DE70"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="29B99F13,29B99F77,29B99FDB,29B9A03F,29B9A0A3,29B9A108"/>
+<trace>
+<hop ttl="1" ipaddr="10.10.97.0" rtt="0.38" host="ip-10-10-97-0.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="382" rttvar="16" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1635595887"/>
+<taskend task="NSE" time="1635595887"/>
+<taskbegin task="NSE" time="1635595887"/>
+<taskend task="NSE" time="1635595887"/>
+<runstats><finished time="1635595887" timestr="Sat Oct 30 13:11:27 2021" elapsed="1240.10" summary="Nmap done at Sat Oct 30 13:11:27 2021; 1 IP address (1 host up) scanned in 1240.10 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

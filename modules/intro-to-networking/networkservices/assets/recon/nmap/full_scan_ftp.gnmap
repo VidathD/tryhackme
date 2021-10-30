@@ -1,2 +1,5 @@
 # Nmap 7.60 scan initiated Sat Oct 30 12:50:48 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_ftp 10.10.97.0
 # Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.97.0 (ip-10-10-97-0.eu-west-1.compute.internal)	Status: Up
+Host: 10.10.97.0 (ip-10-10-97-0.eu-west-1.compute.internal)	Ports: 21/open/tcp//ftp//vsftpd 2.0.8 or later/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/	Ignored State: closed (65533)	Seq Index: 252	IP ID Seq: All zeros
+# Nmap done at Sat Oct 30 13:11:27 2021 -- 1 IP address (1 host up) scanned in 1240.10 seconds
