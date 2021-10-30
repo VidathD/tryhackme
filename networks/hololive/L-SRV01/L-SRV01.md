@@ -40,4 +40,6 @@ We can get a reverse shell and from it. Looking around, we find that we are in t
 
 We got RCE via [L-SRV02](../L-SRV02/L-SRV02.md).
 
-Now we can use linpeas to enumerate.
+Now we can use linpeas.sh to enumerate.
+
+We can see that `/usr/bin/docker` has `suid` bit set. According to [GTFOBins](https://gtfobins.github.io/) we can abuse this to get a root shell with `docker run -v /:/mnt --rm -it alpine chroot /mnt sh`. But this machine doesn't have 

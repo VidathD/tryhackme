@@ -50,7 +50,8 @@
     "creds",
     "RCE",
     "creds",
-    "RCE"
+    "RCE",
+    "linpeas"
   ],
   "useTab": false,
   "newFileLocation": "current",
