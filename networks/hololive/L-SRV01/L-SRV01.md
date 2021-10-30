@@ -40,3 +40,4 @@ We can get a reverse shell and from it. Looking around, we find that we are in t
 
 We got RCE via [L-SRV02](../L-SRV02/L-SRV02.md).
 
+Now we can use linpeas to enumerate.
