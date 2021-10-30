@@ -1,82 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
-<!-- Nmap 7.60 scan initiated Fri Oct 29 11:02:41 2021 as: nmap -sCV -T4 -vvv -p- -oA full_scan_nfs 10.10.30.230 -->
-<nmaprun scanner="nmap" args="nmap -sCV -T4 -vvv -p- -oA full_scan_nfs 10.10.30.230" start="1635501761" startstr="Fri Oct 29 11:02:41 2021" version="7.60" xmloutputversion="1.04">
+<!-- Nmap 7.60 scan initiated Sat Oct 30 09:51:45 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_nfs 10.10.245.123 -->
+<nmaprun scanner="nmap" args="nmap -A -vvv -T4 -p- -oA full_scan_nfs 10.10.245.123" start="1635583905" startstr="Sat Oct 30 09:51:45 2021" version="7.60" xmloutputversion="1.04">
 <scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
 <verbose level="3"/>
 <debugging level="0"/>
-<taskbegin task="NSE" time="1635501761"/>
-<taskend task="NSE" time="1635501761"/>
-<taskbegin task="NSE" time="1635501761"/>
-<taskend task="NSE" time="1635501761"/>
-<taskbegin task="ARP Ping Scan" time="1635501761"/>
-<taskend task="ARP Ping Scan" time="1635501761" extrainfo="1 total hosts"/>
-<taskbegin task="Parallel DNS resolution of 1 host." time="1635501761"/>
-<taskend task="Parallel DNS resolution of 1 host." time="1635501761"/>
-<taskbegin task="SYN Stealth Scan" time="1635501761"/>
-<taskprogress task="SYN Stealth Scan" time="1635501792" percent="20.55" remaining="120" etc="1635501912"/>
-<taskprogress task="SYN Stealth Scan" time="1635501822" percent="25.43" remaining="179" etc="1635502001"/>
-<taskprogress task="SYN Stealth Scan" time="1635501852" percent="27.53" remaining="240" etc="1635502092"/>
-<taskprogress task="SYN Stealth Scan" time="1635501882" percent="29.64" remaining="288" etc="1635502169"/>
-<taskprogress task="SYN Stealth Scan" time="1635501951" percent="38.20" remaining="308" etc="1635502258"/>
-<taskprogress task="SYN Stealth Scan" time="1635501996" percent="41.37" remaining="334" etc="1635502329"/>
-<taskprogress task="SYN Stealth Scan" time="1635502329" percent="64.79" remaining="309" etc="1635502638"/>
-<taskprogress task="SYN Stealth Scan" time="1635502425" percent="71.55" remaining="264" etc="1635502689"/>
-<taskprogress task="SYN Stealth Scan" time="1635502512" percent="77.68" remaining="216" etc="1635502728"/>
-<taskprogress task="SYN Stealth Scan" time="1635502593" percent="83.38" remaining="166" etc="1635502759"/>
-<taskprogress task="SYN Stealth Scan" time="1635502671" percent="88.87" remaining="115" etc="1635502785"/>
-<taskprogress task="SYN Stealth Scan" time="1635502746" percent="94.14" remaining="62" etc="1635502807"/>
-<taskend task="SYN Stealth Scan" time="1635503051" extrainfo="65535 total ports"/>
-<taskbegin task="Service scan" time="1635503051"/>
-<taskend task="Service scan" time="1635503057" extrainfo="7 services on 1 host"/>
-<taskbegin task="NSE" time="1635503057"/>
-<taskend task="NSE" time="1635503057"/>
-<taskbegin task="NSE" time="1635503057"/>
-<taskend task="NSE" time="1635503057"/>
-<host starttime="1635501761" endtime="1635503057"><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="10.10.30.230" addrtype="ipv4"/>
-<address addr="02:15:59:1B:32:3D" addrtype="mac"/>
+<taskbegin task="NSE" time="1635583905"/>
+<taskend task="NSE" time="1635583905"/>
+<taskbegin task="NSE" time="1635583905"/>
+<taskend task="NSE" time="1635583905"/>
+<taskbegin task="ARP Ping Scan" time="1635583905"/>
+<taskend task="ARP Ping Scan" time="1635583905" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1635583906"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1635583906"/>
+<taskbegin task="SYN Stealth Scan" time="1635583906"/>
+<taskprogress task="SYN Stealth Scan" time="1635583937" percent="22.70" remaining="106" etc="1635584043"/>
+<taskprogress task="SYN Stealth Scan" time="1635583967" percent="27.71" remaining="160" etc="1635584126"/>
+<taskprogress task="SYN Stealth Scan" time="1635583997" percent="30.44" remaining="208" etc="1635584205"/>
+<taskprogress task="SYN Stealth Scan" time="1635584027" percent="32.55" remaining="251" etc="1635584278"/>
+<taskprogress task="SYN Stealth Scan" time="1635584057" percent="34.67" remaining="285" etc="1635584342"/>
+<taskprogress task="SYN Stealth Scan" time="1635584087" percent="36.77" remaining="312" etc="1635584398"/>
+<taskprogress task="SYN Stealth Scan" time="1635584126" percent="39.52" remaining="337" etc="1635584463"/>
+<taskprogress task="SYN Stealth Scan" time="1635584193" percent="44.24" remaining="362" etc="1635584555"/>
+<taskprogress task="SYN Stealth Scan" time="1635584433" percent="65.04" remaining="284" etc="1635584716"/>
+<taskprogress task="SYN Stealth Scan" time="1635584535" percent="72.23" remaining="242" etc="1635584777"/>
+<taskprogress task="SYN Stealth Scan" time="1635584622" percent="78.35" remaining="198" etc="1635584820"/>
+<taskprogress task="SYN Stealth Scan" time="1635584703" percent="84.05" remaining="152" etc="1635584854"/>
+<taskprogress task="SYN Stealth Scan" time="1635584781" percent="89.54" remaining="103" etc="1635584883"/>
+<taskprogress task="SYN Stealth Scan" time="1635584856" percent="94.83" remaining="52" etc="1635584908"/>
+<taskend task="SYN Stealth Scan" time="1635585147" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635585147"/>
+<taskend task="Service scan" time="1635585153" extrainfo="7 services on 1 host"/>
+<taskbegin task="NSE" time="1635585167"/>
+<taskend task="NSE" time="1635585167"/>
+<taskbegin task="NSE" time="1635585167"/>
+<taskend task="NSE" time="1635585167"/>
+<host starttime="1635583905" endtime="1635585167"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.245.123" addrtype="ipv4"/>
+<address addr="02:54:67:A0:BD:D7" addrtype="mac"/>
 <hostnames>
-<hostname name="ip-10-10-30-230.eu-west-1.compute.internal" type="PTR"/>
+<hostname name="ip-10-10-245-123.eu-west-1.compute.internal" type="PTR"/>
 </hostnames>
 <ports><extraports state="closed" count="65528">
 <extrareasons reason="resets" count="65528"/>
 </extraports>
 <port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 73:92:8e:04:de:40:fb:9c:90:f9:cf:42:70:c8:45:a7 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEQIafB/d+8xhCVa/WJUjV/xtzU7h9fmdPMEVWEobVN59eusBnBD19rp08xrjFOkvHdLSe3XCaDSSreOd4m9If73vzGT/dpXO4kj2Je+p2ALDLLr0vbA+/EVrFJjsbKJ6OLNWGw2nD6romEld++MLOI0SbY9zaM3ov4hwQZ2Fnp9QF5OAt3zqIyxk5Xr99gpm/i4mk3YtA+3I1WHpdLE5Uw41aOVYapowLh+sG1Uyi8dxnI7WJ04DywrUftJam/ajlY6QAiWDR96QRw7RuNJ+8dOLDj7JT+aNREvSTrSWahn+clpIwCgDuVUYy36BEfyTpC/JyTtuS077Bj8vv8NLl&#xa;  256 6d:63:d6:b8:0a:67:fd:86:f1:22:30:2b:2d:27:1e:ff (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIL2RAJwSBEjlVNFa6km4BnXrbfxBqanFGsc8V7KPraGwGaJkBCtaUpVRQmPXQHhNePswl4UI2rsxVLcw/DYQ4s=&#xa;  256 bd:08:97:79:63:0f:80:7c:7f:e8:50:dc:59:cf:39:5e (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINqYlGyJzySWsOMejWbc9mf3mFzerVbrty8i6PCOR7lv"><table>
 <elem key="bits">2048.0</elem>
+<elem key="fingerprint">73928e04de40fb9c90f9cf4270c845a7</elem>
 <elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDEQIafB/d+8xhCVa/WJUjV/xtzU7h9fmdPMEVWEobVN59eusBnBD19rp08xrjFOkvHdLSe3XCaDSSreOd4m9If73vzGT/dpXO4kj2Je+p2ALDLLr0vbA+/EVrFJjsbKJ6OLNWGw2nD6romEld++MLOI0SbY9zaM3ov4hwQZ2Fnp9QF5OAt3zqIyxk5Xr99gpm/i4mk3YtA+3I1WHpdLE5Uw41aOVYapowLh+sG1Uyi8dxnI7WJ04DywrUftJam/ajlY6QAiWDR96QRw7RuNJ+8dOLDj7JT+aNREvSTrSWahn+clpIwCgDuVUYy36BEfyTpC/JyTtuS077Bj8vv8NLl</elem>
 <elem key="type">ssh-rsa</elem>
-<elem key="fingerprint">73928e04de40fb9c90f9cf4270c845a7</elem>
 </table>
 <table>
 <elem key="bits">256</elem>
+<elem key="fingerprint">6d63d6b80a67fd86f122302b2d271eff</elem>
 <elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIL2RAJwSBEjlVNFa6km4BnXrbfxBqanFGsc8V7KPraGwGaJkBCtaUpVRQmPXQHhNePswl4UI2rsxVLcw/DYQ4s=</elem>
 <elem key="type">ecdsa-sha2-nistp256</elem>
-<elem key="fingerprint">6d63d6b80a67fd86f122302b2d271eff</elem>
 </table>
 <table>
 <elem key="bits">256</elem>
+<elem key="fingerprint">bd089779630f807c7fe850dc59cf395e</elem>
 <elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAINqYlGyJzySWsOMejWbc9mf3mFzerVbrty8i6PCOR7lv</elem>
 <elem key="type">ssh-ed25519</elem>
-<elem key="fingerprint">bd089779630f807c7fe850dc59cf395e</elem>
 </table>
 </script></port>
-<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;  100003  3           2049/udp  nfs&#xa;  100003  3,4         2049/tcp  nfs&#xa;  100005  1,2,3      45528/udp  mountd&#xa;  100005  1,2,3      50053/tcp  mountd&#xa;  100021  1,3,4      43187/tcp  nlockmgr&#xa;  100021  1,3,4      51019/udp  nlockmgr&#xa;  100227  3           2049/tcp  nfs_acl&#xa;  100227  3           2049/udp  nfs_acl&#xa;"><table key="100021">
-<table key="tcp">
-<elem key="port">43187</elem>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;  100003  3           2049/udp  nfs&#xa;  100003  3,4         2049/tcp  nfs&#xa;  100005  1,2,3      33183/tcp  mountd&#xa;  100005  1,2,3      36044/udp  mountd&#xa;  100021  1,3,4      33113/udp  nlockmgr&#xa;  100021  1,3,4      38799/tcp  nlockmgr&#xa;  100227  3           2049/tcp  nfs_acl&#xa;  100227  3           2049/udp  nfs_acl&#xa;"><table key="100003">
+<table key="udp">
+<elem key="port">2049</elem>
 <table key="version">
-<elem>1</elem>
+<elem>3</elem>
+</table>
+</table>
+<table key="tcp">
+<elem key="port">2049</elem>
+<table key="version">
 <elem>3</elem>
 <elem>4</elem>
+</table>
+</table>
+</table>
+<table key="100005">
+<table key="tcp">
+<elem key="port">33183</elem>
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
 </table>
 </table>
 <table key="udp">
-<elem key="port">51019</elem>
+<elem key="port">36044</elem>
 <table key="version">
 <elem>1</elem>
+<elem>2</elem>
 <elem>3</elem>
-<elem>4</elem>
 </table>
 </table>
 </table>
@@ -91,21 +108,6 @@
 <elem key="port">2049</elem>
 <table key="version">
 <elem>3</elem>
-</table>
-</table>
-</table>
-<table key="100003">
-<table key="udp">
-<elem key="port">2049</elem>
-<table key="version">
-<elem>3</elem>
-</table>
-</table>
-<table key="tcp">
-<elem key="port">2049</elem>
-<table key="version">
-<elem>3</elem>
-<elem>4</elem>
 </table>
 </table>
 </table>
@@ -127,37 +129,84 @@
 </table>
 </table>
 </table>
-<table key="100005">
+<table key="100021">
 <table key="tcp">
-<elem key="port">50053</elem>
+<elem key="port">38799</elem>
 <table key="version">
 <elem>1</elem>
-<elem>2</elem>
 <elem>3</elem>
+<elem>4</elem>
 </table>
 </table>
 <table key="udp">
-<elem key="port">45528</elem>
+<elem key="port">33113</elem>
 <table key="version">
 <elem>1</elem>
-<elem>2</elem>
 <elem>3</elem>
+<elem>4</elem>
 </table>
 </table>
 </table>
 </script></port>
 <port protocol="tcp" portid="2049"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="nfs_acl" version="3" extrainfo="RPC #100227" method="probed" conf="10"/></port>
-<port protocol="tcp" portid="43187"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="nlockmgr" version="1-4" extrainfo="RPC #100021" method="probed" conf="10"/></port>
-<port protocol="tcp" portid="47433"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
-<port protocol="tcp" portid="50053"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
-<port protocol="tcp" portid="50657"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="33183"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="38799"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="nlockmgr" version="1-4" extrainfo="RPC #100021" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="41177"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="42783"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
 </ports>
-<times srtt="505" rttvar="149" to="100000"/>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="36537"/>
+<osmatch name="Linux 3.1" accuracy="95" line="60007">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="61524">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="58944">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="94" line="63105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="7916">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="61176">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="52612">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="55438">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1 - 3.2" accuracy="92" line="60027">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.8" accuracy="92" line="62168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=10/30%OT=22%CT=1%CU=36537%PV=Y%DS=1%DC=D%G=Y%M=025467%&#xa;OS:TM=617D0C8F%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=107%TI=Z%CI=Z%TS=&#xa;OS:A)SEQ(SP=107%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M2301ST11NW7%O2=M2&#xa;OS:301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11&#xa;OS:)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W&#xa;OS:=F507%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=&#xa;OS:N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=&#xa;OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T&#xa;OS:7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN&#xa;OS:=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="3686336" lastboot="Fri Sep 17 18:13:51 2021"/>
+<distance value="1"/>
+<tcpsequence index="263" difficulty="Good luck!" values="3D1A7FC2,AFB4DE6B,AD6F9942,5E6FA370,7D390234,6A5DD944"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="DBB8FFBE,DBB90022,DBB90086,DBB900EA,DBB9014E,DBB901B3"/>
+<trace>
+<hop ttl="1" ipaddr="10.10.245.123" rtt="0.44" host="ip-10-10-245-123.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="436" rttvar="30" to="100000"/>
 </host>
-<taskbegin task="NSE" time="1635503057"/>
-<taskend task="NSE" time="1635503057"/>
-<taskbegin task="NSE" time="1635503057"/>
-<taskend task="NSE" time="1635503057"/>
-<runstats><finished time="1635503057" timestr="Fri Oct 29 11:24:17 2021" elapsed="1296.34" summary="Nmap done at Fri Oct 29 11:24:17 2021; 1 IP address (1 host up) scanned in 1296.34 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+<taskbegin task="NSE" time="1635585167"/>
+<taskend task="NSE" time="1635585167"/>
+<taskbegin task="NSE" time="1635585167"/>
+<taskend task="NSE" time="1635585167"/>
+<runstats><finished time="1635585167" timestr="Sat Oct 30 10:12:47 2021" elapsed="1262.10" summary="Nmap done at Sat Oct 30 10:12:47 2021; 1 IP address (1 host up) scanned in 1262.10 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
 </runstats>
 </nmaprun>

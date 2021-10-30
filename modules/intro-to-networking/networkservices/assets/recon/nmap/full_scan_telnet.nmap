@@ -1,0 +1,73 @@
+# Nmap 7.60 scan initiated Sat Oct 30 09:48:40 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_telnet 10.10.98.246
+Increasing send delay for 10.10.98.246 from 0 to 5 due to 4641 out of 11602 dropped probes since last increase.
+Increasing send delay for 10.10.98.246 from 5 to 10 due to 15 out of 37 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -175610 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175610 microseconds.  Ignoring time.
+Nmap scan report for ip-10-10-98-246.eu-west-1.compute.internal (10.10.98.246)
+Host is up, received arp-response (0.00044s latency).
+Scanned at 2021-10-30 09:48:41 BST for 1553s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT     STATE SERVICE REASON         VERSION
+8012/tcp open  unknown syn-ack ttl 64
+| fingerprint-strings: 
+|   DNSStatusRequest, DNSVersionBindReq, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NULL, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, X11Probe: 
+|_    SKIDY'S BACKDOOR. Type .HELP to view commands
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8012-TCP:V=7.60%I=7%D=10/30%Time=617D0C5F%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20comman
+SF:ds\n")%r(GenericLines,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to
+SF:\x20view\x20commands\n")%r(GetRequest,2E,"SKIDY'S\x20BACKDOOR\.\x20Type
+SF:\x20\.HELP\x20to\x20view\x20commands\n")%r(HTTPOptions,2E,"SKIDY'S\x20B
+SF:ACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(RTSPRequest
+SF:,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\
+SF:n")%r(RPCCheck,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20vie
+SF:w\x20commands\n")%r(DNSVersionBindReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type
+SF:\x20\.HELP\x20to\x20view\x20commands\n")%r(DNSStatusRequest,2E,"SKIDY'S
+SF:\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(Help,2
+SF:E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n"
+SF:)%r(SSLSessionReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20
+SF:view\x20commands\n")%r(TLSSessionReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\
+SF:x20\.HELP\x20to\x20view\x20commands\n")%r(Kerberos,2E,"SKIDY'S\x20BACKD
+SF:OOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(SMBProgNeg,2E,"
+SF:SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r
+SF:(X11Probe,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20
+SF:commands\n")%r(FourOhFourRequest,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\
+SF:.HELP\x20to\x20view\x20commands\n")%r(LPDString,2E,"SKIDY'S\x20BACKDOOR
+SF:\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(LDAPSearchReq,2E,"
+SF:SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r
+SF:(LDAPBindReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\
+SF:x20commands\n")%r(SIPOptions,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HEL
+SF:P\x20to\x20view\x20commands\n")%r(LANDesk-RC,2E,"SKIDY'S\x20BACKDOOR\.\
+SF:x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(TerminalServer,2E,"SK
+SF:IDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(N
+SF:CP,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20command
+SF:s\n")%r(NotesRPC,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20v
+SF:iew\x20commands\n")%r(JavaRMI,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HE
+SF:LP\x20to\x20view\x20commands\n");
+MAC Address: 02:4B:80:B2:93:D9 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=10/30%OT=8012%CT=1%CU=31786%PV=Y%DS=1%DC=D%G=Y%M=024B8
+OS:0%TM=617D0CFA%P=x86_64-pc-linux-gnu)SEQ(SP=F9%GCD=1%ISR=105%TI=Z%CI=Z%TS
+OS:=A)SEQ(SP=F9%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M2301ST11NW7%O2=M2
+OS:301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11
+OS:)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W
+OS:=F507%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=
+OS:N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN
+OS:=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 10.528 days (since Tue Oct 19 21:34:38 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=249 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.44 ms ip-10-10-98-246.eu-west-1.compute.internal (10.10.98.246)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 30 10:14:34 2021 -- 1 IP address (1 host up) scanned in 1553.56 seconds

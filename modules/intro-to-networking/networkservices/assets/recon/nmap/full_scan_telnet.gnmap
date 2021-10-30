@@ -1,0 +1,5 @@
+# Nmap 7.60 scan initiated Sat Oct 30 09:48:40 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_telnet 10.10.98.246
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.98.246 (ip-10-10-98-246.eu-west-1.compute.internal)	Status: Up
+Host: 10.10.98.246 (ip-10-10-98-246.eu-west-1.compute.internal)	Ports: 8012/open/tcp//unknown///	Ignored State: closed (65534)	Seq Index: 249	IP ID Seq: All zeros
+# Nmap done at Sat Oct 30 10:14:34 2021 -- 1 IP address (1 host up) scanned in 1553.56 seconds
