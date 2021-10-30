@@ -30,3 +30,37 @@
 <taskprogress task="SYN Stealth Scan" time="1635596100" percent="79.88" remaining="248" etc="1635596347"/>
 <taskprogress task="SYN Stealth Scan" time="1635596178" percent="85.25" remaining="184" etc="1635596361"/>
 <taskprogress task="SYN Stealth Scan" time="1635596253" percent="90.42" remaining="121" etc="1635596373"/>
+<taskprogress task="SYN Stealth Scan" time="1635596328" percent="95.58" remaining="56" etc="1635596384"/>
+<taskend task="SYN Stealth Scan" time="1635596591" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635596591"/>
+<taskbegin task="NSE" time="1635596593"/>
+<taskend task="NSE" time="1635596593"/>
+<taskbegin task="NSE" time="1635596593"/>
+<taskend task="NSE" time="1635596593"/>
+<host starttime="1635595118" endtime="1635596593"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.118.210" addrtype="ipv4"/>
+<address addr="02:0B:1C:A8:FD:FB" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-118-210.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65535">
+<extrareasons reason="resets" count="65535"/>
+</extraports>
+</ports>
+<os><portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="41283"/>
+<osfingerprint fingerprint="SCAN(V=7.60%E=4%D=10/30%OT=%CT=1%CU=41283%PV=Y%DS=1%DC=D%G=N%M=020B1C%TM=617D3931%P=x86_64-pc-linux-gnu)&#xa;SEQ(CI=Z)&#xa;SEQ(CI=Z%II=I)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<distance value="1"/>
+<trace>
+<hop ttl="1" ipaddr="10.10.118.210" rtt="0.48" host="ip-10-10-118-210.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="476" rttvar="128" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1635596593"/>
+<taskend task="NSE" time="1635596593"/>
+<taskbegin task="NSE" time="1635596593"/>
+<taskend task="NSE" time="1635596593"/>
+<runstats><finished time="1635596593" timestr="Sat Oct 30 13:23:13 2021" elapsed="1475.72" summary="Nmap done at Sat Oct 30 13:23:13 2021; 1 IP address (1 host up) scanned in 1475.72 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
