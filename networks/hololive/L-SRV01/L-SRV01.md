@@ -44,3 +44,6 @@ Now we can use linpeas.sh to enumerate.
 
 We can see that `/usr/bin/docker` has `suid` bit set. According to [GTFOBins](https://gtfobins.github.io/) we can abuse this to get a root shell with `docker run -v /:/mnt --rm -it alpine chroot /mnt sh`. But this machine doesn't have `alpine` docker image and doesn't have internet connectivity so, we have to modify this command as follows. `docker run -v /:/mnt --rm -it ubuntu:18.04 chroot /mnt sh`.
 
+Looking at `/etc/shadow` we find a non-standard account named `linux-admin`.
+
+Using colabcat to crack the hash of `linux-admin`, we find that it is `linuxrulez`.

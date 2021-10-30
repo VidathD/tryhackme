@@ -53,7 +53,9 @@
     "RCE",
     "linpeas",
     "GTFOBins",
-    "GTFOBins"
+    "GTFOBins",
+    "colabcat",
+    "colabcat"
   ],
   "useTab": false,
   "newFileLocation": "current",
