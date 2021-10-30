@@ -51,7 +51,9 @@
     "RCE",
     "creds",
     "RCE",
-    "linpeas"
+    "linpeas",
+    "GTFOBins",
+    "GTFOBins"
   ],
   "useTab": false,
   "newFileLocation": "current",
