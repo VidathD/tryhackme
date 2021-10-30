@@ -3,3 +3,54 @@ Increasing send delay for 10.10.118.210 from 0 to 5 due to 11596 out of 28989 dr
 Increasing send delay for 10.10.118.210 from 5 to 10 due to 43 out of 106 dropped probes since last increase.
 adjust_timeouts2: packet supposedly had rtt of -175620 microseconds.  Ignoring time.
 adjust_timeouts2: packet supposedly had rtt of -175620 microseconds.  Ignoring time.
+Nmap scan report for ip-10-10-118-210.eu-west-1.compute.internal (10.10.118.210)
+Host is up, received arp-response (0.00044s latency).
+Scanned at 2021-10-30 13:45:51 BST for 1310s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 64 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 06:36:56:2f:f0:d4:a4:d2:ab:6a:43:3e:c0:f9:9b:2d (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDARp2fsEfGdkpZ2uvqlphanguxnImgdsVWYrdVW5RbwGsYtaaUtG317kP0AL+p2C5yOIoSZ7Gu9ZXmkDp7NsoNORakEA2liQx28cW9aac2UyvFwj91skg2UklKyPIQDVmxy8/n90MrsS6njShjgQV9fpW5AKYToQLbQRFkA4WycCOJgTsHqIOk0nshwTAcjkB6+BkCq4z12em6AuBDLAVN3CflrryG8+7WK6jCrgy1/uxitavbgjisLxzQK73pcRRbfZysiKhFi+ILA993pZiRMufaKEbIiLiqhKoO8L2azYubLLFzLdoDSVuItUE5S6pCUd3MZnPcGjS3jvG3l0sB
+|   256 30:bd:be:28:bd:32:dc:f6:ff:28:b2:57:57:31:d9:cf (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGL5ew9bb0sGn6weQ2A2iQHt5Cp5oH5UA+LKbHSmmvJxew3luqjVo7PbvyTqNIW9MLWw1enq8+180yR4sZ4hZBg=
+|   256 f2:3b:82:4a:5c:d2:18:19:89:1f:cd:92:0a:c7:cf:65 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOSrsLKHkaEMJg3PX0y9pMtpfAYlRXTf0z2qSORHoemr
+3306/tcp open  mysql   syn-ack ttl 64 MySQL 5.7.29-0ubuntu0.18.04.1
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.29-0ubuntu0.18.04.1
+|   Thread ID: 8
+|   Capabilities flags: 65535
+|   Some Capabilities: Support41Auth, SupportsTransactions, LongColumnFlag, SwitchToSSLAfterHandshake, IgnoreSpaceBeforeParenthesis, LongPassword, Speaks41ProtocolOld, Speaks41ProtocolNew, ODBCClient, SupportsCompression, DontAllowDatabaseTableColumn, FoundRows, InteractiveClient, IgnoreSigpipes, SupportsLoadDataLocal, ConnectWithDatabase, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: =K{\x06fTz%Xj\x13#~pb\x1F\x11\x01k=
+|_  Auth Plugin Name: 96
+MAC Address: 02:0B:1C:A8:FD:FB (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=10/30%OT=22%CT=1%CU=35063%PV=Y%DS=1%DC=D%G=Y%M=020B1C%
+OS:TM=617D439D%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=104%TI=Z%CI=Z%TS=
+OS:A)SEQ(SP=104%GCD=1%ISR=104%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M2301ST11NW7%O2=M2
+OS:301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11
+OS:)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W
+OS:=F507%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=
+OS:N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN
+OS:=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 13.940 days (since Sat Oct 16 15:34:41 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.44 ms ip-10-10-118-210.eu-west-1.compute.internal (10.10.118.210)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 30 14:07:41 2021 -- 1 IP address (1 host up) scanned in 1310.04 seconds

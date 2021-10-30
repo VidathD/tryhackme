@@ -32,3 +32,121 @@
 <taskend task="SYN Stealth Scan" time="1635599248" extrainfo="65535 total ports"/>
 <taskbegin task="Service scan" time="1635599248"/>
 <taskend task="Service scan" time="1635599248" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1635599261"/>
+<taskend task="NSE" time="1635599261"/>
+<taskbegin task="NSE" time="1635599261"/>
+<taskend task="NSE" time="1635599261"/>
+<host starttime="1635597951" endtime="1635599261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.118.210" addrtype="ipv4"/>
+<address addr="02:0B:1C:A8:FD:FB" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-118-210.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 06:36:56:2f:f0:d4:a4:d2:ab:6a:43:3e:c0:f9:9b:2d (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDARp2fsEfGdkpZ2uvqlphanguxnImgdsVWYrdVW5RbwGsYtaaUtG317kP0AL+p2C5yOIoSZ7Gu9ZXmkDp7NsoNORakEA2liQx28cW9aac2UyvFwj91skg2UklKyPIQDVmxy8/n90MrsS6njShjgQV9fpW5AKYToQLbQRFkA4WycCOJgTsHqIOk0nshwTAcjkB6+BkCq4z12em6AuBDLAVN3CflrryG8+7WK6jCrgy1/uxitavbgjisLxzQK73pcRRbfZysiKhFi+ILA993pZiRMufaKEbIiLiqhKoO8L2azYubLLFzLdoDSVuItUE5S6pCUd3MZnPcGjS3jvG3l0sB&#xa;  256 30:bd:be:28:bd:32:dc:f6:ff:28:b2:57:57:31:d9:cf (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGL5ew9bb0sGn6weQ2A2iQHt5Cp5oH5UA+LKbHSmmvJxew3luqjVo7PbvyTqNIW9MLWw1enq8+180yR4sZ4hZBg=&#xa;  256 f2:3b:82:4a:5c:d2:18:19:89:1f:cd:92:0a:c7:cf:65 (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOSrsLKHkaEMJg3PX0y9pMtpfAYlRXTf0z2qSORHoemr"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDARp2fsEfGdkpZ2uvqlphanguxnImgdsVWYrdVW5RbwGsYtaaUtG317kP0AL+p2C5yOIoSZ7Gu9ZXmkDp7NsoNORakEA2liQx28cW9aac2UyvFwj91skg2UklKyPIQDVmxy8/n90MrsS6njShjgQV9fpW5AKYToQLbQRFkA4WycCOJgTsHqIOk0nshwTAcjkB6+BkCq4z12em6AuBDLAVN3CflrryG8+7WK6jCrgy1/uxitavbgjisLxzQK73pcRRbfZysiKhFi+ILA993pZiRMufaKEbIiLiqhKoO8L2azYubLLFzLdoDSVuItUE5S6pCUd3MZnPcGjS3jvG3l0sB</elem>
+<elem key="fingerprint">0636562ff0d4a4d2ab6a433ec0f99b2d</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGL5ew9bb0sGn6weQ2A2iQHt5Cp5oH5UA+LKbHSmmvJxew3luqjVo7PbvyTqNIW9MLWw1enq8+180yR4sZ4hZBg=</elem>
+<elem key="fingerprint">30bdbe28bd32dcf6ff28b2575731d9cf</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOSrsLKHkaEMJg3PX0y9pMtpfAYlRXTf0z2qSORHoemr</elem>
+<elem key="fingerprint">f23b824a5cd21819891fcd920ac7cf65</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mysql" product="MySQL" version="5.7.29-0ubuntu0.18.04.1" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.7.29-0ubuntu0.18.04.1</cpe></service><script id="mysql-info" output="&#xa;  Protocol: 10&#xa;  Version: 5.7.29-0ubuntu0.18.04.1&#xa;  Thread ID: 8&#xa;  Capabilities flags: 65535&#xa;  Some Capabilities: Support41Auth, SupportsTransactions, LongColumnFlag, SwitchToSSLAfterHandshake, IgnoreSpaceBeforeParenthesis, LongPassword, Speaks41ProtocolOld, Speaks41ProtocolNew, ODBCClient, SupportsCompression, DontAllowDatabaseTableColumn, FoundRows, InteractiveClient, IgnoreSigpipes, SupportsLoadDataLocal, ConnectWithDatabase, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments&#xa;  Status: Autocommit&#xa;  Salt: =K{\x06fTz%Xj\x13#~pb\x1F\x11\x01k=&#xa;  Auth Plugin Name: 96"><elem key="Protocol">10</elem>
+<elem key="Version">5.7.29-0ubuntu0.18.04.1</elem>
+<elem key="Thread ID">8</elem>
+<elem key="Capabilities flags">65535</elem>
+<table key="Some Capabilities">
+<elem>Support41Auth</elem>
+<elem>SupportsTransactions</elem>
+<elem>LongColumnFlag</elem>
+<elem>SwitchToSSLAfterHandshake</elem>
+<elem>IgnoreSpaceBeforeParenthesis</elem>
+<elem>LongPassword</elem>
+<elem>Speaks41ProtocolOld</elem>
+<elem>Speaks41ProtocolNew</elem>
+<elem>ODBCClient</elem>
+<elem>SupportsCompression</elem>
+<elem>DontAllowDatabaseTableColumn</elem>
+<elem>FoundRows</elem>
+<elem>InteractiveClient</elem>
+<elem>IgnoreSigpipes</elem>
+<elem>SupportsLoadDataLocal</elem>
+<elem>ConnectWithDatabase</elem>
+<elem>SupportsMultipleResults</elem>
+<elem>SupportsAuthPlugins</elem>
+<elem>SupportsMultipleStatments</elem>
+</table>
+<elem key="Status">Autocommit</elem>
+<elem key="Salt">=K{\x06fTz%Xj\x13#~pb\x1F\x11\x01k=</elem>
+<elem key="Auth Plugin Name">96</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="35063"/>
+<osmatch name="Linux 3.1" accuracy="94" line="60007">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="94" line="61524">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="58944">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="94" line="63105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="7916">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="61176">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="52612">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="55438">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11" accuracy="92" line="60556">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.11</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.8" accuracy="92" line="62168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=10/30%OT=22%CT=1%CU=35063%PV=Y%DS=1%DC=D%G=Y%M=020B1C%&#xa;OS:TM=617D439D%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=104%TI=Z%CI=Z%TS=&#xa;OS:A)SEQ(SP=104%GCD=1%ISR=104%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M2301ST11NW7%O2=M2&#xa;OS:301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11&#xa;OS:)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W&#xa;OS:=F507%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=&#xa;OS:N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=&#xa;OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T&#xa;OS:7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN&#xa;OS:=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="1204380" lastboot="Sat Oct 16 15:34:41 2021"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="7CCA09BB,B2868E05,B60CD0EE,C21D2C64,1D4B218D,37BEBBCD"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="47C95C4A,47C95CAF,47C95D13,47C95D77,47C95DDB,47C95E3F"/>
+<trace>
+<hop ttl="1" ipaddr="10.10.118.210" rtt="0.44" host="ip-10-10-118-210.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="440" rttvar="15" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1635599261"/>
+<taskend task="NSE" time="1635599261"/>
+<taskbegin task="NSE" time="1635599261"/>
+<taskend task="NSE" time="1635599261"/>
+<runstats><finished time="1635599261" timestr="Sat Oct 30 14:07:41 2021" elapsed="1310.04" summary="Nmap done at Sat Oct 30 14:07:41 2021; 1 IP address (1 host up) scanned in 1310.04 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
