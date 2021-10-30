@@ -1,1 +1,5 @@
 # Nmap 7.60 scan initiated Sat Oct 30 13:45:51 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210
+Increasing send delay for 10.10.118.210 from 0 to 5 due to 11596 out of 28989 dropped probes since last increase.
+Increasing send delay for 10.10.118.210 from 5 to 10 due to 43 out of 106 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -175620 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175620 microseconds.  Ignoring time.
