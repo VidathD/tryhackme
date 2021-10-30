@@ -37,3 +37,6 @@ Password: DBManagerLogin!
 Then we can execute system commands using `admin.holo.live/dashboard.php?cmd=COMMAND`.
 
 We can get a reverse shell and from it. Looking around, we find that we are in the [L-SRV02](../L-SRV02/L-SRV02.md) docker container.
+
+We got RCE via [L-SRV02](../L-SRV02/L-SRV02.md).
+
