@@ -58,5 +58,5 @@
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets/images"
 }

@@ -129,7 +129,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     No answer needed
     ```
 
-![Screenshot of option to turn on dark mode](assets/t7q1.png)
+![Screenshot of option to turn on dark mode](assets/images/t7q1.png)
 
 2. In which *Project Options* sub-tab can you find reference to a "Cookie jar"?
 
@@ -139,7 +139,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Sessions
     ```
 
-![Screenshot of Cookie jar in Sessions sub-tab](assets/t7q2.png)
+![Screenshot of Cookie jar in Sessions sub-tab](assets/images/t7q2.png)
 
 3. In which *User options* sub-tab can you change the Burp Suite update behaviour?
 
@@ -149,7 +149,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Misc
     ```
 
-![Screenshot of Misc sub-tab](assets/t7q3.png)
+![Screenshot of Misc sub-tab](assets/images/t7q3.png)
 
 4. What is the name of the section within the *User options* "Misc" sub-tab which allows you to change the Burp Suite key bindings?
 
@@ -159,7 +159,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Hotkeys
     ```
 
-![Screenshot of Hotkeys](assets/t7q4.png)
+![Screenshot of Hotkeys](assets/images/t7q4.png)
 
 5. If we have uploaded Client-Side TLS certificates in the *User options* tab, can we override these on a per-project basis (Aye/Nay)?
 
@@ -169,7 +169,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Aye
     ```
 
-![Screenshot of overriding uploaded Client-Side TLS certificates in User options via Project options](assets/t7q5.png)
+![Screenshot of overriding uploaded Client-Side TLS certificates in User options via Project options](assets/images/t7q5.png)
 
 6. There are many more configuration options available. Take the time to read through them.
 
@@ -193,7 +193,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Forward
     ```
 
-![Screenshot of forward button for captured request](assets/t8q1.png)
+![Screenshot of forward button for captured request](assets/images/t8q1.png)
 
 2. **[Research]** What is the default keybind for this?
 
@@ -205,7 +205,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Ctrl+F
     ```
 
-![Screenshot of the keybinding in Hotkeys](assets/t8q2.png)
+![Screenshot of the keybinding in Hotkeys](assets/images/t8q2.png)
 
 ---
 
@@ -227,7 +227,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Response to this request
     ```
 
-![Screenshot showing position of answer in right click menu](assets/t9q1.png)
+![Screenshot showing position of answer in right click menu](assets/images/t9q1.png)
 
 2. **[Bonus Question -- Optional]** Try installing FoxyProxy standard and have a look at the pattern matching features.
 
@@ -265,7 +265,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     No answer needed
     ```
 
-![Screenshot of captured request from inbuilt browser](assets/t11q1.png)
+![Screenshot of captured request from inbuilt browser](assets/images/t11q1.png)
 
 ---
 
@@ -303,7 +303,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     
     [//]: # (THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk})
 
-    ![Screenshot with flag from interesting endpoint](assets/t13q1.png)
+    ![Screenshot with flag from interesting endpoint](assets/images/t13q1.png)
 
 2. Look through the Issue Definitions list.
 
@@ -315,7 +315,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
     Low
     ```
     
-    ![Screenshot showing Vulnerable Javascript Dependency](assets/t13q2.png)
+    ![Screenshot showing Vulnerable Javascript Dependency](assets/images/t13q2.png)
 
 ---
 
@@ -325,7 +325,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
 
 1. Try typing: `<script>alert("Succ3ssful XSS")</script>`, into the "Contact Email" field. You should find that there is a client-side filter in place which prevents you from adding any special characters that aren't allowed in email addresses:
 
-    ![GIF demonstrating the client side filter](assets/t14q1.gif)
+    ![GIF demonstrating the client side filter](assets/images/t14q1.gif)
     
     ```
     No answer needed
@@ -356,7 +356,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
 4. With the request captured in the proxy, we can now change the email field to be our very simple payload from above:  
     `<script>alert("Succ3ssful XSS")</script>`. After pasting in the payload, we need to select it, then URL encode it with the `Ctrl + U` shortcut to make it safe to send. This process is shown in the GIF below:
 
-    ![GIF demonstrating the explained process of intercepting and URL encoding the pasted payload](assets/t14q4.gif)
+    ![GIF demonstrating the explained process of intercepting and URL encoding the pasted payload](assets/images/t14q4.gif)
 
     > See the GIF. Replace the email with the payload and URL encode it by selecting it and pressing <kbd>Ctrl</kbd> + <kbd>U</kbd>
 
@@ -368,7 +368,7 @@ Here we get an introduction to [Burp Suite](../Burp%20Suite.md) as well as Proxy
 
     You should find that you get an alert box from the site indicating a successful XSS attack!
 
-    ![Screenshot showing the successful XSS attack](assets/t14q5.png)
+    ![Screenshot showing the successful XSS attack](assets/images/t14q5.png)
 
     > Press "Forward" button and check the browser. You should see a popup like shown above.
 

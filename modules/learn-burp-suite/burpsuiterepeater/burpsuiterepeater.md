@@ -129,7 +129,7 @@ Here we get an introduction to the Repeater module.
 
     Send the request. What is the flag you receive?
 
-    ![Modified request and response with flag](assets/t6q3.png)
+    ![Modified request and response with flag](assets/images/t6q3.png)
 
 ---
 
@@ -157,7 +157,7 @@ Here we get an introduction to the Repeater module.
     
     [//]: # (THM{N2MzMzFhMTA1MmZiYjA2YWQ4M2ZmMzhl})
 
-    ![Successful 500 status code](assets/t7q2.png)
+    ![Successful 500 status code](assets/images/t7q2.png)
 
 ---
 
