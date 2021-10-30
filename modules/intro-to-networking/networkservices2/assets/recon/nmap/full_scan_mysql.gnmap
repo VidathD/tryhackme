@@ -1,5 +1,2 @@
-# Nmap 7.60 scan initiated Sat Oct 30 12:58:38 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210
+# Nmap 7.60 scan initiated Sat Oct 30 13:45:51 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210
 # Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
-Host: 10.10.118.210 (ip-10-10-118-210.eu-west-1.compute.internal)	Status: Up
-Host: 10.10.118.210 (ip-10-10-118-210.eu-west-1.compute.internal)	Status: Up
-# Nmap done at Sat Oct 30 13:23:13 2021 -- 1 IP address (1 host up) scanned in 1475.72 seconds

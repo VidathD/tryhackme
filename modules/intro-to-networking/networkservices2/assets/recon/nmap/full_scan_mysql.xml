@@ -1,66 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
-<!-- Nmap 7.60 scan initiated Sat Oct 30 12:58:38 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210 -->
-<nmaprun scanner="nmap" args="nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210" start="1635595118" startstr="Sat Oct 30 12:58:38 2021" version="7.60" xmloutputversion="1.04">
+<!-- Nmap 7.60 scan initiated Sat Oct 30 13:45:51 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210 -->
+<nmaprun scanner="nmap" args="nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210" start="1635597951" startstr="Sat Oct 30 13:45:51 2021" version="7.60" xmloutputversion="1.04">
 <scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
 <verbose level="3"/>
 <debugging level="0"/>
-<taskbegin task="NSE" time="1635595118"/>
-<taskend task="NSE" time="1635595118"/>
-<taskbegin task="NSE" time="1635595118"/>
-<taskend task="NSE" time="1635595118"/>
-<taskbegin task="ARP Ping Scan" time="1635595118"/>
-<taskend task="ARP Ping Scan" time="1635595118" extrainfo="1 total hosts"/>
-<taskbegin task="Parallel DNS resolution of 1 host." time="1635595118"/>
-<taskend task="Parallel DNS resolution of 1 host." time="1635595118"/>
-<taskbegin task="SYN Stealth Scan" time="1635595118"/>
-<taskprogress task="SYN Stealth Scan" time="1635595149" percent="14.50" remaining="183" etc="1635595332"/>
-<taskprogress task="SYN Stealth Scan" time="1635595179" percent="16.50" remaining="309" etc="1635595488"/>
-<taskprogress task="SYN Stealth Scan" time="1635595209" percent="18.56" remaining="400" etc="1635595608"/>
-<taskprogress task="SYN Stealth Scan" time="1635595239" percent="20.62" remaining="466" etc="1635595705"/>
-<taskprogress task="SYN Stealth Scan" time="1635595269" percent="22.69" remaining="515" etc="1635595784"/>
-<taskprogress task="SYN Stealth Scan" time="1635595299" percent="24.76" remaining="551" etc="1635595849"/>
-<taskprogress task="SYN Stealth Scan" time="1635595347" percent="28.06" remaining="588" etc="1635595934"/>
-<taskprogress task="SYN Stealth Scan" time="1635595671" percent="50.35" remaining="546" etc="1635596216"/>
-<taskprogress task="SYN Stealth Scan" time="1635595770" percent="57.16" remaining="489" etc="1635596259"/>
-<taskprogress task="SYN Stealth Scan" time="1635595857" percent="63.14" remaining="432" etc="1635596288"/>
-<taskprogress task="SYN Stealth Scan" time="1635595941" percent="68.93" remaining="371" etc="1635596312"/>
-<taskprogress task="SYN Stealth Scan" time="1635596022" percent="74.51" remaining="310" etc="1635596331"/>
-<taskprogress task="SYN Stealth Scan" time="1635596100" percent="79.88" remaining="248" etc="1635596347"/>
-<taskprogress task="SYN Stealth Scan" time="1635596178" percent="85.25" remaining="184" etc="1635596361"/>
-<taskprogress task="SYN Stealth Scan" time="1635596253" percent="90.42" remaining="121" etc="1635596373"/>
-<taskprogress task="SYN Stealth Scan" time="1635596328" percent="95.58" remaining="56" etc="1635596384"/>
-<taskend task="SYN Stealth Scan" time="1635596591" extrainfo="65535 total ports"/>
-<taskbegin task="Service scan" time="1635596591"/>
-<taskbegin task="NSE" time="1635596593"/>
-<taskend task="NSE" time="1635596593"/>
-<taskbegin task="NSE" time="1635596593"/>
-<taskend task="NSE" time="1635596593"/>
-<host starttime="1635595118" endtime="1635596593"><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="10.10.118.210" addrtype="ipv4"/>
-<address addr="02:0B:1C:A8:FD:FB" addrtype="mac"/>
-<hostnames>
-<hostname name="ip-10-10-118-210.eu-west-1.compute.internal" type="PTR"/>
-</hostnames>
-<ports><extraports state="closed" count="65535">
-<extrareasons reason="resets" count="65535"/>
-</extraports>
-</ports>
-<os><portused state="closed" proto="tcp" portid="1"/>
-<portused state="closed" proto="udp" portid="41283"/>
-<osfingerprint fingerprint="SCAN(V=7.60%E=4%D=10/30%OT=%CT=1%CU=41283%PV=Y%DS=1%DC=D%G=N%M=020B1C%TM=617D3931%P=x86_64-pc-linux-gnu)&#xa;SEQ(CI=Z)&#xa;SEQ(CI=Z%II=I)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
-</os>
-<distance value="1"/>
-<trace>
-<hop ttl="1" ipaddr="10.10.118.210" rtt="0.48" host="ip-10-10-118-210.eu-west-1.compute.internal"/>
-</trace>
-<times srtt="476" rttvar="128" to="100000"/>
-</host>
-<taskbegin task="NSE" time="1635596593"/>
-<taskend task="NSE" time="1635596593"/>
-<taskbegin task="NSE" time="1635596593"/>
-<taskend task="NSE" time="1635596593"/>
-<runstats><finished time="1635596593" timestr="Sat Oct 30 13:23:13 2021" elapsed="1475.72" summary="Nmap done at Sat Oct 30 13:23:13 2021; 1 IP address (1 host up) scanned in 1475.72 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
-</runstats>
-</nmaprun>
+<taskbegin task="NSE" time="1635597951"/>
+<taskend task="NSE" time="1635597951"/>
+<taskbegin task="NSE" time="1635597951"/>
+<taskend task="NSE" time="1635597951"/>
+<taskbegin task="ARP Ping Scan" time="1635597951"/>
+<taskend task="ARP Ping Scan" time="1635597952" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1635597952"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1635597952"/>
+<taskbegin task="SYN Stealth Scan" time="1635597952"/>
+<taskprogress task="SYN Stealth Scan" time="1635597983" percent="23.26" remaining="103" etc="1635598085"/>
+<taskprogress task="SYN Stealth Scan" time="1635598013" percent="28.33" remaining="155" etc="1635598167"/>
+<taskprogress task="SYN Stealth Scan" time="1635598043" percent="31.15" remaining="202" etc="1635598244"/>
