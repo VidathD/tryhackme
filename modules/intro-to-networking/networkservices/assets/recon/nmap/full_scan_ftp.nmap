@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Sat Oct 30 12:50:48 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_ftp 10.10.97.0
