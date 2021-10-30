@@ -46,7 +46,11 @@
     "Comparer",
     "SQLi",
     "Webserver",
-    "vhosts"
+    "vhosts",
+    "creds",
+    "RCE",
+    "creds",
+    "RCE"
   ],
   "useTab": false,
   "newFileLocation": "current",
