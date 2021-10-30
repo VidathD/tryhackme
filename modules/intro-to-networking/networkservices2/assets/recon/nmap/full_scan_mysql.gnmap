@@ -1,0 +1,2 @@
+# Nmap 7.60 scan initiated Sat Oct 30 12:58:38 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_mysql 10.10.118.210
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
