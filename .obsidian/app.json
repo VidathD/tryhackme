@@ -55,7 +55,8 @@
     "GTFOBins",
     "GTFOBins",
     "colabcat",
-    "colabcat"
+    "colabcat",
+    "use sshuttle"
   ],
   "useTab": false,
   "newFileLocation": "current",

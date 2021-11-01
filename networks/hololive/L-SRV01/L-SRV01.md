@@ -47,3 +47,9 @@ We can see that `/usr/bin/docker` has `suid` bit set. According to [GTFOBins](ht
 Looking at `/etc/shadow` we find a non-standard account named `linux-admin`.
 
 Using colabcat to crack the hash of `linux-admin`, we find that it is `linuxrulez`.
+
+
+## Pivoting
+
+Now  we can use sshuttle to pivot with `sshuttle -r linux-admin@10.200.108.33 10.200.108.0/24 -x 10.200.108.33`
+
