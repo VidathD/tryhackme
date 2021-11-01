@@ -51,5 +51,5 @@ Using colabcat to crack the hash of `linux-admin`, we find that it is `linuxrule
 
 ## Pivoting
 
-Now  we can use sshuttle to pivot with `sshuttle -r linux-admin@10.200.108.33 10.200.108.0/24 -x 10.200.108.33`
+Now we can use sshuttle to pivot with `sshuttle -r linux-admin@10.200.108.33 10.200.108.0/24 -x 10.200.108.33`
 
