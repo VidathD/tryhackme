@@ -1,0 +1,14 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: ip-10-10-40-216.eu-west-1.compute.internal
++ Target Port: 1234
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ GET /favicon.ico: Server leaks inodes via ETags, header found with file /favicon.ico, fields: 0xW/21630 0x1525702562000 
++ -39272: GET /favicon.ico: favicon.ico file identifies this server as: Apache Tomcat
++ OPTIONS /: Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS 
++ -397: GET /: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ -5646: GET /: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
++ DEBUG HASH(0x5574bdd93f00): DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ GET /examples/servlets/index.html: /examples/servlets/index.html: Apache Tomcat default JSP pages present.
++ GET /examples/jsp/source.jsp??: Cookie JSESSIONID created without the httponly flag
++ -3720: GET /examples/jsp/snp/snoop.jsp: /examples/jsp/snp/snoop.jsp: Displays information about page retrievals, including other users.
++ GET /manager/html: /manager/html: Default Tomcat Manager interface found
