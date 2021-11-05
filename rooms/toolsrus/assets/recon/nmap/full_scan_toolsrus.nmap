@@ -1,1 +1,59 @@
 # Nmap 7.60 scan initiated Fri Nov  5 11:43:41 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_toolsrus 10.10.40.216
+Increasing send delay for 10.10.40.216 from 0 to 5 due to 11737 out of 29341 dropped probes since last increase.
+Increasing send delay for 10.10.40.216 from 5 to 10 due to 14 out of 34 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -175554 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175554 microseconds.  Ignoring time.
+Nmap scan report for ip-10-10-40-216.eu-west-1.compute.internal (10.10.40.216)
+Host is up, received arp-response (0.00063s latency).
+Scanned at 2021-11-05 11:43:42 GMT for 1254s
+Not shown: 65531 closed ports
+Reason: 65531 resets
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 64 OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 ee:e5:95:9f:13:45:3a:68:f0:42:6f:07:d5:b6:32:d3 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5ixIXWDAKwhfIZF4nVwhDGgJOKSy4Ix4SlazdItOK9OK3vbOjrGAoN6TIdxURm8PDa8U+ckB7/CZyovpQvZKXK3t4Bm/fx0E8WIdq2rz1BUz+1oTWfJomgyomJukY+uQ85BM/FMJAhmst0a5jCjjo7/KGNjiRRw5cmt0tNWyVzvt1WKQSo1cTN0JQrbPI3HZldOl2efNkdBZQhAsqPab0qIAt7SX7Rs4VR3pTi5GxKS96dCMQVUENQjNkKRk2KkxeDyMkNtcAEeV+kU5nKhpoBBrgCkQwXpePzakoSiruQjMXUZKOTLtsJWqXQfkAOSZUcBROtIMuOb/jk8buSNUL
+|   256 a1:f4:4a:4d:c6:79:9a:4b:b1:95:3c:5a:29:9d:5b:f3 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOxLET75UAPvpVj01hzLg5mo+z1kY3Sn4rQgF2ubvMbcRtyx6FYpKQl4S55XXgIiNnVmMzCGEzOuhFw8KxrLJmY=
+|   256 11:5a:53:81:49:72:09:51:06:be:9f:0b:ec:7e:64:c5 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILiho4x6T5OH4j8PkW0xpRuaWG9JEFhcvGSLWno39dl8
+80/tcp   open  http    syn-ack ttl 64 Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+1234/tcp open  http    syn-ack ttl 64 Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/7.0.88
+8009/tcp open  ajp13   syn-ack ttl 64 Apache Jserv (Protocol v1.3)
+|_ajp-methods: Failed to get a valid response for the OPTION request
+MAC Address: 02:6B:B0:BA:10:85 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=22%CT=1%CU=43033%PV=Y%DS=1%DC=D%G=Y%M=026BB0%T
+OS:M=61851DD4%P=x86_64-pc-linux-gnu)SEQ(SP=109%GCD=1%ISR=10B%TI=Z%CI=I%TS=8
+OS:)SEQ(SP=109%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M2301ST11NW7%O2=M2
+OS:301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST11
+OS:)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN(R=Y%DF=Y%T=40%W
+OS:=6903%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=
+OS:N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN
+OS:=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.025 days (since Fri Nov  5 11:29:03 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.63 ms ip-10-10-40-216.eu-west-1.compute.internal (10.10.40.216)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  5 12:04:36 2021 -- 1 IP address (1 host up) scanned in 1255.43 seconds

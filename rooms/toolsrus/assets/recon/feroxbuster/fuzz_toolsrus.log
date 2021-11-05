@@ -1,5 +1,5 @@
-403       11l       32w      296c http://10.10.40.216/.htaccess
 403       11l       32w      296c http://10.10.40.216/.htpasswd
+403       11l       32w      296c http://10.10.40.216/.htaccess
 301        9l       28w      317c http://10.10.40.216/guidelines
 403       11l       32w      307c http://10.10.40.216/guidelines/.htaccess
 403       11l       32w      307c http://10.10.40.216/guidelines/.htpasswd
