@@ -1,0 +1,12 @@
+Target: http://10.10.214.35:81/FUZZ/note.txt
+Total requests: 20473
+==================================================================
+ID	Response   Lines      Word         Chars          Request    
+==================================================================
+XXX      0 L	       0 W	      0 Ch	  "användare! Pycurl error 52: Empty reply from server"
+13502:  C=200      1 L	       1 W	     20 Ch	  "password"
+
+Total time: 0
+Processed Requests: 20473
+Filtered Requests: 20471
+Requests/sec.: 0
