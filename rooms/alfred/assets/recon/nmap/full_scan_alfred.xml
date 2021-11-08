@@ -15,3 +15,20 @@
 <taskbegin task="Parallel DNS resolution of 1 host." time="1636372857"/>
 <taskend task="Parallel DNS resolution of 1 host." time="1636372857"/>
 <taskbegin task="SYN Stealth Scan" time="1636372857"/>
+<taskprogress task="SYN Stealth Scan" time="1636372888" percent="4.41" remaining="672" etc="1636373560"/>
+<taskprogress task="SYN Stealth Scan" time="1636372918" percent="9.58" remaining="577" etc="1636373494"/>
+<taskprogress task="SYN Stealth Scan" time="1636372957" percent="15.60" remaining="542" etc="1636373498"/>
+<taskprogress task="SYN Stealth Scan" time="1636372996" percent="21.53" remaining="507" etc="1636373503"/>
+<taskprogress task="SYN Stealth Scan" time="1636373026" percent="26.32" remaining="474" etc="1636373499"/>
+<taskprogress task="SYN Stealth Scan" time="1636373062" percent="31.76" remaining="441" etc="1636373502"/>
+<taskprogress task="SYN Stealth Scan" time="1636373095" percent="37.10" remaining="404" etc="1636373499"/>
+<taskprogress task="SYN Stealth Scan" time="1636373125" percent="41.98" remaining="371" etc="1636373495"/>
+<taskprogress task="SYN Stealth Scan" time="1636373164" percent="47.96" remaining="334" etc="1636373497"/>
+<taskprogress task="SYN Stealth Scan" time="1636373200" percent="53.47" remaining="299" etc="1636373499"/>
+<taskprogress task="SYN Stealth Scan" time="1636373233" percent="58.57" remaining="266" etc="1636373499"/>
+<taskprogress task="SYN Stealth Scan" time="1636373266" percent="63.92" remaining="231" etc="1636373497"/>
+<taskprogress task="SYN Stealth Scan" time="1636373302" percent="69.37" remaining="197" etc="1636373498"/>
+<taskprogress task="SYN Stealth Scan" time="1636373335" percent="74.73" remaining="162" etc="1636373497"/>
+<taskprogress task="SYN Stealth Scan" time="1636373365" percent="79.74" remaining="130" etc="1636373494"/>
+<taskprogress task="SYN Stealth Scan" time="1636373398" percent="85.06" remaining="96" etc="1636373493"/>
+<taskprogress task="SYN Stealth Scan" time="1636373431" percent="90.13" remaining="63" etc="1636373494"/>
