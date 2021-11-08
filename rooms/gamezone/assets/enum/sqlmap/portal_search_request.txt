@@ -22,17 +22,17 @@
 <!ATTLIST response base64 (true|false) "false">
 <!ELEMENT comment (#PCDATA)>
 ]>
-<items burpVersion="2021.8.2" exportTime="Mon Nov 08 09:48:48 GMT 2021">
+<items burpVersion="2021.8.2" exportTime="Mon Nov 08 10:53:03 GMT 2021">
   <item>
-    <time>Mon Nov 08 09:48:04 GMT 2021</time>
-    <url><![CDATA[http://10.10.17.37/index.php]]></url>
+    <time>Mon Nov 08 10:52:08 GMT 2021</time>
+    <url><![CDATA[http://10.10.17.37/portal.php]]></url>
     <host ip="10.10.17.37">10.10.17.37</host>
     <port>80</port>
     <protocol>http</protocol>
     <method><![CDATA[POST]]></method>
-    <path><![CDATA[/index.php]]></path>
+    <path><![CDATA[/portal.php]]></path>
     <extension>php</extension>
-    <request base64="true"><![CDATA[UE9TVCAvaW5kZXgucGhwIEhUVFAvMS4xDQpIb3N0OiAxMC4xMC4xNy4zNw0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjgwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvODAuMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA0KQWNjZXB0LUxhbmd1YWdlOiBlbi1VUyxlbjtxPTAuNQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KQ29udGVudC1MZW5ndGg6IDM3DQpPcmlnaW46IGh0dHA6Ly8xMC4xMC4xNy4zNw0KQ29ubmVjdGlvbjogY2xvc2UNClJlZmVyZXI6IGh0dHA6Ly8xMC4xMC4xNy4zNy9pbmRleC5waHANCkNvb2tpZTogUEhQU0VTU0lEPWE3YjNqdmtyMWs0MjdzMmhpamxmY3EwNWg3DQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCnVzZXJuYW1lPXRlc3QmcGFzc3dvcmQ9dGVzdCZ4PTE5Jnk9MTM=]]></request>
+    <request base64="true"><![CDATA[UE9TVCAvcG9ydGFsLnBocCBIVFRQLzEuMQ0KSG9zdDogMTAuMTAuMTcuMzcNClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo4MC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzgwLjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQNCkNvbnRlbnQtTGVuZ3RoOiAxNQ0KT3JpZ2luOiBodHRwOi8vMTAuMTAuMTcuMzcNCkNvbm5lY3Rpb246IGNsb3NlDQpSZWZlcmVyOiBodHRwOi8vMTAuMTAuMTcuMzcvcG9ydGFsLnBocA0KQ29va2llOiBQSFBTRVNTSUQ9YTdiM2p2a3IxazQyN3MyaGlqbGZjcTA1aDcNClVwZ3JhZGUtSW5zZWN1cmUtUmVxdWVzdHM6IDENCg0Kc2VhcmNoaXRlbT10ZXN0]]></request>
     <status></status>
     <responselength></responselength>
     <mimetype></mimetype>

