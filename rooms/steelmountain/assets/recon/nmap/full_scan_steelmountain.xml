@@ -32,3 +32,185 @@
 <taskprogress task="SYN Stealth Scan" time="1636360716" percent="80.50" remaining="276" etc="1636360992"/>
 <taskprogress task="SYN Stealth Scan" time="1636360791" percent="85.66" remaining="203" etc="1636360994"/>
 <taskprogress task="SYN Stealth Scan" time="1636360866" percent="90.82" remaining="131" etc="1636360996"/>
+<taskprogress task="SYN Stealth Scan" time="1636360941" percent="95.99" remaining="58" etc="1636360998"/>
+<taskend task="SYN Stealth Scan" time="1636361223" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1636361223"/>
+<taskprogress task="Service scan" time="1636361276" percent="60.00" remaining="36" etc="1636361311"/>
+<taskend task="Service scan" time="1636361281" extrainfo="15 services on 1 host"/>
+<taskbegin task="NSE" time="1636361294"/>
+<taskend task="NSE" time="1636361299"/>
+<taskbegin task="NSE" time="1636361299"/>
+<taskend task="NSE" time="1636361299"/>
+<host starttime="1636359578" endtime="1636361299"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.77.84" addrtype="ipv4"/>
+<address addr="02:7B:55:3F:2C:27" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-77-84.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65520">
+<extrareasons reason="resets" count="65520"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="8.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:8.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/8.5"><elem>Microsoft-IIS/8.5</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" ostype="Windows Server 2008 R2 - 2012" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ssl" product="Microsoft SChannel TLS" ostype="Windows" servicefp="SF-Port3389-TCP:V=7.60%I=7%D=11/8%Time=6188E412%P=x86_64-pc-linux-gnu%r(TLSSessionReq,346,&quot;\x16\x03\x03\x03A\x02\0\0M\x03\x03a\x88\xe4\r\xe7\xfc\xf2\x87\?\x8do\x18\x14#\x08{N\xb5#d\xa5\x17\xc15\0\xc3\xde\x95\x95ZH\x8f\x20\xf8\x13\0\0C\xd0\x11A\xce\xb0@\x89\xb9\xd8\xd4\x13\x98\x16\x0e\xe0\xfc\xfa\xd8&gt;\xa6b\x11\x1f\xd4\xfd\xa7\x1b\0/\0\0\x05\xff\x01\0\x01\0\x0b\0\x02\xe8\0\x02\xe5\0\x02\xe20\x82\x02\xde0\x82\x01\xc6\xa0\x03\x02\x01\x02\x02\x10iqv\x0e\\wS\x86K!\x9c\xdc\xdc\xd6\xa510\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x05\x05\x000\x181\x160\x14\x06\x03U\x04\x03\x13\rsteelmountain0\x1e\x17\r211107081855Z\x17\r220509081855Z0\x181\x160\x14\x06\x03U\x04\x03\x13\rsteelmountain0\x82\x01\&quot;0\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xceB\x91v\xa85\xac\xe8\x9bf\xff\xa5\x16\^\xae\xd1#\x05y\xad\x1dh\x1c\xa4\x8c&gt;!\x0e\xd3B7\xfe\x1a\xbb!\xc2\xb0\xdc\x8ah\xcb\xb3syJ~\x06\xec\xfb\x14u\xf0\0\xd9\x01lE\xde\xcca\x16\|\)\x08\xd0i}v\xaf2\x92\x04\x0f\xd8\xf9\.fq\xbe\xb9\|\x85kA\xc6\xec\xe99\xa5\xa8\(\xcf\xef\t\xb1\x1bh\x9d\xfd\x1d\x10\x070\xc1k\xa1h\r\xa9\xe8Fj\x06\x18k\xdd\x20PYBP\xd1\x83\xb5\x98\x16\xda\xe5\xbdx\xfa\xdb\xc2\x87h@0s\xa6\x87\x82}Q\xfe\xdf\x9et\xde\x141\xc0-g\x0c!\xa7\x84\xba\xa50\x92\x8d\xcb\x06\x0bx\x18\xa4\xae7{\x88\x11\x93\xe8\xcf_eHY\xe3bn\|e\x80K\xbb\x94\xcaN\xc0L\x9c\x97\x07Ni\x16\.\xf5\x13Q\x8a\x20Y\xec\xd6h\0\xe5\xb8\xb6\x90\xe8\xa7\x82\xe9~\x8a\xd2\xe4\xacrX\xf7\x14M&amp;FXy4\&quot;\xaa\xb6Ys\xbc\x81f\xf1\r\xb0z5\x1f#Ok\xbb\xb5\x97W4\x15\x02\x03\x01\0\x01\xa3\$0\&quot;0\x13\x06\x03U\x1d%\x04\x0c0\n\x06\x08\+\x06\x01\x05\x05\x07\x03\x010\x0b\x06\x03U\x1d\x0f\x04\x04\x03\x02\x0400\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x05\x05\0\x03\x82\x01\x01\0yK\xa8\x857JD\+\]\x8b\x8e\xf0&gt;_-\x1c\n\x05\xcc\^\xf9\&quot;\x93\x9f\x94\xf6\x08:q@\x0f\x05\\\x84s\xa8\xbfOI\x8f\xfb\xc04\xae`b\xa8\xcd\xa0\x19JP\x97\x95:c\n\xe0\x1e\x10IYj\x19\x17{w\xc4\x91u\xb4\x1b\x8f\xee\xe8\xec\xb3`\]b\xc9\xf5/S\x8f\xf6\.\x97\xd9\x89W\x8d\)w\]z\xb8\.\xd6\xd3@\xd76\xb6{\xcfJ\xca\xd5}\x12\xc9\x87\xdf\xa1\x96l0\x08u\x13\xd3\xee\(\xaeX\xaf\x8f\xe5\xbd:\xf1\xd4\n,\xc8\x1f\0\xb34\x1f\xa4,\x95\xe4\xc6\x18Z\x91I\xb6\xf8\xbf\xe8\xcc\xc9\xc5\xf8\x94\x15N\x8a\x03`\x16\x98\xc8{\[\x84\x077\xd1\x01\x80j\xd0\\J\xbb#\xbd\x8e\xc1\x10\xc6\xa4\xf4\[\xa4\xb8e2\xf9R\xa9a\xa9\xec\x94\xbb\xc0\x9d\x10\xbe\x993\xab\x85S\xba\x92&lt;\xf6\xa6\r\x9bW\xa7\x94\xdc\xdc\xa4\x17\xbe\n\x93\x04\&quot;\xde\xf6%\xf0\xeat#\xad\xf3\xf1\xa7\r\xf1\x037g\xcb\x17\xa1\xe0\xb3\xc8\xd8\xfe\xc8\x93\x1b\x0e\0\0\0&quot;);" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="fingerprint-strings" output="&#xa;  TLSSessionReq: &#xa;    steelmountain0&#xa;    211107081855Z&#xa;    220509081855Z0&#xa;    steelmountain0&#xa;    syJ~&#xa;    PYBP&#xa;    h@0s&#xa;    _eHY&#xa;    bn|e&#xa;    M&amp;FXy4&quot;&#xa;    $0&quot;0&#xa;    7JD+]&#xa;    \x84s&#xa;    )w]z"><elem key="TLSSessionReq">&#xa;    steelmountain0&#xa;    211107081855Z&#xa;    220509081855Z0&#xa;    steelmountain0&#xa;    syJ~&#xa;    PYBP&#xa;    h@0s&#xa;    _eHY&#xa;    bn|e&#xa;    M&amp;FXy4&quot;&#xa;    $0&quot;0&#xa;    7JD+]&#xa;    \x84s&#xa;    )w]z</elem>
+</script><script id="ssl-cert" output="Subject: commonName=steelmountain&#xa;Issuer: commonName=steelmountain&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha1WithRSAEncryption&#xa;Not valid before: 2021-11-07T08:18:55&#xa;Not valid after:  2022-05-09T08:18:55&#xa;MD5:   eb7d 17b3 a61b 5379 b9b9 fb79 567f bb1a&#xa;SHA-1: 2c78 f594 aa71 aede 108d 79ab b689 57f3 bc2f 87c7&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC3jCCAcagAwIBAgIQaXF2Dlx3U4ZLIZzc3NalMTANBgkqhkiG9w0BAQUFADAY&#xa;MRYwFAYDVQQDEw1zdGVlbG1vdW50YWluMB4XDTIxMTEwNzA4MTg1NVoXDTIyMDUw&#xa;OTA4MTg1NVowGDEWMBQGA1UEAxMNc3RlZWxtb3VudGFpbjCCASIwDQYJKoZIhvcN&#xa;AQEBBQADggEPADCCAQoCggEBAM5CkXaoNazom2b/pRZertEjBXmtHWgcpIw+IQ7T&#xa;Qjf+GrshwrDcimjLs3N5Sn4G7PsUdfAA2QFsRd7MYRZ8KQjQaX12rzKSBA/Y+S5m&#xa;cb65fIVrQcbs6TmlqCjP7wmxG2id/R0QBzDBa6FoDanoRmoGGGvdIFBZQlDRg7WY&#xa;FtrlvXj628KHaEAwc6aHgn1R/t+edN4UMcAtZwwhp4S6pTCSjcsGC3gYpK43e4gR&#xa;k+jPX2VIWeNibnxlgEu7lMpOwEyclwdOaRYu9RNRiiBZ7NZoAOW4tpDop4LpforS&#xa;5KxyWPcUTSZGWHk0Iqq2WXO8gWbxDbB6NR8jT2u7tZdXNBUCAwEAAaMkMCIwEwYD&#xa;VR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBBQUAA4IB&#xa;AQB5S6iFN0pEK12LjvA+Xy0cCgXMXvkik5+U9gg6cUAPBVyEc6i/T0mP+8A0rmBi&#xa;qM2gGUpQl5U6YwrgHhBJWWoZF3t3xJF1tBuP7ujss2BdYsn1L1OP9i6X2YlXjSl3&#xa;XXq4LtbTQNc2tnvPSsrVfRLJh9+hlmwwCHUT0+4orlivj+W9OvHUCizIHwCzNB+k&#xa;LJXkxhhakUm2+L/ozMnF+JQVTooDYBaYyHtbhAc30QGAatBcSrsjvY7BEMak9Fuk&#xa;uGUy+VKpYanslLvAnRC+mTOrhVO6kjz2pg2bV6eU3NykF74KkwQi3vYl8Op0I63z&#xa;8acN8QM3Z8sXoeCzyNj+yJMb&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">steelmountain</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">steelmountain</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x5592a8fab758</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Key Encipherment, Data Encipherment</elem>
+</table>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-11-07T08:18:55</elem>
+<elem key="notAfter">2022-05-09T08:18:55</elem>
+</table>
+<elem key="md5">eb7d17b3a61b5379b9b9fb79567fbb1a</elem>
+<elem key="sha1">2c78f594aa71aede108d79abb68957f3bc2f87c7</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC3jCCAcagAwIBAgIQaXF2Dlx3U4ZLIZzc3NalMTANBgkqhkiG9w0BAQUFADAY&#xa;MRYwFAYDVQQDEw1zdGVlbG1vdW50YWluMB4XDTIxMTEwNzA4MTg1NVoXDTIyMDUw&#xa;OTA4MTg1NVowGDEWMBQGA1UEAxMNc3RlZWxtb3VudGFpbjCCASIwDQYJKoZIhvcN&#xa;AQEBBQADggEPADCCAQoCggEBAM5CkXaoNazom2b/pRZertEjBXmtHWgcpIw+IQ7T&#xa;Qjf+GrshwrDcimjLs3N5Sn4G7PsUdfAA2QFsRd7MYRZ8KQjQaX12rzKSBA/Y+S5m&#xa;cb65fIVrQcbs6TmlqCjP7wmxG2id/R0QBzDBa6FoDanoRmoGGGvdIFBZQlDRg7WY&#xa;FtrlvXj628KHaEAwc6aHgn1R/t+edN4UMcAtZwwhp4S6pTCSjcsGC3gYpK43e4gR&#xa;k+jPX2VIWeNibnxlgEu7lMpOwEyclwdOaRYu9RNRiiBZ7NZoAOW4tpDop4LpforS&#xa;5KxyWPcUTSZGWHk0Iqq2WXO8gWbxDbB6NR8jT2u7tZdXNBUCAwEAAaMkMCIwEwYD&#xa;VR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBBQUAA4IB&#xa;AQB5S6iFN0pEK12LjvA+Xy0cCgXMXvkik5+U9gg6cUAPBVyEc6i/T0mP+8A0rmBi&#xa;qM2gGUpQl5U6YwrgHhBJWWoZF3t3xJF1tBuP7ujss2BdYsn1L1OP9i6X2YlXjSl3&#xa;XXq4LtbTQNc2tnvPSsrVfRLJh9+hlmwwCHUT0+4orlivj+W9OvHUCizIHwCzNB+k&#xa;LJXkxhhakUm2+L/ozMnF+JQVTooDYBaYyHtbhAc30QGAatBcSrsjvY7BEMak9Fuk&#xa;uGUy+VKpYanslLvAnRC+mTOrhVO6kjz2pg2bV6eU3NykF74KkwQi3vYl8Op0I63z&#xa;8acN8QM3Z8sXoeCzyNj+yJMb&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2021-11-08T08:48:14+00:00; 0s from scanner time."><elem key="delta">0.0</elem>
+<elem key="date">2021-11-08T08:48:14+00:00</elem>
+</script></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="HttpFileServer httpd" version="2.3" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:rejetto:httpfileserver:2.3</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-favicon" output="Unknown favicon MD5: 759792EDD4EF8E6BC2D1877D27153CB1"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+</script><script id="http-server-header" output="HFS 2.3"><elem>HFS 2.3</elem>
+</script><script id="http-title" output="HFS /"><elem key="title">HFS /</elem>
+</script></port>
+<port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49156"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49163"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49164"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="34350"/>
+<osmatch name="Microsoft Windows Server 2008 SP2 Datacenter Version" accuracy="98" line="71028">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012" accuracy="96" line="71088">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="96"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="96" line="71328">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="96"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 R2 Update 1" accuracy="96" line="71508">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="96"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1" accuracy="96" line="73138">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="96"><cpe>cpe:/o:microsoft:windows_7:::ultimate</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="96"><cpe>cpe:/o:microsoft:windows_2012</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="96"><cpe>cpe:/o:microsoft:windows_8.1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista SP1" accuracy="95" line="75259">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="95"><cpe>cpe:/o:microsoft:windows_vista::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 or Server 2012 R2" accuracy="93" line="71252">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2012:-</cpe><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="93" line="70224">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Home Server 2011 (Windows Server 2008 R2)" accuracy="93" line="70078">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 SP1" accuracy="93" line="70772">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=11/8%OT=80%CT=1%CU=34350%PV=Y%DS=1%DC=D%G=Y%M=027B55%T&#xa;OS:M=6188E453%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=I%TS=7&#xa;OS:)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=RD%II=I%SS=S%TS=7)SEQ(SP=106%GCD=1%ISR&#xa;OS:=10A%TI=I%II=I%SS=S%TS=7)OPS(O1=M2301NW8ST11%O2=M2301NW8ST11%O3=M2301NW8&#xa;OS:NNT11%O4=M2301NW8ST11%O5=M2301NW8ST11%O6=M2301ST11)WIN(W1=2000%W2=2000%W&#xa;OS:3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M2301NW8NNS%CC&#xa;OS:=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=&#xa;OS:S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF&#xa;OS:=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=&#xa;OS:%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=&#xa;OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RI&#xa;OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="1812" lastboot="Mon Nov  8 08:18:07 2021"/>
+<distance value="1"/>
+<tcpsequence index="262" difficulty="Good luck!" values="F148F765,C7C71453,2575CADC,503A5F2B,48E1749C,B89D592A"/>
+<ipidsequence class="Incremental" values="7EFA,7EFB,7EFC,7EFD,7EFE,7EFF"/>
+<tcptssequence class="100HZ" values="2C132,2C13C,2C146,2C150,2C15A,2C164"/>
+<hostscript><script id="clock-skew" output="mean: 0s, deviation: 0s, median: 0s"><elem key="stddev">0</elem>
+<elem key="mean">0</elem>
+<elem key="median">0</elem>
+</script><script id="nbstat" output="NetBIOS name: STEELMOUNTAIN, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 02:7b:55:3f:2c:27 (unknown)&#xa;Names:&#xa;  STEELMOUNTAIN&lt;00&gt;    Flags: &lt;unique&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;  STEELMOUNTAIN&lt;20&gt;    Flags: &lt;unique&gt;&lt;active&gt;&#xa;Statistics:&#xa;  02 7b 55 3f 2c 27 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00"><elem key="server_name">STEELMOUNTAIN</elem>
+<table key="names">
+<table>
+<elem key="name">STEELMOUNTAIN</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">STEELMOUNTAIN</elem>
+<elem key="suffix">32</elem>
+<elem key="flags">1024</elem>
+</table>
+</table>
+<table key="mac">
+<elem key="address">02:7b:55:3f:2c:27</elem>
+<elem key="manuf">unknown</elem>
+</table>
+<table key="statistics">
+<elem>02 7b 55 3f 2c 27 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+</table>
+<elem key="user">&lt;unknown&gt;</elem>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 50956/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 39195/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 3 (port 8042/udp): CLEAN (Timeout)&#xa;  Check 4 (port 3189/udp): CLEAN (Failed to receive data)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2021-11-08 08:48:14&#xa;  start_date: 2021-11-08 08:18:47"><elem key="date">2021-11-08 08:48:14</elem>
+<elem key="start_date">2021-11-08 08:18:47</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="10.10.77.84" rtt="1.46" host="ip-10-10-77-84.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="1458" rttvar="1830" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1636361299"/>
+<taskend task="NSE" time="1636361299"/>
+<taskbegin task="NSE" time="1636361299"/>
+<taskend task="NSE" time="1636361299"/>
+<runstats><finished time="1636361299" timestr="Mon Nov  8 08:48:19 2021" elapsed="1722.48" summary="Nmap done at Mon Nov  8 08:48:19 2021; 1 IP address (1 host up) scanned in 1722.48 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

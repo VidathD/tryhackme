@@ -1,1 +1,199 @@
 # Nmap 7.60 scan initiated Mon Nov  8 08:19:37 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_steelmountain 10.10.77.84
+Increasing send delay for 10.10.77.84 from 0 to 5 due to 385 out of 961 dropped probes since last increase.
+Increasing send delay for 10.10.77.84 from 5 to 10 due to 73 out of 182 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -150300 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150300 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150342 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150342 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150287 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150287 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150344 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150344 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150205 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150205 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150365 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -150365 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125212 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125212 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125175 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125175 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125241 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125241 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125304 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -125304 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175525 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175525 microseconds.  Ignoring time.
+Nmap scan report for ip-10-10-77-84.eu-west-1.compute.internal (10.10.77.84)
+Host is up, received arp-response (0.0015s latency).
+Scanned at 2021-11-08 08:19:38 GMT for 1721s
+Not shown: 65520 closed ports
+Reason: 65520 resets
+PORT      STATE SERVICE      REASON          VERSION
+80/tcp    open  http         syn-ack ttl 128 Microsoft IIS httpd 8.5
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: Site doesn't have a title (text/html).
+135/tcp   open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack ttl 128 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds syn-ack ttl 128 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ssl          syn-ack ttl 128 Microsoft SChannel TLS
+| fingerprint-strings: 
+|   TLSSessionReq: 
+|     steelmountain0
+|     211107081855Z
+|     220509081855Z0
+|     steelmountain0
+|     syJ~
+|     PYBP
+|     h@0s
+|     _eHY
+|     bn|e
+|     M&FXy4"
+|     $0"0
+|     7JD+]
+|     \x84s
+|_    )w]z
+| ssl-cert: Subject: commonName=steelmountain
+| Issuer: commonName=steelmountain
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2021-11-07T08:18:55
+| Not valid after:  2022-05-09T08:18:55
+| MD5:   eb7d 17b3 a61b 5379 b9b9 fb79 567f bb1a
+| SHA-1: 2c78 f594 aa71 aede 108d 79ab b689 57f3 bc2f 87c7
+| -----BEGIN CERTIFICATE-----
+| MIIC3jCCAcagAwIBAgIQaXF2Dlx3U4ZLIZzc3NalMTANBgkqhkiG9w0BAQUFADAY
+| MRYwFAYDVQQDEw1zdGVlbG1vdW50YWluMB4XDTIxMTEwNzA4MTg1NVoXDTIyMDUw
+| OTA4MTg1NVowGDEWMBQGA1UEAxMNc3RlZWxtb3VudGFpbjCCASIwDQYJKoZIhvcN
+| AQEBBQADggEPADCCAQoCggEBAM5CkXaoNazom2b/pRZertEjBXmtHWgcpIw+IQ7T
+| Qjf+GrshwrDcimjLs3N5Sn4G7PsUdfAA2QFsRd7MYRZ8KQjQaX12rzKSBA/Y+S5m
+| cb65fIVrQcbs6TmlqCjP7wmxG2id/R0QBzDBa6FoDanoRmoGGGvdIFBZQlDRg7WY
+| FtrlvXj628KHaEAwc6aHgn1R/t+edN4UMcAtZwwhp4S6pTCSjcsGC3gYpK43e4gR
+| k+jPX2VIWeNibnxlgEu7lMpOwEyclwdOaRYu9RNRiiBZ7NZoAOW4tpDop4LpforS
+| 5KxyWPcUTSZGWHk0Iqq2WXO8gWbxDbB6NR8jT2u7tZdXNBUCAwEAAaMkMCIwEwYD
+| VR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBBQUAA4IB
+| AQB5S6iFN0pEK12LjvA+Xy0cCgXMXvkik5+U9gg6cUAPBVyEc6i/T0mP+8A0rmBi
+| qM2gGUpQl5U6YwrgHhBJWWoZF3t3xJF1tBuP7ujss2BdYsn1L1OP9i6X2YlXjSl3
+| XXq4LtbTQNc2tnvPSsrVfRLJh9+hlmwwCHUT0+4orlivj+W9OvHUCizIHwCzNB+k
+| LJXkxhhakUm2+L/ozMnF+JQVTooDYBaYyHtbhAc30QGAatBcSrsjvY7BEMak9Fuk
+| uGUy+VKpYanslLvAnRC+mTOrhVO6kjz2pg2bV6eU3NykF74KkwQi3vYl8Op0I63z
+| 8acN8QM3Z8sXoeCzyNj+yJMb
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-11-08T08:48:14+00:00; 0s from scanner time.
+5985/tcp  open  http         syn-ack ttl 128 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+8080/tcp  open  http         syn-ack ttl 128 HttpFileServer httpd 2.3
+|_http-favicon: Unknown favicon MD5: 759792EDD4EF8E6BC2D1877D27153CB1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: HFS 2.3
+|_http-title: HFS /
+47001/tcp open  http         syn-ack ttl 128 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49152/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49155/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49156/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49163/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+49164/tcp open  msrpc        syn-ack ttl 128 Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.60%I=7%D=11/8%Time=6188E412%P=x86_64-pc-linux-gnu%r(TL
+SF:SSessionReq,346,"\x16\x03\x03\x03A\x02\0\0M\x03\x03a\x88\xe4\r\xe7\xfc\
+SF:xf2\x87\?\x8do\x18\x14#\x08{N\xb5#d\xa5\x17\xc15\0\xc3\xde\x95\x95ZH\x8
+SF:f\x20\xf8\x13\0\0C\xd0\x11A\xce\xb0@\x89\xb9\xd8\xd4\x13\x98\x16\x0e\xe
+SF:0\xfc\xfa\xd8>\xa6b\x11\x1f\xd4\xfd\xa7\x1b\0/\0\0\x05\xff\x01\0\x01\0\
+SF:x0b\0\x02\xe8\0\x02\xe5\0\x02\xe20\x82\x02\xde0\x82\x01\xc6\xa0\x03\x02
+SF:\x01\x02\x02\x10iqv\x0e\\wS\x86K!\x9c\xdc\xdc\xd6\xa510\r\x06\t\*\x86H\
+SF:x86\xf7\r\x01\x01\x05\x05\x000\x181\x160\x14\x06\x03U\x04\x03\x13\rstee
+SF:lmountain0\x1e\x17\r211107081855Z\x17\r220509081855Z0\x181\x160\x14\x06
+SF:\x03U\x04\x03\x13\rsteelmountain0\x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\x
+SF:01\x01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xceB\
+SF:x91v\xa85\xac\xe8\x9bf\xff\xa5\x16\^\xae\xd1#\x05y\xad\x1dh\x1c\xa4\x8c
+SF:>!\x0e\xd3B7\xfe\x1a\xbb!\xc2\xb0\xdc\x8ah\xcb\xb3syJ~\x06\xec\xfb\x14u
+SF:\xf0\0\xd9\x01lE\xde\xcca\x16\|\)\x08\xd0i}v\xaf2\x92\x04\x0f\xd8\xf9\.
+SF:fq\xbe\xb9\|\x85kA\xc6\xec\xe99\xa5\xa8\(\xcf\xef\t\xb1\x1bh\x9d\xfd\x1
+SF:d\x10\x070\xc1k\xa1h\r\xa9\xe8Fj\x06\x18k\xdd\x20PYBP\xd1\x83\xb5\x98\x
+SF:16\xda\xe5\xbdx\xfa\xdb\xc2\x87h@0s\xa6\x87\x82}Q\xfe\xdf\x9et\xde\x141
+SF:\xc0-g\x0c!\xa7\x84\xba\xa50\x92\x8d\xcb\x06\x0bx\x18\xa4\xae7{\x88\x11
+SF:\x93\xe8\xcf_eHY\xe3bn\|e\x80K\xbb\x94\xcaN\xc0L\x9c\x97\x07Ni\x16\.\xf
+SF:5\x13Q\x8a\x20Y\xec\xd6h\0\xe5\xb8\xb6\x90\xe8\xa7\x82\xe9~\x8a\xd2\xe4
+SF:\xacrX\xf7\x14M&FXy4\"\xaa\xb6Ys\xbc\x81f\xf1\r\xb0z5\x1f#Ok\xbb\xb5\x9
+SF:7W4\x15\x02\x03\x01\0\x01\xa3\$0\"0\x13\x06\x03U\x1d%\x04\x0c0\n\x06\x0
+SF:8\+\x06\x01\x05\x05\x07\x03\x010\x0b\x06\x03U\x1d\x0f\x04\x04\x03\x02\x
+SF:0400\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x05\x05\0\x03\x82\x01\x01\0yK\xa8
+SF:\x857JD\+\]\x8b\x8e\xf0>_-\x1c\n\x05\xcc\^\xf9\"\x93\x9f\x94\xf6\x08:q@
+SF:\x0f\x05\\\x84s\xa8\xbfOI\x8f\xfb\xc04\xae`b\xa8\xcd\xa0\x19JP\x97\x95:
+SF:c\n\xe0\x1e\x10IYj\x19\x17{w\xc4\x91u\xb4\x1b\x8f\xee\xe8\xec\xb3`\]b\x
+SF:c9\xf5/S\x8f\xf6\.\x97\xd9\x89W\x8d\)w\]z\xb8\.\xd6\xd3@\xd76\xb6{\xcfJ
+SF:\xca\xd5}\x12\xc9\x87\xdf\xa1\x96l0\x08u\x13\xd3\xee\(\xaeX\xaf\x8f\xe5
+SF:\xbd:\xf1\xd4\n,\xc8\x1f\0\xb34\x1f\xa4,\x95\xe4\xc6\x18Z\x91I\xb6\xf8\
+SF:xbf\xe8\xcc\xc9\xc5\xf8\x94\x15N\x8a\x03`\x16\x98\xc8{\[\x84\x077\xd1\x
+SF:01\x80j\xd0\\J\xbb#\xbd\x8e\xc1\x10\xc6\xa4\xf4\[\xa4\xb8e2\xf9R\xa9a\x
+SF:a9\xec\x94\xbb\xc0\x9d\x10\xbe\x993\xab\x85S\xba\x92<\xf6\xa6\r\x9bW\xa
+SF:7\x94\xdc\xdc\xa4\x17\xbe\n\x93\x04\"\xde\xf6%\xf0\xeat#\xad\xf3\xf1\xa
+SF:7\r\xf1\x037g\xcb\x17\xa1\xe0\xb3\xc8\xd8\xfe\xc8\x93\x1b\x0e\0\0\0");
+MAC Address: 02:7B:55:3F:2C:27 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/8%OT=80%CT=1%CU=34350%PV=Y%DS=1%DC=D%G=Y%M=027B55%T
+OS:M=6188E453%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=I%TS=7
+OS:)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=RD%II=I%SS=S%TS=7)SEQ(SP=106%GCD=1%ISR
+OS:=10A%TI=I%II=I%SS=S%TS=7)OPS(O1=M2301NW8ST11%O2=M2301NW8ST11%O3=M2301NW8
+OS:NNT11%O4=M2301NW8ST11%O5=M2301NW8ST11%O6=M2301ST11)WIN(W1=2000%W2=2000%W
+OS:3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M2301NW8NNS%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=
+OS:S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF
+OS:=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.021 days (since Mon Nov  8 08:18:07 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+| nbstat: NetBIOS name: STEELMOUNTAIN, NetBIOS user: <unknown>, NetBIOS MAC: 02:7b:55:3f:2c:27 (unknown)
+| Names:
+|   STEELMOUNTAIN<00>    Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   STEELMOUNTAIN<20>    Flags: <unique><active>
+| Statistics:
+|   02 7b 55 3f 2c 27 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 50956/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 39195/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 8042/udp): CLEAN (Timeout)
+|   Check 4 (port 3189/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-08 08:48:14
+|_  start_date: 2021-11-08 08:18:47
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.46 ms ip-10-10-77-84.eu-west-1.compute.internal (10.10.77.84)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  8 08:48:19 2021 -- 1 IP address (1 host up) scanned in 1722.48 seconds
