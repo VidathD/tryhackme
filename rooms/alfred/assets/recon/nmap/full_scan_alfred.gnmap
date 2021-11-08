@@ -1,2 +1,5 @@
 # Nmap 7.60 scan initiated Mon Nov  8 12:00:56 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_alfred 10.10.34.22
 # Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.34.22 (ip-10-10-34-22.eu-west-1.compute.internal)	Status: Up
+Host: 10.10.34.22 (ip-10-10-34-22.eu-west-1.compute.internal)	Ports: 80/open/tcp//http//Microsoft IIS httpd 7.5/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 8080/open/tcp//http//Jetty 9.4.z-SNAPSHOT/	Ignored State: filtered (65532)	Seq Index: 260	IP ID Seq: Incremental
+# Nmap done at Mon Nov  8 12:11:54 2021 -- 1 IP address (1 host up) scanned in 658.15 seconds

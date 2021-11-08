@@ -1,1 +1,82 @@
 # Nmap 7.60 scan initiated Mon Nov  8 12:00:56 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_alfred 10.10.34.22
+Nmap scan report for ip-10-10-34-22.eu-west-1.compute.internal (10.10.34.22)
+Host is up, received arp-response (0.00066s latency).
+Scanned at 2021-11-08 12:00:57 GMT for 657s
+Not shown: 65532 filtered ports
+Reason: 65532 no-responses
+PORT     STATE SERVICE       REASON          VERSION
+80/tcp   open  http          syn-ack ttl 128 Microsoft IIS httpd 7.5
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: Site doesn't have a title (text/html).
+3389/tcp open  ms-wbt-server syn-ack ttl 128 Microsoft Terminal Service
+| ssl-cert: Subject: commonName=alfred
+| Issuer: commonName=alfred
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2021-11-07T11:50:19
+| Not valid after:  2022-05-09T11:50:19
+| MD5:   139d 6a5a 1b0a 0172 6e20 10b9 c984 3c45
+| SHA-1: 6e3c 53dc a3f3 2ff1 8f00 19e0 fac7 8bc6 7c64 7e97
+| -----BEGIN CERTIFICATE-----
+| MIIC0DCCAbigAwIBAgIQSjV6SZZ1PIpF1qFm43voCjANBgkqhkiG9w0BAQUFADAR
+| MQ8wDQYDVQQDEwZhbGZyZWQwHhcNMjExMTA3MTE1MDE5WhcNMjIwNTA5MTE1MDE5
+| WjARMQ8wDQYDVQQDEwZhbGZyZWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+| AoIBAQDNveDQj3RaQxKjpatgmbN8PH8IcEbieGTVm9FiyAZ4N0g4CafaERWiIbwC
+| bUcvPVu9o8VEWhFoFPEF/PS5oLI64aBRFZWsefNA1jjYJglrLZVdSUpqwsHHX3ir
+| cdmQk97Gzz2+liuRQzIY6GWRIAyb7dbCuWfIprD4IdhFLJy3ISpMYFURvoJ601mW
+| T53OfeZM4VGXAQhWQ4O5qhR9Y+dI28vsBagpsoxpEG4GYILJJloqOLIT1Jv76sep
+| Jy3wPGcfdM/peXe8PQcvwrPSEUb9NSNIVescDY6GhcIQbsOrlOqnv1YnqhuiFlyF
+| pciYHhoY9o2NsPkpjw1sNR0vzItjAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUF
+| BwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQUFAAOCAQEAnSHo8LE3dFR9gYHV
+| B9XH1GtI8vEfUTMz2sK6cRGjKhQqV2hGr/ZL7KqjMc8EBlg391zm4RKWX4lDHCKI
+| /8G0DdP3r2A0ZumZEJCL0wcPs9H61fi+MDayXKT5H4CdMScCEmqHupRxFpBrpZoP
+| N1qZeR1Mo1r+Vs9pZSjPTeXVW3nES/EEMusAAcmu9+cT4wi4xiHn2iBCrT2C6aia
+| X6OYv/Z5DEBZUhHniToP/G1R0VQ3UDwj50JHZe/BKXvMereGhYgiqCTzQZrY6HZ7
+| ii8vKNLq7bwPHfc3mTirPOjiqDNmvcrD0wW8vqGK5tgmkBgP3mDY+BwZcinRfSRS
+| mBhINQ==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-11-08T12:11:54+00:00; 0s from scanner time.
+8080/tcp open  http          syn-ack ttl 128 Jetty 9.4.z-SNAPSHOT
+|_http-favicon: Unknown favicon MD5: 23E8C7BD78E8CD826C5A6073B15068B1
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Jetty(9.4.z-SNAPSHOT)
+|_http-title: Site doesn't have a title (text/html;charset=utf-8).
+MAC Address: 02:2B:D2:24:1B:15 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 SP1 (90%), Microsoft Windows Server 2008 (90%), Microsoft Windows Server 2008 R2 (90%), Microsoft Windows Server 2008 R2 or Windows 8 (90%), Microsoft Windows 7 SP1 (90%), Microsoft Windows 8.1 Update 1 (90%), Microsoft Windows 8.1 R1 (90%), Microsoft Windows Phone 7.5 or 8.0 (90%), Microsoft Windows Server 2008 or 2008 Beta 3 (89%), Microsoft Windows Server 2008 R2 or Windows 8.1 (89%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=11/8%OT=80%CT=%CU=%PV=Y%DS=1%DC=D%G=N%M=022BD2%TM=6189140A%P=x86_64-pc-linux-gnu)
+SEQ(SP=104%GCD=1%ISR=109%TI=I%TS=7)
+OPS(O1=M2301NW8ST11%O2=M2301NW8ST11%O3=M2301NW8NNT11%O4=M2301NW8ST11%O5=M2301NW8ST11%O6=M2301ST11)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=Y%TG=80%W=2000%O=M2301NW8NNS%CC=N%Q=)
+T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+U1(R=N)
+IE(R=N)
+
+Uptime guess: 0.016 days (since Mon Nov  8 11:48:40 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.66 ms ip-10-10-34-22.eu-west-1.compute.internal (10.10.34.22)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  8 12:11:54 2021 -- 1 IP address (1 host up) scanned in 658.15 seconds

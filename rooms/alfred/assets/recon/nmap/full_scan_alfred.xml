@@ -32,3 +32,121 @@
 <taskprogress task="SYN Stealth Scan" time="1636373365" percent="79.74" remaining="130" etc="1636373494"/>
 <taskprogress task="SYN Stealth Scan" time="1636373398" percent="85.06" remaining="96" etc="1636373493"/>
 <taskprogress task="SYN Stealth Scan" time="1636373431" percent="90.13" remaining="63" etc="1636373494"/>
+<taskend task="SYN Stealth Scan" time="1636373493" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1636373494"/>
+<taskend task="Service scan" time="1636373510" extrainfo="3 services on 1 host"/>
+<taskbegin task="NSE" time="1636373514"/>
+<taskend task="NSE" time="1636373514"/>
+<taskbegin task="NSE" time="1636373514"/>
+<taskend task="NSE" time="1636373514"/>
+<host starttime="1636372857" endtime="1636373514"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.34.22" addrtype="ipv4"/>
+<address addr="02:2B:D2:24:1B:15" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-34-22.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65532">
+<extrareasons reason="no-responses" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/7.5"><elem>Microsoft-IIS/7.5</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" product="Microsoft Terminal Service" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="ssl-cert" output="Subject: commonName=alfred&#xa;Issuer: commonName=alfred&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha1WithRSAEncryption&#xa;Not valid before: 2021-11-07T11:50:19&#xa;Not valid after:  2022-05-09T11:50:19&#xa;MD5:   139d 6a5a 1b0a 0172 6e20 10b9 c984 3c45&#xa;SHA-1: 6e3c 53dc a3f3 2ff1 8f00 19e0 fac7 8bc6 7c64 7e97&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC0DCCAbigAwIBAgIQSjV6SZZ1PIpF1qFm43voCjANBgkqhkiG9w0BAQUFADAR&#xa;MQ8wDQYDVQQDEwZhbGZyZWQwHhcNMjExMTA3MTE1MDE5WhcNMjIwNTA5MTE1MDE5&#xa;WjARMQ8wDQYDVQQDEwZhbGZyZWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK&#xa;AoIBAQDNveDQj3RaQxKjpatgmbN8PH8IcEbieGTVm9FiyAZ4N0g4CafaERWiIbwC&#xa;bUcvPVu9o8VEWhFoFPEF/PS5oLI64aBRFZWsefNA1jjYJglrLZVdSUpqwsHHX3ir&#xa;cdmQk97Gzz2+liuRQzIY6GWRIAyb7dbCuWfIprD4IdhFLJy3ISpMYFURvoJ601mW&#xa;T53OfeZM4VGXAQhWQ4O5qhR9Y+dI28vsBagpsoxpEG4GYILJJloqOLIT1Jv76sep&#xa;Jy3wPGcfdM/peXe8PQcvwrPSEUb9NSNIVescDY6GhcIQbsOrlOqnv1YnqhuiFlyF&#xa;pciYHhoY9o2NsPkpjw1sNR0vzItjAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUF&#xa;BwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQUFAAOCAQEAnSHo8LE3dFR9gYHV&#xa;B9XH1GtI8vEfUTMz2sK6cRGjKhQqV2hGr/ZL7KqjMc8EBlg391zm4RKWX4lDHCKI&#xa;/8G0DdP3r2A0ZumZEJCL0wcPs9H61fi+MDayXKT5H4CdMScCEmqHupRxFpBrpZoP&#xa;N1qZeR1Mo1r+Vs9pZSjPTeXVW3nES/EEMusAAcmu9+cT4wi4xiHn2iBCrT2C6aia&#xa;X6OYv/Z5DEBZUhHniToP/G1R0VQ3UDwj50JHZe/BKXvMereGhYgiqCTzQZrY6HZ7&#xa;ii8vKNLq7bwPHfc3mTirPOjiqDNmvcrD0wW8vqGK5tgmkBgP3mDY+BwZcinRfSRS&#xa;mBhINQ==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">alfred</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">alfred</elem>
+</table>
+<table key="pubkey">
+<elem key="exponent">userdata: 0x55bd33ab7cc8</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Key Encipherment, Data Encipherment</elem>
+</table>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-11-07T11:50:19</elem>
+<elem key="notAfter">2022-05-09T11:50:19</elem>
+</table>
+<elem key="md5">139d6a5a1b0a01726e2010b9c9843c45</elem>
+<elem key="sha1">6e3c53dca3f32ff18f0019e0fac78bc67c647e97</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC0DCCAbigAwIBAgIQSjV6SZZ1PIpF1qFm43voCjANBgkqhkiG9w0BAQUFADAR&#xa;MQ8wDQYDVQQDEwZhbGZyZWQwHhcNMjExMTA3MTE1MDE5WhcNMjIwNTA5MTE1MDE5&#xa;WjARMQ8wDQYDVQQDEwZhbGZyZWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK&#xa;AoIBAQDNveDQj3RaQxKjpatgmbN8PH8IcEbieGTVm9FiyAZ4N0g4CafaERWiIbwC&#xa;bUcvPVu9o8VEWhFoFPEF/PS5oLI64aBRFZWsefNA1jjYJglrLZVdSUpqwsHHX3ir&#xa;cdmQk97Gzz2+liuRQzIY6GWRIAyb7dbCuWfIprD4IdhFLJy3ISpMYFURvoJ601mW&#xa;T53OfeZM4VGXAQhWQ4O5qhR9Y+dI28vsBagpsoxpEG4GYILJJloqOLIT1Jv76sep&#xa;Jy3wPGcfdM/peXe8PQcvwrPSEUb9NSNIVescDY6GhcIQbsOrlOqnv1YnqhuiFlyF&#xa;pciYHhoY9o2NsPkpjw1sNR0vzItjAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUF&#xa;BwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQUFAAOCAQEAnSHo8LE3dFR9gYHV&#xa;B9XH1GtI8vEfUTMz2sK6cRGjKhQqV2hGr/ZL7KqjMc8EBlg391zm4RKWX4lDHCKI&#xa;/8G0DdP3r2A0ZumZEJCL0wcPs9H61fi+MDayXKT5H4CdMScCEmqHupRxFpBrpZoP&#xa;N1qZeR1Mo1r+Vs9pZSjPTeXVW3nES/EEMusAAcmu9+cT4wi4xiHn2iBCrT2C6aia&#xa;X6OYv/Z5DEBZUhHniToP/G1R0VQ3UDwj50JHZe/BKXvMereGhYgiqCTzQZrY6HZ7&#xa;ii8vKNLq7bwPHfc3mTirPOjiqDNmvcrD0wW8vqGK5tgmkBgP3mDY+BwZcinRfSRS&#xa;mBhINQ==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2021-11-08T12:11:54+00:00; 0s from scanner time."><elem key="date">2021-11-08T12:11:54+00:00</elem>
+<elem key="delta">0.0</elem>
+</script></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Jetty" version="9.4.z-SNAPSHOT" method="probed" conf="10"><cpe>cpe:/a:mortbay:jetty:9.4.z-snapshot</cpe></service><script id="http-favicon" output="Unknown favicon MD5: 23E8C7BD78E8CD826C5A6073B15068B1"/><script id="http-robots.txt" output="1 disallowed entry &#xa;/"/><script id="http-server-header" output="Jetty(9.4.z-SNAPSHOT)"><elem>Jetty(9.4.z-SNAPSHOT)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html;charset=utf-8)."></script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Microsoft Windows Server 2008 R2 SP1" accuracy="90" line="70552">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008" accuracy="90" line="70150">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="90" line="70494">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 or Windows 8" accuracy="90" line="70512">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="90"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="90" line="72534">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="90"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8.1 Update 1" accuracy="90" line="73305">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="90"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8.1 R1" accuracy="90" line="73414">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="90"><cpe>cpe:/o:microsoft:windows_8.1:r1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Phone 7.5 or 8.0" accuracy="90" line="74532">
+<osclass type="phone" vendor="Microsoft" osfamily="Windows" osgen="Phone" accuracy="90"><cpe>cpe:/o:microsoft:windows</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 or 2008 Beta 3" accuracy="89" line="70187">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008::beta3</cpe><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 or Windows 8.1" accuracy="89" line="70532">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="89"><cpe>cpe:/o:microsoft:windows_8.1</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.60%E=4%D=11/8%OT=80%CT=%CU=%PV=Y%DS=1%DC=D%G=N%M=022BD2%TM=6189140A%P=x86_64-pc-linux-gnu)&#xa;SEQ(SP=104%GCD=1%ISR=109%TI=I%TS=7)&#xa;OPS(O1=M2301NW8ST11%O2=M2301NW8ST11%O3=M2301NW8NNT11%O4=M2301NW8ST11%O5=M2301NW8ST11%O6=M2301ST11)&#xa;WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)&#xa;ECN(R=Y%DF=Y%TG=80%W=2000%O=M2301NW8NNS%CC=N%Q=)&#xa;T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=N)&#xa;U1(R=N)&#xa;IE(R=N)&#xa;"/>
+</os>
+<uptime seconds="1394" lastboot="Mon Nov  8 11:48:40 2021"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="52520B18,7CC4BF9A,C6494C9E,5BD855C0,76B9EEC2,8BD6FFD0"/>
+<ipidsequence class="Incremental" values="3E5,3E6,3E7,3E8,3E9,3EA"/>
+<tcptssequence class="100HZ" values="21FEE,21FF8,22002,2200C,22016,22020"/>
+<hostscript><script id="clock-skew" output="mean: 0s, deviation: 0s, median: 0s"><elem key="mean">0</elem>
+<elem key="stddev">0</elem>
+<elem key="median">0</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="10.10.34.22" rtt="0.66" host="ip-10-10-34-22.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="664" rttvar="266" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1636373514"/>
+<taskend task="NSE" time="1636373514"/>
+<taskbegin task="NSE" time="1636373514"/>
+<taskend task="NSE" time="1636373514"/>
+<runstats><finished time="1636373514" timestr="Mon Nov  8 12:11:54 2021" elapsed="658.15" summary="Nmap done at Mon Nov  8 12:11:54 2021; 1 IP address (1 host up) scanned in 658.15 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
