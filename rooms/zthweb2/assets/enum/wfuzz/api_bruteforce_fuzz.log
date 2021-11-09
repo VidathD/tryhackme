@@ -1,0 +1,11 @@
+Target: http://10.10.246.10:82/api.php?FUZZ=flag.txt
+Total requests: 20473
+==================================================================
+ID	Response   Lines      Word         Chars          Request    
+==================================================================
+07534:  C=200      1 L	       1 W	     15 Ch	  "file"
+
+Total time: 0
+Processed Requests: 20473
+Filtered Requests: 20472
+Requests/sec.: 690.1292
