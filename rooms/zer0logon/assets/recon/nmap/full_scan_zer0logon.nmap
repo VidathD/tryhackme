@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Thu Nov 11 17:15:30 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_zer0logon 10.10.179.81
