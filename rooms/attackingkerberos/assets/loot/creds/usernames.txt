@@ -1,0 +1,10 @@
+admin1
+admin2
+administrator
+httpservice
+machine1
+machine2
+sqlservice
+user1
+user2
+user3
