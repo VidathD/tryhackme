@@ -29,3 +29,144 @@
 <taskprogress task="SYN Stealth Scan" time="1636826021" percent="81.56" remaining="171" etc="1636826191"/>
 <taskprogress task="SYN Stealth Scan" time="1636826099" percent="87.05" remaining="124" etc="1636826223"/>
 <taskprogress task="SYN Stealth Scan" time="1636826174" percent="92.34" remaining="76" etc="1636826249"/>
+<taskend task="SYN Stealth Scan" time="1636826500" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1636826500"/>
+<taskend task="Service scan" time="1636826511" extrainfo="6 services on 1 host"/>
+<taskbegin task="NSE" time="1636826513"/>
+<taskend task="NSE" time="1636826513"/>
+<taskbegin task="NSE" time="1636826513"/>
+<taskend task="NSE" time="1636826513"/>
+<host starttime="1636825267" endtime="1636826513"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.49.175" addrtype="ipv4"/>
+<address addr="02:8F:F4:5D:C9:61" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-49-175.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65529">
+<extrareasons reason="resets" count="65529"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.8" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 99:23:31:bb:b1:e9:43:b7:56:94:4c:b9:e8:21:46:c5 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKeTyrvAfbRB4onlz23fmgH5DPnSz07voOYaVMKPx5bT62zn7eZzecIVvfp5LBCetcOyiw2Yhocs0oO1/RZSqXlwTVzRNKzznG4WTPtkvD7ws/4tv2cAGy1lzRy9b+361HHIXT8GNteq2mU+boz3kdZiiZHIml4oSGhI+/+IuSMl5clB5/FzKJ+mfmu4MRS8iahHlTciFlCpmQvoQFTA5s2PyzDHM6XjDYH1N3Euhk4xz44Xpo1hUZnu+P975/GadIkhr/Y0N5Sev+Kgso241/v0GQ2lKrYz3RPgmNv93AIQ4t3i3P6qDnta/06bfYDSEEJXaON+A9SCpk2YSrj4A7&#xa;  256 57:c0:75:02:71:2d:19:31:83:db:e4:fe:67:96:68:cf (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI0UWS0x1ZsOGo510tgfVbNVhdE5LkzA4SWDW/5UjDumVQ7zIyWdstNAm+lkpZ23Iz3t8joaLcfs8nYCpMGa/xk=&#xa;  256 46:fa:4e:fc:10:a5:4f:57:57:d0:6d:54:f6:c3:4d:fe (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICHVctcvlD2YZ4mLdmUlSwY8Ro0hCDMKGqZ2+DuI0KFQ"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+<elem key="fingerprint">992331bbb1e943b756944cb9e82146c5</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDKeTyrvAfbRB4onlz23fmgH5DPnSz07voOYaVMKPx5bT62zn7eZzecIVvfp5LBCetcOyiw2Yhocs0oO1/RZSqXlwTVzRNKzznG4WTPtkvD7ws/4tv2cAGy1lzRy9b+361HHIXT8GNteq2mU+boz3kdZiiZHIml4oSGhI+/+IuSMl5clB5/FzKJ+mfmu4MRS8iahHlTciFlCpmQvoQFTA5s2PyzDHM6XjDYH1N3Euhk4xz44Xpo1hUZnu+P975/GadIkhr/Y0N5Sev+Kgso241/v0GQ2lKrYz3RPgmNv93AIQ4t3i3P6qDnta/06bfYDSEEJXaON+A9SCpk2YSrj4A7</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">57c07502712d193183dbe4fe679668cf</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI0UWS0x1ZsOGo510tgfVbNVhdE5LkzA4SWDW/5UjDumVQ7zIyWdstNAm+lkpZ23Iz3t8joaLcfs8nYCpMGa/xk=</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">46fa4efc10a54f5757d06d54f6c34dfe</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAICHVctcvlD2YZ4mLdmUlSwY8Ro0hCDMKGqZ2+DuI0KFQ</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.18" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.18</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS GET HEAD POST"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.18 (Ubuntu)"><elem>Apache/2.4.18 (Ubuntu)</elem>
+</script><script id="http-title" output="Skynet"><elem key="title">Skynet</elem>
+</script></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="pop3" product="Dovecot pop3d" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="pop3-capabilities" output="TOP AUTH-RESP-CODE UIDL PIPELINING RESP-CODES CAPA SASL"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" hostname="SKYNET" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="imap-capabilities" output="Pre-login ID LOGIN-REFERRALS more IMAP4rev1 LOGINDISABLEDA0001 LITERAL+ capabilities IDLE OK have SASL-IR listed ENABLE post-login"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="4.3.11-Ubuntu" extrainfo="workgroup: WORKGROUP" hostname="SKYNET" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="44159"/>
+<osmatch name="Linux 3.13" accuracy="100" line="60865">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=11/13%OT=22%CT=1%CU=44159%PV=Y%DS=1%DC=D%G=Y%M=028FF4%&#xa;OS:TM=618FFD91%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=109%TI=Z%CI=I%TS=&#xa;OS:8)OPS(O1=M2301ST11NW7%O2=M2301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O&#xa;OS:5=M2301ST11NW7%O6=M2301ST11)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%&#xa;OS:W6=68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%&#xa;OS:S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%&#xa;OS:RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W&#xa;OS:=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;OS:U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%D&#xa;OS:FI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="1063" lastboot="Sat Nov 13 17:44:10 2021"/>
+<distance value="1"/>
+<tcpsequence index="257" difficulty="Good luck!" values="F8FE264D,C566F14F,F94811F6,936ECAF4,AEE9355A,80635D9F"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="40C8F,40CA8,40CC1,40CDA,40CF3,40D0C"/>
+<hostscript><script id="clock-skew" output="mean: 0s, deviation: 0s, median: 0s"><elem key="mean">0</elem>
+<elem key="median">0</elem>
+<elem key="stddev">0</elem>
+</script><script id="nbstat" output="NetBIOS name: SKYNET, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)&#xa;Names:&#xa;  SKYNET&lt;00&gt;           Flags: &lt;unique&gt;&lt;active&gt;&#xa;  SKYNET&lt;03&gt;           Flags: &lt;unique&gt;&lt;active&gt;&#xa;  SKYNET&lt;20&gt;           Flags: &lt;unique&gt;&lt;active&gt;&#xa;  \x01\x02__MSBROWSE__\x02&lt;01&gt;  Flags: &lt;group&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;1d&gt;        Flags: &lt;unique&gt;&lt;active&gt;&#xa;  WORKGROUP&lt;1e&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;Statistics:&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00&#xa;  00 00 00 00 00 00 00 00 00 00 00 00 00 00"><table key="mac">
+<elem key="manuf">unknown</elem>
+<elem key="address">&lt;unknown&gt;</elem>
+</table>
+<elem key="server_name">SKYNET</elem>
+<table key="statistics">
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+</table>
+<elem key="user">&lt;unknown&gt;</elem>
+<table key="names">
+<table>
+<elem key="name">SKYNET</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">SKYNET</elem>
+<elem key="suffix">3</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">SKYNET</elem>
+<elem key="suffix">32</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">\x01\x02__MSBROWSE__\x02</elem>
+<elem key="suffix">1</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">29</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">30</elem>
+<elem key="flags">33792</elem>
+</table>
+</table>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 25132/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 22889/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 3 (port 48731/udp): CLEAN (Failed to receive data)&#xa;  Check 4 (port 49293/udp): CLEAN (Failed to receive data)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 6.1 (Samba 4.3.11-Ubuntu)&#xa;  Computer name: skynet&#xa;  NetBIOS computer name: SKYNET\x00&#xa;  Domain name: \x00&#xa;  FQDN: skynet&#xa;  System time: 2021-11-13T12:01:53-06:00&#xa;"><elem key="os">Windows 6.1</elem>
+<elem key="lanmanager">Samba 4.3.11-Ubuntu</elem>
+<elem key="server">SKYNET\x00</elem>
+<elem key="date">2021-11-13T12:01:53-06:00</elem>
+<elem key="fqdn">skynet</elem>
+<elem key="domain_dns">\x00</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2021-11-13 18:01:53&#xa;  start_date: 1600-12-31 23:58:45"><elem key="date">2021-11-13 18:01:53</elem>
+<elem key="start_date">1600-12-31 23:58:45</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="10.10.49.175" rtt="0.45" host="ip-10-10-49-175.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="448" rttvar="29" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1636826513"/>
+<taskend task="NSE" time="1636826513"/>
+<taskbegin task="NSE" time="1636826513"/>
+<taskend task="NSE" time="1636826513"/>
+<runstats><finished time="1636826513" timestr="Sat Nov 13 18:01:53 2021" elapsed="1247.34" summary="Nmap done at Sat Nov 13 18:01:53 2021; 1 IP address (1 host up) scanned in 1247.34 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

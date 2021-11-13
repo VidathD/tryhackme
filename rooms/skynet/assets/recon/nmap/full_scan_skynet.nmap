@@ -1,1 +1,101 @@
 # Nmap 7.60 scan initiated Sat Nov 13 17:41:06 2021 as: nmap -A -p- -vvv -T4 -oA full_scan_skynet 10.10.49.175
+Increasing send delay for 10.10.49.175 from 0 to 5 due to 11214 out of 28034 dropped probes since last increase.
+Increasing send delay for 10.10.49.175 from 5 to 10 due to 43 out of 107 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -175545 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175545 microseconds.  Ignoring time.
+Nmap scan report for ip-10-10-49-175.eu-west-1.compute.internal (10.10.49.175)
+Host is up, received arp-response (0.00045s latency).
+Scanned at 2021-11-13 17:41:07 GMT for 1246s
+Not shown: 65529 closed ports
+Reason: 65529 resets
+PORT    STATE SERVICE     REASON         VERSION
+22/tcp  open  ssh         syn-ack ttl 64 OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 99:23:31:bb:b1:e9:43:b7:56:94:4c:b9:e8:21:46:c5 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKeTyrvAfbRB4onlz23fmgH5DPnSz07voOYaVMKPx5bT62zn7eZzecIVvfp5LBCetcOyiw2Yhocs0oO1/RZSqXlwTVzRNKzznG4WTPtkvD7ws/4tv2cAGy1lzRy9b+361HHIXT8GNteq2mU+boz3kdZiiZHIml4oSGhI+/+IuSMl5clB5/FzKJ+mfmu4MRS8iahHlTciFlCpmQvoQFTA5s2PyzDHM6XjDYH1N3Euhk4xz44Xpo1hUZnu+P975/GadIkhr/Y0N5Sev+Kgso241/v0GQ2lKrYz3RPgmNv93AIQ4t3i3P6qDnta/06bfYDSEEJXaON+A9SCpk2YSrj4A7
+|   256 57:c0:75:02:71:2d:19:31:83:db:e4:fe:67:96:68:cf (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI0UWS0x1ZsOGo510tgfVbNVhdE5LkzA4SWDW/5UjDumVQ7zIyWdstNAm+lkpZ23Iz3t8joaLcfs8nYCpMGa/xk=
+|   256 46:fa:4e:fc:10:a5:4f:57:57:d0:6d:54:f6:c3:4d:fe (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICHVctcvlD2YZ4mLdmUlSwY8Ro0hCDMKGqZ2+DuI0KFQ
+80/tcp  open  http        syn-ack ttl 64 Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Skynet
+110/tcp open  pop3        syn-ack ttl 64 Dovecot pop3d
+|_pop3-capabilities: TOP AUTH-RESP-CODE UIDL PIPELINING RESP-CODES CAPA SASL
+139/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp open  imap        syn-ack ttl 64 Dovecot imapd
+|_imap-capabilities: Pre-login ID LOGIN-REFERRALS more IMAP4rev1 LOGINDISABLEDA0001 LITERAL+ capabilities IDLE OK have SASL-IR listed ENABLE post-login
+445/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+MAC Address: 02:8F:F4:5D:C9:61 (Unknown)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.13
+OS details: Linux 3.13
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/13%OT=22%CT=1%CU=44159%PV=Y%DS=1%DC=D%G=Y%M=028FF4%
+OS:TM=618FFD91%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=109%TI=Z%CI=I%TS=
+OS:8)OPS(O1=M2301ST11NW7%O2=M2301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O
+OS:5=M2301ST11NW7%O6=M2301ST11)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%
+OS:W6=68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%
+OS:S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%
+OS:RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W
+OS:=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+OS:U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%D
+OS:FI=N%T=40%CD=S)
+
+Uptime guess: 0.012 days (since Sat Nov 13 17:44:10 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: SKYNET; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+| nbstat: NetBIOS name: SKYNET, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   SKYNET<00>           Flags: <unique><active>
+|   SKYNET<03>           Flags: <unique><active>
+|   SKYNET<20>           Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+| Statistics:
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 25132/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 22889/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 48731/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 49293/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: skynet
+|   NetBIOS computer name: SKYNET\x00
+|   Domain name: \x00
+|   FQDN: skynet
+|_  System time: 2021-11-13T12:01:53-06:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-13 18:01:53
+|_  start_date: 1600-12-31 23:58:45
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.45 ms ip-10-10-49-175.eu-west-1.compute.internal (10.10.49.175)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 13 18:01:53 2021 -- 1 IP address (1 host up) scanned in 1247.34 seconds
