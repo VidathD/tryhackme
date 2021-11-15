@@ -1,0 +1,31 @@
+to: Martha
+from: John
+
+Hi Martha, 
+
+I got some errors trying to access my passwords file - is there any way you can help? Here is the output I got
+
+file corrupted, fix thisfile cofile corrupted, fix thisrrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix thisfile corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix thisfile corrupted, fix thisfile corrupted, fix thisfile corrupted, fix thisfile corrupted, fix thisfile corrupted, fix thisfile corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix thisfilfile corrupted, fix thise corrupted, fix thisfile corrupted, fix this
+file corrupted, fix this
+file corrupted, fix this
+file corrupted, fix thisfile corrupted, fix thisfile corrupted, fix this
+file corrupted, fix thisfile corrupted, fix thisfile corrupted, fix this
+segmentation fault, dumping core

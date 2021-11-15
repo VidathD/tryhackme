@@ -1,0 +1,147 @@
+to: john
+from: Martha
+
+Hi John, 
+
+I managed to fix the corrupted file to get the output, but the password is buried somewhere in these logs:
+
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+fixing file - please wait
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+10% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+50% progress
+88% progress
+88% progress
+88% progress
+88% progress
+88% progress
+88% progress
+88% progress
+88% progress
+88% progress
+almost done
+almost done
+almost done
+almost done
+almost done
+almost done
+almost done
+password is johnisalegend99
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
+function complete
