@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Nov 19 17:51:15 2021 as: nmap -oA basic_scan_nikto 10.10.70.169
+Host: 10.10.70.169 (ip-10-10-70-169.eu-west-1.compute.internal)	Status: Up
+Host: 10.10.70.169 (ip-10-10-70-169.eu-west-1.compute.internal)	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 1090/open/tcp//ff-fms///, 1091/open/tcp//ff-sm///, 1098/open/tcp//rmiactivation///, 1099/open/tcp//rmiregistry///, 4446/open/tcp//n1-fwp///, 5500/open/tcp//hotline///, 8009/open/tcp//ajp13///, 8080/open/tcp//http-proxy///, 8083/open/tcp//us-srv///	Ignored State: closed (989)
+# Nmap done at Fri Nov 19 17:51:17 2021 -- 1 IP address (1 host up) scanned in 1.70 seconds

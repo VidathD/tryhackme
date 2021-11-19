@@ -1,0 +1,19 @@
+# Nmap 7.60 scan initiated Fri Nov 19 17:51:15 2021 as: nmap -oA basic_scan_nikto 10.10.70.169
+Nmap scan report for ip-10-10-70-169.eu-west-1.compute.internal (10.10.70.169)
+Host is up (0.0011s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+1090/tcp open  ff-fms
+1091/tcp open  ff-sm
+1098/tcp open  rmiactivation
+1099/tcp open  rmiregistry
+4446/tcp open  n1-fwp
+5500/tcp open  hotline
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+8083/tcp open  us-srv
+MAC Address: 02:FC:04:69:F2:67 (Unknown)
+
+# Nmap done at Fri Nov 19 17:51:17 2021 -- 1 IP address (1 host up) scanned in 1.70 seconds
