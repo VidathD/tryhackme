@@ -1,0 +1,2 @@
+# Nmap 7.60 scan initiated Sat Nov 20 15:35:06 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_eritsecurusi 10.10.252.44
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
