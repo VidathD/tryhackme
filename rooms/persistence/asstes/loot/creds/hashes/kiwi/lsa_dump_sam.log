@@ -1,0 +1,29 @@
+[+] Running as SYSTEM
+[*] Dumping SAM
+Domain : PERSISTENCE
+SysKey : 31066436b67d1dfb03c9f249b9aed099
+Local SID : S-1-5-21-3421978194-83625553-4099171136
+
+SAMKey : d0bb192867888f2d94bc148c442c6c7c
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 52745740e9a05e6195731194f03865ea
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000003e8 (1000)
+User : joe
+  Hash NTLM: 878d8014606cda29677a44efa1353fc7
+
+RID  : 000003e9 (1001)
+User : chris
+  Hash NTLM: e0b6050c7280bf4a7bee599cf374fd80
+
+RID  : 000003ea (1002)
+User : tryhackme
+  Hash NTLM: 0c7ba4684821cd349e327896d9db4474
