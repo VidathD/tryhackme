@@ -29,3 +29,110 @@
 <taskprogress task="SYN Stealth Scan" time="1637423338" percent="85.97" remaining="136" etc="1637423474"/>
 <taskprogress task="SYN Stealth Scan" time="1637423416" percent="91.33" remaining="87" etc="1637423502"/>
 <taskprogress task="SYN Stealth Scan" time="1637423491" percent="96.49" remaining="36" etc="1637423527"/>
+<taskend task="SYN Stealth Scan" time="1637423737" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1637423738"/>
+<taskend task="Service scan" time="1637423745" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1637423758"/>
+<taskend task="NSE" time="1637423763"/>
+<taskbegin task="NSE" time="1637423763"/>
+<taskend task="NSE" time="1637423763"/>
+<host starttime="1637422506" endtime="1637423763"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.252.44" addrtype="ipv4"/>
+<address addr="02:BC:5D:12:06:A9" addrtype="mac"/>
+<hostnames>
+<hostname name="ip-10-10-252-44.eu-west-1.compute.internal" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="6.7p1 Debian 5+deb8u8" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 b1:ac:a9:92:d3:2a:69:91:68:b4:6a:ac:45:43:fb:ed (DSA)&#xa;ssh-dss AAAAB3NzaC1kc3MAAACBAPWmD4IaPbJQU46GEKX8pUal0IbZzIykktEuUh5boCKMuwsetNGanzNZYFd6eGWRd+zqr6nRnRFQPDiDZtt6DDz7NcJcXliGifQehWEEmskzfhdGSuh+kBUQaqXskCKZi0U/l9P0kvP6bD2SdsXqiYTBGQxN6a4Do1fyE2OoVYgPAAAAFQD4r+hmmsHGFfn0SV1mjGpoHpFwuwAAAIAnnoGwYiWDRAwFoPLkLYWahNwCbLAhVXOb1cnr8NxZN+uRMqEdtoZHNUbTd7ki8j5WpkZhMjFEyZQJg+MNQjUSxISlE1SoBTI8BmAUDAEvgPNyr0CDCS42rAY98JTMhaoZ8FOzgoatLmJWWgWqM+8YHCN4XHoVgm1vMagLsWxW5AAAAIBGW3tnTGis3+eWROnisRfyoo3zawOnd7oijjK7CAiIuxfqc3ESTzeLlkL0QBAIv/1PBGoZSTwg53aZqctO2/BgSNGMWDts3xnqpsEGNyo520Br/cBUyi6rRBotV1kL9tIT4VwdP33F/bjiHHRclfCmOtVYWmkst+HUSqS2yPn1WQ==&#xa;  2048 3a:3f:9f:59:29:c8:20:d7:3a:c5:04:aa:82:36:68:3f (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0zYWd7C1JANU5TctI7lB/tyS9Aid6x5Dh2PnD7fpz6C9Apv9Y/YJzaCUYgqME41ZDxIIiegV02OSCkKFmXvr9gVVKaFHyUVhQ9Zb3FyQeGgWEL3004HIL+G06afXPlsRzNBb5VoqUte+5bigJT5UkyncAfWn+8bWLnFmuXDi5PZ4Pz0RHx9HzCwJ5G26DogQUI6M0zQkhJHzD+nWdIExvoY1L9UN4oZzCuaUF3Tcel3dDnbgi1RaZlfFi3r5NNUtQ7OVijWnms7nYNN7b77CZZWMhE6yMYI8+3ya99CfzA/oYsHv+t8XSbRyAdm5KvETrD8yoBrE14F2FekQQNggx&#xa;  256 f9:2f:bb:e3:ab:95:ee:9e:78:7c:91:18:7d:95:84:ab (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAOH4ypeTzhthRbvcrzqVbbWXG1imFdejEQIo53fimAkjsOcrmEDWwT7Lskm5qyz4dmhGmfsH90xzOgQ+Bm6Nuk=&#xa;  256 49:0e:6f:cb:ec:6c:a5:97:67:cc:3c:31:ad:94:a4:54 (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK7iJO0KhscqLrJgy+mvB3Y+5U+WpOiBAxCr4TKu7pJB"><table>
+<elem key="fingerprint">b1aca992d32a699168b46aac4543fbed</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAPWmD4IaPbJQU46GEKX8pUal0IbZzIykktEuUh5boCKMuwsetNGanzNZYFd6eGWRd+zqr6nRnRFQPDiDZtt6DDz7NcJcXliGifQehWEEmskzfhdGSuh+kBUQaqXskCKZi0U/l9P0kvP6bD2SdsXqiYTBGQxN6a4Do1fyE2OoVYgPAAAAFQD4r+hmmsHGFfn0SV1mjGpoHpFwuwAAAIAnnoGwYiWDRAwFoPLkLYWahNwCbLAhVXOb1cnr8NxZN+uRMqEdtoZHNUbTd7ki8j5WpkZhMjFEyZQJg+MNQjUSxISlE1SoBTI8BmAUDAEvgPNyr0CDCS42rAY98JTMhaoZ8FOzgoatLmJWWgWqM+8YHCN4XHoVgm1vMagLsWxW5AAAAIBGW3tnTGis3+eWROnisRfyoo3zawOnd7oijjK7CAiIuxfqc3ESTzeLlkL0QBAIv/1PBGoZSTwg53aZqctO2/BgSNGMWDts3xnqpsEGNyo520Br/cBUyi6rRBotV1kL9tIT4VwdP33F/bjiHHRclfCmOtVYWmkst+HUSqS2yPn1WQ==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024.0</elem>
+</table>
+<table>
+<elem key="fingerprint">3a3f9f5929c820d73ac504aa8236683f</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC0zYWd7C1JANU5TctI7lB/tyS9Aid6x5Dh2PnD7fpz6C9Apv9Y/YJzaCUYgqME41ZDxIIiegV02OSCkKFmXvr9gVVKaFHyUVhQ9Zb3FyQeGgWEL3004HIL+G06afXPlsRzNBb5VoqUte+5bigJT5UkyncAfWn+8bWLnFmuXDi5PZ4Pz0RHx9HzCwJ5G26DogQUI6M0zQkhJHzD+nWdIExvoY1L9UN4oZzCuaUF3Tcel3dDnbgi1RaZlfFi3r5NNUtQ7OVijWnms7nYNN7b77CZZWMhE6yMYI8+3ya99CfzA/oYsHv+t8XSbRyAdm5KvETrD8yoBrE14F2FekQQNggx</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+</table>
+<table>
+<elem key="fingerprint">f92fbbe3ab95ee9e787c91187d9584ab</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAOH4ypeTzhthRbvcrzqVbbWXG1imFdejEQIo53fimAkjsOcrmEDWwT7Lskm5qyz4dmhGmfsH90xzOgQ+Bm6Nuk=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">490e6fcbec6ca59767cc3c31ad94a454</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIK7iJO0KhscqLrJgy+mvB3Y+5U+WpOiBAxCr4TKu7pJB</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="nginx" version="1.6.2" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.6.2</cpe></service><script id="http-generator" output="Bolt"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="nginx/1.6.2"><elem>nginx/1.6.2</elem>
+</script><script id="http-title" output="Graece donan, Latine voluptatem vocant. | Erit Securus 1"><elem key="title">Graece donan, Latine voluptatem vocant. | Erit Securus 1</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="43731"/>
+<osmatch name="Linux 3.13" accuracy="99" line="60865">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="94" line="7916">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="94"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="94" line="61176">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="93" line="60007">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="93" line="61524">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="92" line="63105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="Android 5.0 - 5.1" accuracy="92" line="29413">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="92"><cpe>cpe:/o:google:android:5</cpe></osclass>
+</osmatch>
+<osmatch name="Android 5.1" accuracy="92" line="29495">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="92"><cpe>cpe:/o:google:android:5.1</cpe></osclass>
+</osmatch>
+<osmatch name="Android 6.0-7.1.2 (Linux 3.18-4.4.1)" accuracy="92" line="29549">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="6.X" accuracy="92"/>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="7.X" accuracy="92"><cpe>cpe:/o:google:android:6</cpe></osclass>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"/>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.12" accuracy="92" line="60678">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.12</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=11/20%OT=22%CT=1%CU=43731%PV=Y%DS=1%DC=D%G=Y%M=02BC5D%&#xa;OS:TM=61991A94%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=108%TI=Z%CI=I%TS=&#xa;OS:8)SEQ(SP=107%GCD=1%ISR=108%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M2301ST11NW7%O2=M&#xa;OS:2301ST11NW7%O3=M2301NNT11NW7%O4=M2301ST11NW7%O5=M2301ST11NW7%O6=M2301ST1&#xa;OS:1)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN(R=Y%DF=Y%T=40%&#xa;OS:W=6903%O=M2301NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R&#xa;OS:=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W&#xa;OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;OS:T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%U&#xa;OS:N=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="1773" lastboot="Sat Nov 20 15:26:31 2021"/>
+<distance value="1"/>
+<tcpsequence index="263" difficulty="Good luck!" values="976776C7,A0C526F4,F4340784,1E06C2CB,15940647,8CB11410"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="6BC5B,6BC74,6BC8D,6BCA6,6BCBF,6BCD8"/>
+<trace>
+<hop ttl="1" ipaddr="10.10.252.44" rtt="0.51" host="ip-10-10-252-44.eu-west-1.compute.internal"/>
+</trace>
+<times srtt="510" rttvar="69" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1637423764"/>
+<taskend task="NSE" time="1637423764"/>
+<taskbegin task="NSE" time="1637423764"/>
+<taskend task="NSE" time="1637423764"/>
+<runstats><finished time="1637423764" timestr="Sat Nov 20 15:56:04 2021" elapsed="1258.21" summary="Nmap done at Sat Nov 20 15:56:04 2021; 1 IP address (1 host up) scanned in 1258.21 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

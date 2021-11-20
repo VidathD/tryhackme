@@ -1,2 +1,5 @@
 # Nmap 7.60 scan initiated Sat Nov 20 15:35:06 2021 as: nmap -A -vvv -T4 -p- -oA full_scan_eritsecurusi 10.10.252.44
 # Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.252.44 (ip-10-10-252-44.eu-west-1.compute.internal)	Status: Up
+Host: 10.10.252.44 (ip-10-10-252-44.eu-west-1.compute.internal)	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)/, 80/open/tcp//http//nginx 1.6.2/	Ignored State: closed (65533)	Seq Index: 263	IP ID Seq: All zeros
+# Nmap done at Sat Nov 20 15:56:04 2021 -- 1 IP address (1 host up) scanned in 1258.21 seconds
