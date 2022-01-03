@@ -1,4 +1,5 @@
 {
-  "baseFontSize": 16,
-  "cssTheme": ""
+  "baseFontSize": 15,
+  "cssTheme": "",
+  "translucency": false
 }

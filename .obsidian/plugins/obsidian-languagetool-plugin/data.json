@@ -2,6 +2,7 @@
   "serverUrl": "https://api.languagetool.org",
   "glassBg": false,
   "shouldAutoCheck": true,
-  "pickyMode": false,
-  "staticLanguage": "en-GB"
+  "pickyMode": true,
+  "staticLanguage": "en-GB",
+  "ruleOtherDisabledRules": "PASSIVE_VOICE"
 }

@@ -1,4 +1,7 @@
 [
   "obsidian-git",
+  "markdown-prettifier",
+  "wikilinks-to-mdlinks-obsidian",
+  "recent-files-obsidian",
   "obsidian-languagetool-plugin"
 ]

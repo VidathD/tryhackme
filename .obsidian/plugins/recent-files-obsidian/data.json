@@ -1,0 +1,206 @@
+{
+  "recentFiles": [
+    {
+      "basename": "VPN",
+      "path": "cryptography/secure communication/protocols/VPN.md"
+    },
+    {
+      "basename": "cryptographic tunnels",
+      "path": "cryptography/secure communication/protocols/cryptographic tunnels.md"
+    },
+    {
+      "basename": "Burp Suite",
+      "path": "tools/hacking/webapp/burpsuite/Burp Suite.md"
+    },
+    {
+      "basename": "The Information Security Field",
+      "path": "courses and certs/ine/pts and ejpt/penetration testing prerequisites/introduction/The Information Security Field.md"
+    },
+    {
+      "basename": "Cryptography & VPNs",
+      "path": "courses and certs/ine/pts and ejpt/penetration testing prerequisites/introduction/Cryptography & VPNs.md"
+    },
+    {
+      "basename": "editions",
+      "path": "tools/hacking/webapp/burpsuite/editions.md"
+    },
+    {
+      "basename": "TLS",
+      "path": "cryptography/secure communication/protocols/TLS.md"
+    },
+    {
+      "basename": "anonymous communication",
+      "path": "cryptography/secure communication/anonymous communication.md"
+    },
+    {
+      "basename": "web traffic",
+      "path": "cryptography/secure communication/web traffic.md"
+    },
+    {
+      "basename": "cryptographic protocols",
+      "path": "cryptography/secure communication/protocols/cryptographic protocols.md"
+    },
+    {
+      "basename": "SSL",
+      "path": "cryptography/secure communication/protocols/SSL.md"
+    },
+    {
+      "basename": "cryptographic tunnel",
+      "path": "cryptography/secure communication/protocols/assets/images/cryptographic tunnel.png"
+    },
+    {
+      "basename": "clear-text protocols",
+      "path": "cryptography/secure communication/protocols/clear-text protocols.md"
+    },
+    {
+      "basename": "RCE",
+      "path": "hacking/attacks and vulnerabilities/multiple/RCE.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Windows",
+      "path": "windows/Windows.md"
+    },
+    {
+      "basename": "tools",
+      "path": "tools/tools.md"
+    },
+    {
+      "basename": "ping",
+      "path": "tools/networking/ping.md"
+    },
+    {
+      "basename": "networking tools",
+      "path": "tools/networking/networking tools.md"
+    },
+    {
+      "basename": "FoxyProxy",
+      "path": "tools/hacking/webapp/foxyproxy/FoxyProxy.md"
+    },
+    {
+      "basename": "OWASP ZAP",
+      "path": "tools/hacking/webapp/owasp zap/OWASP ZAP.md"
+    },
+    {
+      "basename": "options",
+      "path": "tools/hacking/webapp/burpsuite/options.md"
+    },
+    {
+      "basename": "navigation",
+      "path": "tools/hacking/webapp/burpsuite/navigation.md"
+    },
+    {
+      "basename": "modules",
+      "path": "tools/hacking/webapp/burpsuite/modules/modules.md"
+    },
+    {
+      "basename": "Inspector",
+      "path": "tools/hacking/webapp/burpsuite/modules/Inspector.md"
+    },
+    {
+      "basename": "Target",
+      "path": "tools/hacking/webapp/burpsuite/modules/target/Target.md"
+    },
+    {
+      "basename": "repeater interface",
+      "path": "tools/hacking/webapp/burpsuite/modules/repeater/repeater interface.md"
+    },
+    {
+      "basename": "repeater views",
+      "path": "tools/hacking/webapp/burpsuite/modules/repeater/repeater views.md"
+    },
+    {
+      "basename": "Repeater",
+      "path": "tools/hacking/webapp/burpsuite/modules/repeater/Repeater.md"
+    },
+    {
+      "basename": "setting up HTTPS",
+      "path": "tools/hacking/webapp/burpsuite/modules/proxy/setting up HTTPS.md"
+    },
+    {
+      "basename": "scoping",
+      "path": "tools/hacking/webapp/burpsuite/modules/proxy/scoping.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "tools/hacking/webapp/burpsuite/modules/proxy/Proxy.md"
+    },
+    {
+      "basename": "Burp Suite browser",
+      "path": "tools/hacking/webapp/burpsuite/modules/proxy/Burp Suite browser.md"
+    },
+    {
+      "basename": "Intruder",
+      "path": "tools/hacking/webapp/burpsuite/modules/intruder/Intruder.md"
+    },
+    {
+      "basename": "Burp extensions",
+      "path": "tools/hacking/webapp/burpsuite/modules/extender/Burp extensions.md"
+    },
+    {
+      "basename": "Extender",
+      "path": "tools/hacking/webapp/burpsuite/modules/extender/Extender.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "tools/hacking/webapp/burpsuite/modules/dashboard/Dashboard.md"
+    },
+    {
+      "basename": "wireshark",
+      "path": "tools/hacking/network/wireshark/wireshark.md"
+    },
+    {
+      "basename": "reverse engineering",
+      "path": "reverse engineering/reverse engineering.md"
+    },
+    {
+      "basename": "programming",
+      "path": "programming/programming.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "programming/SQL/SQL.md"
+    },
+    {
+      "basename": "DBMS",
+      "path": "programming/SQL/DBMS.md"
+    },
+    {
+      "basename": "database",
+      "path": "programming/SQL/database.md"
+    },
+    {
+      "basename": "python",
+      "path": "programming/python/python.md"
+    },
+    {
+      "basename": "bash",
+      "path": "programming/bash/bash.md"
+    },
+    {
+      "basename": "assembly",
+      "path": "programming/assembly/assembly.md"
+    },
+    {
+      "basename": "topologies",
+      "path": "network/topologies.md"
+    },
+    {
+      "basename": "the internet",
+      "path": "network/the internet.md"
+    },
+    {
+      "basename": "ports",
+      "path": "network/ports.md"
+    },
+    {
+      "basename": "network",
+      "path": "network/network.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

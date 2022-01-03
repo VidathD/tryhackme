@@ -1,0 +1,11 @@
+{
+  "bullet": "-",
+  "emphasis": "*",
+  "rule": "-",
+  "createHeaderIfNotPresent": false,
+  "newHeaderTemplate": "\nCreated on {{date:YYYY-MM-DD HH:mm}}  by Vidath Dissanayake\n",
+  "updateHeader": false,
+  "updateHeaderTemplate": "\nUpdated on {{date:YYYY-MM-DD HH:mm}}\n",
+  "listItemIndent": "one",
+  "newlinesAroundHeadings": true
+}

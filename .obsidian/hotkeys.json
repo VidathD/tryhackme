@@ -7,6 +7,15 @@
       "key": "F7"
     }
   ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
   "obsidian-git:push": [
     {
       "modifiers": [
@@ -14,6 +23,15 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ]
 }
