@@ -1,206 +1,208 @@
 {
   "recentFiles": [
     {
-      "basename": "VPN",
-      "path": "cryptography/secure communication/protocols/VPN.md"
+      "basename": "attackingics1",
+      "path": "rooms/attackingics1/attackingics1.md"
     },
     {
-      "basename": "cryptographic tunnels",
-      "path": "cryptography/secure communication/protocols/cryptographic tunnels.md"
+      "basename": "burpsuiterepeater",
+      "path": "modules/learn-burp-suite/burpsuiterepeater/burpsuiterepeater.md"
     },
     {
-      "basename": "Burp Suite",
-      "path": "tools/hacking/webapp/burpsuite/Burp Suite.md"
+      "basename": "alfred",
+      "path": "rooms/alfred/alfred.md"
     },
     {
-      "basename": "The Information Security Field",
-      "path": "courses and certs/ine/pts and ejpt/penetration testing prerequisites/introduction/The Information Security Field.md"
+      "basename": "ICS_OT Penetration Testing",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Penetration Testing.md"
     },
     {
-      "basename": "Cryptography & VPNs",
-      "path": "courses and certs/ine/pts and ejpt/penetration testing prerequisites/introduction/Cryptography & VPNs.md"
+      "basename": "ICS pentesting inhibit response 1",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting inhibit response 1.png"
     },
     {
-      "basename": "editions",
-      "path": "tools/hacking/webapp/burpsuite/editions.md"
+      "basename": "ICS pentesting collection",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting collection.png"
     },
     {
-      "basename": "TLS",
-      "path": "cryptography/secure communication/protocols/TLS.md"
+      "basename": "Getting Started in ICS_OT Cybersecurity",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Getting Started in ICS_OT Cybersecurity.md"
     },
     {
-      "basename": "anonymous communication",
-      "path": "cryptography/secure communication/anonymous communication.md"
+      "basename": "Control Systems and Protocols",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Control Systems and Protocols.md"
     },
     {
-      "basename": "web traffic",
-      "path": "cryptography/secure communication/web traffic.md"
+      "basename": "snmpwalk",
+      "path": "tools/hacking/network/protocol specific/SNMP/snmpwalk.md"
     },
     {
-      "basename": "cryptographic protocols",
-      "path": "cryptography/secure communication/protocols/cryptographic protocols.md"
+      "basename": "Secure Network Architecture",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Secure Network Architecture.md"
     },
     {
-      "basename": "SSL",
-      "path": "cryptography/secure communication/protocols/SSL.md"
+      "basename": "Industry Standards and Regulations",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Industry Standards and Regulations.md"
     },
     {
-      "basename": "cryptographic tunnel",
-      "path": "cryptography/secure communication/protocols/assets/images/cryptographic tunnel.png"
+      "basename": "Threat and Vulnerability Management",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Threat and Vulnerability Management.md"
     },
     {
-      "basename": "clear-text protocols",
-      "path": "cryptography/secure communication/protocols/clear-text protocols.md"
+      "basename": "Asset Registers_Control Systems Inventory",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Asset Registers_Control Systems Inventory.md"
     },
     {
-      "basename": "RCE",
-      "path": "hacking/attacks and vulnerabilities/multiple/RCE.md"
+      "basename": "Network Miner",
+      "path": "tools/hacking/network/packet sniffers/Network Miner.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Nmap",
+      "path": "tools/hacking/network/scanning/Nmap.md"
     },
     {
-      "basename": "Windows",
-      "path": "windows/Windows.md"
+      "basename": "UDP",
+      "path": "network/communication protocol/TCP IP layer 3/OSI layer 4/UDP.md"
     },
     {
-      "basename": "tools",
-      "path": "tools/tools.md"
+      "basename": "ARP",
+      "path": "network/communication protocol/TCP IP layer 1/ARP.md"
     },
     {
-      "basename": "ping",
-      "path": "tools/networking/ping.md"
+      "basename": "MAC address",
+      "path": "network/MAC address.md"
     },
     {
-      "basename": "networking tools",
-      "path": "tools/networking/networking tools.md"
+      "basename": "firewall",
+      "path": "Cybersecurity/cyber defenses/firewall.md"
     },
     {
-      "basename": "FoxyProxy",
-      "path": "tools/hacking/webapp/foxyproxy/FoxyProxy.md"
+      "basename": "ICS_OT Cybersecurity Overview",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Cybersecurity Overview.md"
     },
     {
-      "basename": "OWASP ZAP",
-      "path": "tools/hacking/webapp/owasp zap/OWASP ZAP.md"
+      "basename": "Cyber Kill Chain",
+      "path": "Cybersecurity/hacking/principles and standards of infosec/Cyber Kill Chain.md"
     },
     {
-      "basename": "options",
-      "path": "tools/hacking/webapp/burpsuite/options.md"
+      "basename": "cyber defences",
+      "path": "Cybersecurity/cyber defenses/cyber defences.md"
     },
     {
-      "basename": "navigation",
-      "path": "tools/hacking/webapp/burpsuite/navigation.md"
+      "basename": "ICS Protocols",
+      "path": "IoT/ICS_SCADA/ICS protocols/ICS Protocols.md"
     },
     {
-      "basename": "modules",
-      "path": "tools/hacking/webapp/burpsuite/modules/modules.md"
+      "basename": "Modbus",
+      "path": "IoT/ICS_SCADA/ICS protocols/Modbus.md"
     },
     {
-      "basename": "Inspector",
-      "path": "tools/hacking/webapp/burpsuite/modules/Inspector.md"
+      "basename": "S7comm",
+      "path": "IoT/ICS_SCADA/ICS protocols/S7comm.md"
     },
     {
-      "basename": "Target",
-      "path": "tools/hacking/webapp/burpsuite/modules/target/Target.md"
+      "basename": "ICS_SCADA",
+      "path": "IoT/ICS_SCADA/ICS_SCADA.md"
     },
     {
-      "basename": "repeater interface",
-      "path": "tools/hacking/webapp/burpsuite/modules/repeater/repeater interface.md"
+      "basename": "SNMP",
+      "path": "network/communication protocol/TCP IP layer 4/OSI layer 7/SNMP.md"
     },
     {
-      "basename": "repeater views",
-      "path": "tools/hacking/webapp/burpsuite/modules/repeater/repeater views.md"
+      "basename": "communication protocol",
+      "path": "network/communication protocol/communication protocol.md"
     },
     {
-      "basename": "Repeater",
-      "path": "tools/hacking/webapp/burpsuite/modules/repeater/Repeater.md"
+      "basename": "packet analysis",
+      "path": "Cybersecurity/hacking/attacks and vulnerabilities/network/sniffing and packet analysis/packet analysis.md"
     },
     {
-      "basename": "setting up HTTPS",
-      "path": "tools/hacking/webapp/burpsuite/modules/proxy/setting up HTTPS.md"
+      "basename": "Wireshark",
+      "path": "tools/hacking/network/packet sniffers/Wireshark.md"
     },
     {
-      "basename": "scoping",
-      "path": "tools/hacking/webapp/burpsuite/modules/proxy/scoping.md"
+      "basename": "packet sniffers",
+      "path": "tools/hacking/network/packet sniffers/packet sniffers.md"
     },
     {
-      "basename": "Proxy",
-      "path": "tools/hacking/webapp/burpsuite/modules/proxy/Proxy.md"
+      "basename": "sniffing",
+      "path": "Cybersecurity/hacking/attacks and vulnerabilities/network/sniffing and packet analysis/sniffing.md"
     },
     {
-      "basename": "Burp Suite browser",
-      "path": "tools/hacking/webapp/burpsuite/modules/proxy/Burp Suite browser.md"
+      "basename": "network hacking tools",
+      "path": "tools/hacking/network/network hacking tools.md"
     },
     {
-      "basename": "Intruder",
-      "path": "tools/hacking/webapp/burpsuite/modules/intruder/Intruder.md"
+      "basename": "OSI Model",
+      "path": "network/reference models/OSI Model/OSI Model.md"
     },
     {
-      "basename": "Burp extensions",
-      "path": "tools/hacking/webapp/burpsuite/modules/extender/Burp extensions.md"
+      "basename": "Physical Layer",
+      "path": "network/reference models/layers/Physical Layer.md"
     },
     {
-      "basename": "Extender",
-      "path": "tools/hacking/webapp/burpsuite/modules/extender/Extender.md"
+      "basename": "Data Link Layer",
+      "path": "network/reference models/layers/Data Link Layer.md"
     },
     {
-      "basename": "Dashboard",
-      "path": "tools/hacking/webapp/burpsuite/modules/dashboard/Dashboard.md"
+      "basename": "Network Layer",
+      "path": "network/reference models/layers/Network Layer.md"
     },
     {
-      "basename": "wireshark",
-      "path": "tools/hacking/network/wireshark/wireshark.md"
+      "basename": "Transport Layer",
+      "path": "network/reference models/layers/Transport Layer.md"
     },
     {
-      "basename": "reverse engineering",
-      "path": "reverse engineering/reverse engineering.md"
+      "basename": "Session Layer",
+      "path": "network/reference models/layers/Session Layer.md"
     },
     {
-      "basename": "programming",
-      "path": "programming/programming.md"
+      "basename": "Presentation Layer",
+      "path": "network/reference models/layers/Presentation Layer.md"
     },
     {
-      "basename": "SQL",
-      "path": "programming/SQL/SQL.md"
+      "basename": "Application Layer",
+      "path": "network/reference models/layers/Application Layer.md"
     },
     {
-      "basename": "DBMS",
-      "path": "programming/SQL/DBMS.md"
+      "basename": "IP",
+      "path": "network/communication protocol/TCP IP layer 2/OSI layer 3/IP/IP.md"
     },
     {
-      "basename": "database",
-      "path": "programming/SQL/database.md"
+      "basename": "IP address",
+      "path": "network/communication protocol/TCP IP layer 2/OSI layer 3/IP/IP address.md"
     },
     {
-      "basename": "python",
-      "path": "programming/python/python.md"
+      "basename": "a history of major ICS_OT cyber incidents",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/assets/images/a history of major ICS_OT cyber incidents.png"
     },
     {
-      "basename": "bash",
-      "path": "programming/bash/bash.md"
+      "basename": "OSINT for Industrial Controls",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/OSINT for Industrial Controls.md"
     },
     {
-      "basename": "assembly",
-      "path": "programming/assembly/assembly.md"
+      "basename": "CIA triad",
+      "path": "Cybersecurity/hacking/principles and standards of infosec/CIA triad/CIA triad.md"
     },
     {
-      "basename": "topologies",
-      "path": "network/topologies.md"
+      "basename": "Incident Detection and Response",
+      "path": "courses/Getting Started in ICS_OT Cyber Security/Incident Detection and Response.md"
     },
     {
-      "basename": "the internet",
-      "path": "network/the internet.md"
+      "basename": "Basic Electronics",
+      "path": "courses/Engineering Foundation/Basic Electronics.md"
     },
     {
-      "basename": "ports",
-      "path": "network/ports.md"
+      "basename": "TCM Academy",
+      "path": "courses/TCM/TCM Academy.md"
     },
     {
-      "basename": "network",
-      "path": "network/network.md"
+      "basename": "courses",
+      "path": "courses/courses.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
 }

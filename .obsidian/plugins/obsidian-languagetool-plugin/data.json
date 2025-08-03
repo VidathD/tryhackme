@@ -1,8 +1,11 @@
 {
   "serverUrl": "https://api.languagetool.org",
+  "urlMode": "standard",
   "glassBg": false,
   "shouldAutoCheck": true,
+  "autoCheckDelay": 3000,
   "pickyMode": true,
-  "staticLanguage": "en-GB",
-  "ruleOtherDisabledRules": "PASSIVE_VOICE"
+  "staticLanguage": "auto",
+  "ruleOtherDisabledRules": "PASSIVE_VOICE,REP_PASSIVE_VOICE",
+  "englishVeriety": "en-GB"
 }

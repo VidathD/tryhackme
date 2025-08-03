@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "8963a02b17e668d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e82b7b1e8a50c5f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fc9db3c62a88a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rooms/attackingics1/attackingics1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "attackingics1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c49c1a36dab7d52d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f3621627f8694c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf82ef64004cd1f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
+            }
+          },
+          {
+            "id": "3c58bbfab1d4abbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "mqtt",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee6b9adac1b976a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "32aad5e585366d02",
+    "type": "split",
+    "children": [
+      {
+        "id": "c332b5a32aa54d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b998b4a171d909c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "courses/Getting Started in ICS_OT Cyber Security/Asset Registers_Control Systems Inventory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Asset Registers_Control Systems Inventory"
+            }
+          },
+          {
+            "id": "246732bdaae6ce6b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "courses/MAHE/Week 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Week 1"
+            }
+          },
+          {
+            "id": "581de6eb66c0364d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b6d57a2e5166157c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rooms/attackingics1/attackingics1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of attackingics1"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9fc9db3c62a88a97",
+  "lastOpenFiles": [
+    "modules/learn-burp-suite/burpsuiterepeater/burpsuiterepeater.md",
+    "rooms/attackingics1/attackingics1.md",
+    "rooms/alfred/alfred.md",
+    "rooms/attackingics1",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting C2 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting inhibit response 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Penetration Testing.md",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting evasion 2.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting evasion 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting persistence 2.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting persistence 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting lateral movement 2.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting lateral movement 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting execution 2.png",
+    "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting execution 1.png",
+    "courses/Getting Started in ICS_OT Cyber Security/Getting Started in ICS_OT Cybersecurity.md",
+    "courses/Getting Started in ICS_OT Cyber Security/Control Systems and Protocols.md",
+    "tools/hacking/network/protocol specific/SNMP/snmpwalk.md",
+    "tools/hacking/network/protocol specific/SNMP",
+    "tools/hacking/network/protocol specific/Untitled.md",
+    "tools/hacking/network/protocol specific",
+    "courses/Getting Started in ICS_OT Cyber Security/Secure Network Architecture.md",
+    "courses/Getting Started in ICS_OT Cyber Security/Industry Standards and Regulations.md",
+    "courses/Getting Started in ICS_OT Cyber Security/Threat and Vulnerability Management.md",
+    "courses/Getting Started in ICS_OT Cyber Security/Asset Registers_Control Systems Inventory.md",
+    "tools/hacking/network/packet sniffers/Network Miner.md",
+    "tools/hacking/network/scanning/Nmap.md",
+    "network/communication protocol/TCP IP layer 3/OSI layer 4/UDP.md",
+    "network/communication protocol/TCP IP layer 1/ARP.md",
+    "network/MAC address.md",
+    "Cybersecurity/cyber defenses/firewall.md",
+    "tools/hacking/network/scanning",
+    "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Cybersecurity Overview.md",
+    "Cybersecurity/hacking/principles and standards of infosec/Cyber Kill Chain.md",
+    "Cybersecurity/cyber defenses/cyber defences.md",
+    "Cybersecurity/cyber defenses",
+    "IoT/ICS_SCADA/ICS protocols/ICS Protocols.md",
+    "IoT/ICS_SCADA/ICS protocols/Modbus.md",
+    "IoT/ICS_SCADA/ICS protocols/S7comm.md",
+    "Cybersecurity/hacking/principles and standards of infosec/assets/images",
+    "Cybersecurity/hacking/principles and standards of infosec/assets",
+    "IoT/ICS_SCADA/ICS_SCADA.md",
+    "IoT/ICS_SCADA/ICS protocols",
+    "IoT/ICS_SCADA",
+    "IoT/IoT protocols/assets/images",
+    "network/communication protocol/TCP IP layer 4/OSI layer 7/SNMP.md"
+  ]
+}

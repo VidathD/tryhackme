@@ -1,5 +1,7 @@
 {
-  "baseFontSize": 15,
-  "cssTheme": "",
-  "translucency": false
+  "baseFontSize": 19,
+  "cssTheme": "Wasp",
+  "translucency": false,
+  "theme": "obsidian",
+  "accentColor": ""
 }
