@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -161,31 +161,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9fc9db3c62a88a97",
+  "active": "bf82ef64004cd1f4",
   "lastOpenFiles": [
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/__pycache__/six.cpython-313.pyc",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/top_level.txt",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/WHEEL",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/REQUESTED",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/RECORD",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/INSTALLER",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/METADATA",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/LICENSE",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six.py",
-    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/__pycache__/ez_setup.cpython-313.pyc",
+    "rooms/attackingics1/resources/set_registry.py",
+    "rooms/attackingics1/resources/discovery.py",
+    "rooms/attackingics1/resources/attack_stop_fill2.py",
+    "rooms/attackingics1/resources/attack_stop_fill.py",
+    "rooms/attackingics1/resources/attack_shutdown2.py",
+    "rooms/attackingics1/resources/attack_shutdown.py",
+    "rooms/attackingics1/resources/attack_move_fill2.py",
+    "rooms/attackingics1/resources/attack_move_fill.py",
+    "rooms/attackingics1/resources/scripts_1608816306450.tar.gz",
+    "rooms/attackingics1/resources",
     "modules/learn-burp-suite/burpsuiterepeater/burpsuiterepeater.md",
     "rooms/attackingics1/attackingics1.md",
     "rooms/alfred/alfred.md",
+    "rooms/attackingics1",
     "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting C2 1.png",
     "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting inhibit response 1.png",
     "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Penetration Testing.md",
