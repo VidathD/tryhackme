@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "File explorer"
+              "title": "Files"
             }
           },
           {
@@ -161,21 +161,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false
+      "random-note:Open random note": false
     }
   },
   "active": "9fc9db3c62a88a97",
   "lastOpenFiles": [
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/__pycache__/six.cpython-313.pyc",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/top_level.txt",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/WHEEL",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/REQUESTED",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/RECORD",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/INSTALLER",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/METADATA",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info/LICENSE",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six-1.17.0.dist-info",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/six.py",
+    "rooms/attackingics1/resources/ics1/lib/python3.13/site-packages/__pycache__/ez_setup.cpython-313.pyc",
     "modules/learn-burp-suite/burpsuiterepeater/burpsuiterepeater.md",
     "rooms/attackingics1/attackingics1.md",
     "rooms/alfred/alfred.md",
-    "rooms/attackingics1",
     "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting C2 1.png",
     "courses/Getting Started in ICS_OT Cyber Security/assets/images/ICS pentesting inhibit response 1.png",
     "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Penetration Testing.md",
@@ -190,9 +200,7 @@
     "courses/Getting Started in ICS_OT Cyber Security/Getting Started in ICS_OT Cybersecurity.md",
     "courses/Getting Started in ICS_OT Cyber Security/Control Systems and Protocols.md",
     "tools/hacking/network/protocol specific/SNMP/snmpwalk.md",
-    "tools/hacking/network/protocol specific/SNMP",
     "tools/hacking/network/protocol specific/Untitled.md",
-    "tools/hacking/network/protocol specific",
     "courses/Getting Started in ICS_OT Cyber Security/Secure Network Architecture.md",
     "courses/Getting Started in ICS_OT Cyber Security/Industry Standards and Regulations.md",
     "courses/Getting Started in ICS_OT Cyber Security/Threat and Vulnerability Management.md",
@@ -203,20 +211,12 @@
     "network/communication protocol/TCP IP layer 1/ARP.md",
     "network/MAC address.md",
     "Cybersecurity/cyber defenses/firewall.md",
-    "tools/hacking/network/scanning",
     "courses/Getting Started in ICS_OT Cyber Security/ICS_OT Cybersecurity Overview.md",
     "Cybersecurity/hacking/principles and standards of infosec/Cyber Kill Chain.md",
     "Cybersecurity/cyber defenses/cyber defences.md",
-    "Cybersecurity/cyber defenses",
     "IoT/ICS_SCADA/ICS protocols/ICS Protocols.md",
     "IoT/ICS_SCADA/ICS protocols/Modbus.md",
     "IoT/ICS_SCADA/ICS protocols/S7comm.md",
-    "Cybersecurity/hacking/principles and standards of infosec/assets/images",
-    "Cybersecurity/hacking/principles and standards of infosec/assets",
-    "IoT/ICS_SCADA/ICS_SCADA.md",
-    "IoT/ICS_SCADA/ICS protocols",
-    "IoT/ICS_SCADA",
-    "IoT/IoT protocols/assets/images",
-    "network/communication protocol/TCP IP layer 4/OSI layer 7/SNMP.md"
+    "IoT/ICS_SCADA/ICS_SCADA.md"
   ]
 }

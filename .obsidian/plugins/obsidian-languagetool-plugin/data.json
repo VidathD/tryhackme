@@ -6,6 +6,6 @@
   "autoCheckDelay": 3000,
   "pickyMode": true,
   "staticLanguage": "auto",
-  "ruleOtherDisabledRules": "PASSIVE_VOICE,REP_PASSIVE_VOICE",
+  "ruleOtherDisabledRules": "PASSIVE_VOICE,REP_PASSIVE_VOICE,ENGLISH_WORD_REPEAT_BEGINNING_RULE",
   "englishVeriety": "en-GB"
 }
